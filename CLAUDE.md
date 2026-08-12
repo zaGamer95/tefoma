@@ -4,7 +4,11 @@ Personal Terraforming Mars strategy guide. Static site, Korean-language content,
 deployed to GitHub Pages. Written for the repo owner's own reference during play.
 
 - **Repo:** https://github.com/zaGamer95/tefoma (public, default branch `main`)
-- **Live URL:** https://zagamer95.github.io/tefoma/ (GitHub Pages *project page*)
+- **Live URL:** https://wonbo.site/tefoma/ — the user site `zaGamer95.github.io` has the
+  custom domain `wonbo.site`, and project pages inherit it. The `zagamer95.github.io/tefoma/`
+  address redirects there. HTTPS is enforced.
+- **The path segment is still `/tefoma/`**, so `base: '/tefoma/'` is correct either way.
+  A custom domain does *not* move a project page to the domain root.
 - **Site language:** Korean. All UI labels and content in Korean.
 
 ---
