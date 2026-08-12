@@ -106,9 +106,15 @@ fills in real content.
 
 ## Legal
 
-Do not scrape or bulk-copy official card text, artwork, or images from publisher
-sources. Card names and numeric costs are fine as factual reference. All descriptive
-content must be the owner's own commentary.
+Do not use official **artwork or images** from publisher sources.
+
+Card names, numeric costs, and printed effect text are treated as factual reference and
+are sourced from the open-source implementation's data and Korean locale — the owner
+decided this on 2026-08-13, superseding the earlier rule that all descriptive content be
+original.
+
+The distinction is kept in the data: `effect` is the printed card text (factual), while
+`myNotes` and `myRating` are the owner's own commentary and must never be auto-generated.
 
 ---
 

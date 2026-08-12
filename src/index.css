@@ -523,6 +523,29 @@ body::before {
 
 .card__body { margin: 0.8rem 0 0; font-size: 0.94rem; line-height: 1.7; }
 
+/* 카드에 인쇄된 효과 — 사실 정보라 내 메모와 시각적으로 구분한다 */
+.effect {
+  margin: 0.8rem 0 0;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--sand);
+  background: rgba(255, 255, 255, 0.025);
+  border-left: 2px solid var(--rust-dim);
+  border-radius: 0 4px 4px 0;
+}
+
+.note-label {
+  display: inline-block;
+  margin-right: 0.45rem;
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--rust);
+  vertical-align: 0.1em;
+}
+
 .card__body--empty { color: var(--dust); font-size: 0.85rem; font-style: italic; }
 .card__body--empty code {
   font-style: normal;

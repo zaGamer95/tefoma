@@ -18,6 +18,8 @@ export interface Card {
   tags: string[]
   /** 기본판 / 프렐류드 / 비너스 넥스트 … */
   expansion: string
+  /** 카드에 인쇄된 효과 (사실 정보). 내 의견은 myNotes 에 따로 쓴다. */
+  effect: string
   /** 1–5, 내 주관적 평가. **0 = 아직 평가 안 함** (UI에서 '미평가'로 표시) */
   myRating: number
   myNotes: string

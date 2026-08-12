@@ -2,10 +2,14 @@
  {
   "id": "ai-central",
   "name": "중앙 인공지능 센터 (AI Central)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 21,
+  "type": "액션",
+  "tags": [
+   "과학",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 과학 태그 3개 이상.) (에너지 생산력 1 감소.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -13,10 +17,13 @@
  {
   "id": "acquired-company",
   "name": "합병 회사 (Acquired Company)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "자동",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "메가크레딧 생산력 3 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -24,10 +31,13 @@
  {
   "id": "adaptation-technology",
   "name": "적응기술 (Adaptation Technology)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "액션",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -35,10 +45,13 @@
  {
   "id": "adapted-lichen",
   "name": "개량종 지의류 (Adapted Lichen)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "식물 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -46,10 +59,13 @@
  {
   "id": "advanced-alloys",
   "name": "첨단 합금 (Advanced Alloys)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "액션",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -57,10 +73,15 @@
  {
   "id": "advanced-ecosystems",
   "name": "발달된 생태계 (Advanced Ecosystems)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "자동",
+  "tags": [
+   "식물",
+   "미생물",
+   "동물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 식물/미생물/동물 태그 각 1개 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -68,10 +89,13 @@
  {
   "id": "aerobraked-ammonia-asteroid",
   "name": "암모니아 소행성 대기권제동 소각 (Aerobraked Ammonia Asteroid)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 26,
+  "type": "이벤트",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "열 생산력 3 증가. 식물 생산력 1 증가. 자신의 다른 카드 1장에 미생물 자원 2개 추가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -79,10 +103,13 @@
  {
   "id": "algae",
   "name": "조류 (Algae)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 해양 타일 5장 이상.) (식물 생산력 2 증가. 식물 자원 1개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -90,10 +117,13 @@
  {
   "id": "anti-gravity-technology",
   "name": "반중력기술 (Anti-Gravity Technology)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 14,
+  "type": "액션",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 과학 태그 7개 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -101,10 +131,13 @@
  {
   "id": "ants",
   "name": "개미 (Ants)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "액션",
+  "tags": [
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 4% 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -112,10 +145,13 @@
  {
   "id": "aquifer-pumping",
   "name": "지하수 개발 (Aquifer Pumping)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 18,
+  "type": "액션",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -123,10 +159,13 @@
  {
   "id": "archaebacteria",
   "name": "고세균 (ArchaeBacteria)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "자동",
+  "tags": [
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 -18℃ 이하.) (식물 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -134,10 +173,13 @@
  {
   "id": "arctic-algae",
   "name": "극지 미세조류 (Arctic Algae)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "액션",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 -12℃ 이하.) (식물 자원 1개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -145,10 +187,13 @@
  {
   "id": "artificial-lake",
   "name": "인공 호수 (Artificial Lake)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 15,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 -6℃ 이상.) (해양 전용 구역이 아닌 빈 구역 한 곳에 해양 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -156,10 +201,13 @@
  {
   "id": "artificial-photosynthesis",
   "name": "인공 광합성 기술 (Artificial Photosynthesis)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "자동",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "식물 생산력 1 증가 또는 에너지 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -170,24 +218,28 @@
   "cost": 14,
   "type": "이벤트",
   "tags": [
-   "우주",
-   "이벤트"
+   "우주"
   ],
+  "expansion": "기본판",
+  "effect": "기온 1단계 상승. 티타늄 자원 2개 획득. 아무 1명의 식물 자원 3개까지 제거.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "big-asteroid",
    "deep-well-heating"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "asteroid-mining",
   "name": "소행성 채굴 (Asteroid Mining)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 30,
+  "type": "자동",
+  "tags": [
+   "목성",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "티타늄 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -195,10 +247,13 @@
  {
   "id": "asteroid-mining-consortium",
   "name": "소행성 채굴 컨소시엄 (Asteroid Mining Consortium)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 13,
+  "type": "자동",
+  "tags": [
+   "목성"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 티타늄 생산력 1 이상.) (아무 1명의 티타늄 생산력 1 감소. 자신의 티타늄 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -206,10 +261,15 @@
  {
   "id": "beam-from-a-thorium-asteroid",
   "name": "토륨 소행성 핵발전소 (Beam From A Thorium Asteroid)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 32,
+  "type": "자동",
+  "tags": [
+   "목성",
+   "우주",
+   "에너지"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 목성 태그 1개 이상.) (열 생산력 3 증가. 에너지 생산력 3 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -220,23 +280,27 @@
   "cost": 27,
   "type": "이벤트",
   "tags": [
-   "우주",
-   "이벤트"
+   "우주"
   ],
+  "expansion": "기본판",
+  "effect": "기온 2단계 상승. 티타늄 자원 4개 획득. 아무 1명의 식물 자원 4개까지 제거.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "asteroid"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "biomass-combustors",
   "name": "바이오매스 연소시설 (Biomass Combustors)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 4,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 6% 이상.) (아무 1명의 식물 생산력 1 감소. 에너지 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -244,10 +308,13 @@
  {
   "id": "birds",
   "name": "새 (Birds)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "액션",
+  "tags": [
+   "동물"
+  ],
   "expansion": "기본판",
+  "effect": "Action: Add an animal to this card. (Requires 13% oxygen. Decrease any plant production 2 steps.)",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -255,10 +322,11 @@
  {
   "id": "black-polar-dust",
   "name": "흑색 분말 (Black Polar Dust)",
-  "cost": null,
-  "type": "",
+  "cost": 15,
+  "type": "자동",
   "tags": [],
   "expansion": "기본판",
+  "effect": "해양 타일 1장 배치. 메가크레딧 생산력 2 감소. 열 생산력 3 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -266,10 +334,13 @@
  {
   "id": "breathing-filters",
   "name": "호흡 필터 (Breathing Filters)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "자동",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 7% 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -277,10 +348,13 @@
  {
   "id": "bribed-committee",
   "name": "위원회 매수 (Bribed Committee)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 7,
+  "type": "이벤트",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "테라포밍 등급 2TR 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -288,10 +362,13 @@
  {
   "id": "building-industries",
   "name": "공업단지 건설 (Building Industries)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 강철 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -304,21 +381,25 @@
   "tags": [
    "식물"
   ],
+  "expansion": "기본판",
+  "effect": "조건: 기온 -10℃ 이상.) (식물 생산력 2 증가. 식물 자원 2개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "trees",
    "grass"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "business-contacts",
   "name": "사업 계약 (Business Contacts)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 7,
+  "type": "이벤트",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -326,10 +407,13 @@
  {
   "id": "business-network",
   "name": "비즈니스 네트워크 (Business Network)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 4,
+  "type": "액션",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "메가크레딧 생산력 1 감소.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -337,10 +421,11 @@
  {
   "id": "ceos-favorite-project",
   "name": "회장님께서 좋아하시는 프로젝트 (CEO's Favorite Project)",
-  "cost": null,
-  "type": "",
+  "cost": 1,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -348,10 +433,14 @@
  {
   "id": "callisto-penal-mines",
   "name": "칼리스토 교도소 노역장 (Callisto Penal Mines)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 24,
+  "type": "자동",
+  "tags": [
+   "목성",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "메가크레딧 생산력 3 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -359,10 +448,14 @@
  {
   "id": "capital",
   "name": "수도 (Capital)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 26,
+  "type": "자동",
+  "tags": [
+   "도시",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 해양 타일 4장 이상.) (에너지 생산력 2 감소. 메가크레딧 생산력 5 증가. 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -370,10 +463,13 @@
  {
   "id": "carbonate-processing",
   "name": "탄산염 분해 작업 (Carbonate Processing)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 열 생산력 3 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -381,10 +477,11 @@
  {
   "id": "caretaker-contract",
   "name": "항온 관리 계약 (Caretaker Contract)",
-  "cost": null,
-  "type": "",
+  "cost": 3,
+  "type": "액션",
   "tags": [],
   "expansion": "기본판",
+  "effect": "조건: 기온 0℃ 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -392,10 +489,13 @@
  {
   "id": "cartel",
   "name": "카르텔 (Cartel)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 8,
+  "type": "자동",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "이 카드도 포함해서, 보유한 지구 태그 1개당 메가크레딧 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -403,10 +503,11 @@
  {
   "id": "cloud-seeding",
   "name": "인공 구름 형성 (Cloud Seeding)",
-  "cost": null,
-  "type": "",
+  "cost": 11,
+  "type": "자동",
   "tags": [],
   "expansion": "기본판",
+  "effect": "조건: 해양 타일 3장 이상.) (자신의 메가크레딧 생산력 1 감소. 아무 1명의 열 생산력 1 감소. 자신의 식물 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -414,10 +515,14 @@
  {
   "id": "colonizer-training-camp",
   "name": "개척단 훈련소 (Colonizer Training Camp)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 8,
+  "type": "자동",
+  "tags": [
+   "목성",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 5% 이하.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -425,10 +530,13 @@
  {
   "id": "comet",
   "name": "혜성 (Comet)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 21,
+  "type": "이벤트",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "기온 1단계 상승. 해양 타일 1장 배치. 아무 1명의 식물 자원 3개까지 제거.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -436,10 +544,13 @@
  {
   "id": "commercial-district",
   "name": "상업지구 (Commercial District)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 16,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 메가크레딧 생산력 4 증가. 빈 구역에 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -447,10 +558,13 @@
  {
   "id": "convoy-from-europa",
   "name": "유로파 수송선단 (Convoy From Europa)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 15,
+  "type": "이벤트",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "해양 타일 1장 배치. 카드 1장 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -458,10 +572,14 @@
  {
   "id": "corporate-stronghold",
   "name": "사유화 도시 (Corporate Stronghold)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "자동",
+  "tags": [
+   "도시",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 메가크레딧 생산력 3 증가. 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -469,10 +587,14 @@
  {
   "id": "cupola-city",
   "name": "반구형 도시 (Cupola City)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 16,
+  "type": "자동",
+  "tags": [
+   "도시",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 9% 이하.) (에너지 생산력 1 감소. 메가크레딧 생산력 3 증가. 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -480,10 +602,13 @@
  {
   "id": "decomposers",
   "name": "분해자 생물 (Decomposers)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 5,
+  "type": "액션",
+  "tags": [
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 3% 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -494,25 +619,29 @@
   "cost": 13,
   "type": "자동",
   "tags": [
-   "건축",
-   "에너지"
+   "에너지",
+   "건축"
   ],
+  "expansion": "기본판",
+  "effect": "에너지 생산력 1 증가. 기온 1단계 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "asteroid",
    "power-plant",
    "fusion-power"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "deimos-down",
   "name": "데이모스 추락 (Deimos Down)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 31,
+  "type": "이벤트",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "기온 3단계 상승. 강철 자원 4개 획득. 아무 1명의 식물 자원 8개까지 제거.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -520,10 +649,14 @@
  {
   "id": "designed-microorganisms",
   "name": "인공 미생물 (Designed Microorganisms)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 16,
+  "type": "자동",
+  "tags": [
+   "과학",
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 -14℃ 이하.) (식물 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -537,21 +670,26 @@
    "과학",
    "건축"
   ],
+  "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "olympus-conference",
    "medical-lab"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "domed-crater",
   "name": "돔 크레이터 (Domed Crater)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 24,
+  "type": "자동",
+  "tags": [
+   "도시",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 메가크레딧 생산력 3 증가. 식물 자원 3개 획득. 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -559,10 +697,11 @@
  {
   "id": "dust-seals",
   "name": "더스트 실 (Dust Seals)",
-  "cost": null,
-  "type": "",
+  "cost": 2,
+  "type": "자동",
   "tags": [],
   "expansion": "기본판",
+  "effect": "조건: 해양 타일 3장 이하.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -570,10 +709,13 @@
  {
   "id": "earth-catapult",
   "name": "지구 우주발사기지 (Earth Catapult)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 23,
+  "type": "액션",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -581,10 +723,13 @@
  {
   "id": "earth-office",
   "name": "지구 지사 (Earth Office)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 1,
+  "type": "액션",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -592,10 +737,14 @@
  {
   "id": "ecological-zone",
   "name": "자연 생태 형성지 (Ecological Zone)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "액션",
+  "tags": [
+   "동물",
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 녹지 타일 1장 이상.) (아무 녹지 타일과 인접한 빈 구역 한 곳에 타일 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -603,10 +752,13 @@
  {
   "id": "electro-catapult",
   "name": "전자기식 투사장치 (Electro Catapult)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 17,
+  "type": "액션",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 8% 이하.) (에너지 생산력 1 감소.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -614,10 +766,13 @@
  {
   "id": "energy-saving",
   "name": "에너지 절약 (Energy Saving)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 15,
+  "type": "자동",
+  "tags": [
+   "에너지"
+  ],
   "expansion": "기본판",
+  "effect": "현재 배치된 아무 도시 타일 1장당 자신의 에너지 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -625,10 +780,13 @@
  {
   "id": "energy-tapping",
   "name": "전기 도둑질 (Energy Tapping)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 3,
+  "type": "자동",
+  "tags": [
+   "에너지"
+  ],
   "expansion": "기본판",
+  "effect": "아무 1명의 에너지 생산력 1 감소. 자신의 에너지 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -636,10 +794,14 @@
  {
   "id": "eos-chasma-national-park",
   "name": "에오스 협곡 국립공원 (Eos Chasma National Park)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 16,
+  "type": "자동",
+  "tags": [
+   "식물",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 -12℃ 이상.) (자신의 아무 카드 1장에 동물 자원 1개 추가. 식물 자원 3개 획득. 메가크레딧 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -647,10 +809,13 @@
  {
   "id": "equatorial-magnetizer",
   "name": "적도 자기장 생성기 (Equatorial Magnetizer)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "액션",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -658,10 +823,13 @@
  {
   "id": "extreme-cold-fungus",
   "name": "극호냉성 진균류 (Extreme-Cold Fungus)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 13,
+  "type": "액션",
+  "tags": [
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 -10℃ 이하.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -669,10 +837,13 @@
  {
   "id": "farming",
   "name": "농업시설 (Farming)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 16,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 +4℃ 이상.) (메가크레딧 생산력 2 증가. 식물 생산력 2 증가. 식물 자원 2개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -680,10 +851,13 @@
  {
   "id": "fish",
   "name": "물고기 (Fish)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "액션",
+  "tags": [
+   "동물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 +2 C° 이상.) (아무 1명의 식물 생산력 1 감소.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -691,10 +865,11 @@
  {
   "id": "flooding",
   "name": "홍수 (Flooding)",
-  "cost": null,
-  "type": "",
+  "cost": 7,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "해양 타일 1장 배치. 이 해양 타일과 인접한 다른 타일이 있다면, 그 소유주 중 1명에게서 4 M€까지 제거.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -702,10 +877,13 @@
  {
   "id": "food-factory",
   "name": "식량 공장 (Food Factory)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "식물 생산력 1 감소. 메가크레딧 생산력 4 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -713,10 +891,13 @@
  {
   "id": "fuel-factory",
   "name": "정유소 (Fuel Factory)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 티타늄 생산력 1 증가. 메가크레딧 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -724,10 +905,14 @@
  {
   "id": "fueled-generators",
   "name": "화력 발전 (Fueled Generators)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 1,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "메가크레딧 생산력 1 감소. 에너지 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -742,21 +927,25 @@
    "에너지",
    "건축"
   ],
+  "expansion": "기본판",
+  "effect": "조건: 보유한 에너지 태그 2개 이상.) (에너지 생산력 3 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "deep-well-heating",
    "mass-converter"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "ghg-factories",
   "name": "온실가스 공장 (GHG Factories)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 열 생산력 4 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -764,10 +953,14 @@
  {
   "id": "ghg-producing-bacteria",
   "name": "온실가스 생산 세균 (GHG Producing Bacteria)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 8,
+  "type": "액션",
+  "tags": [
+   "과학",
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 4% 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -778,26 +971,30 @@
   "cost": 20,
   "type": "자동",
   "tags": [
-   "우주",
    "목성",
+   "우주",
    "도시"
   ],
+  "expansion": "기본판",
+  "effect": "가니메데 정착지 전용 구역에 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "greenhouses",
    "methane-from-titan",
    "water-import-from-europa"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "gene-repair",
   "name": "유전자 복구 기술 (Gene Repair)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "자동",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 과학 태그 3개 이상.) (메가크레딧 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -805,10 +1002,14 @@
  {
   "id": "geothermal-power",
   "name": "지열 발전 (Geothermal Power)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -816,10 +1017,13 @@
  {
   "id": "giant-ice-asteroid",
   "name": "거대 얼음형 소행성 (Giant Ice Asteroid)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 36,
+  "type": "이벤트",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "기온 2단계 상승. 해양 타일 2장 배치. 아무 1명의 식물 자원 6개까지 제거.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -827,10 +1031,14 @@
  {
   "id": "giant-space-mirror",
   "name": "초대형 우주 거울 (Giant Space Mirror)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 17,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 3 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -843,21 +1051,26 @@
   "tags": [
    "식물"
   ],
+  "expansion": "기본판",
+  "effect": "조건: 기온 -16℃ 이상.) (식물 생산력 1 증가. 식물 자원 3개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "trees",
    "bushes"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "great-dam",
   "name": "대형 댐 (Great Dam)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 해양 타일 4장 이상.) (에너지 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -865,10 +1078,11 @@
  {
   "id": "great-escarpment-consortium",
   "name": "단애 채굴 컨소시엄 (Great Escarpment Consortium)",
-  "cost": null,
-  "type": "",
+  "cost": 6,
+  "type": "자동",
   "tags": [],
   "expansion": "기본판",
+  "effect": "조건: 보유한 강철 생산력 1 이상.) (아무 1명의 강철 생산력 1 감소. 자신의 강철 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -879,25 +1093,27 @@
   "cost": 6,
   "type": "자동",
   "tags": [
-   "건축",
-   "식물"
+   "식물",
+   "건축"
   ],
+  "expansion": "기본판",
+  "effect": "현재 배치된 아무 도시 타일 1장당 자신이 식물 자원 1개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "protected-valley",
    "immigrant-city",
    "ganymede-colony"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "hackers",
   "name": "해커 (Hackers)",
-  "cost": null,
-  "type": "",
+  "cost": 3,
+  "type": "자동",
   "tags": [],
   "expansion": "기본판",
+  "effect": "자신의 에너지 생산력 1 감소. 아무 1명의 메가크레딧 생산력 2 감소. 자신의 메가크레딧 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -905,10 +1121,14 @@
  {
   "id": "heat-trappers",
   "name": "축열 장치 (Heat Trappers)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "아무 1명의 열 생산력 2 감소. 자신의 에너지 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -916,10 +1136,13 @@
  {
   "id": "heather",
   "name": "칼루나 (Heather)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 -14℃ 이상.) (식물 생산력 1 증가. 식물 자원 1개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -927,10 +1150,13 @@
  {
   "id": "herbivores",
   "name": "초식동물 (Herbivores)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "액션",
+  "tags": [
+   "동물"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -938,10 +1164,11 @@
  {
   "id": "hired-raiders",
   "name": "무장강도단 고용 (Hired Raiders)",
-  "cost": null,
-  "type": "",
+  "cost": 1,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "아무 1명의 강철 자원 2개까지 또는 3 M€까지 제거하고, 제거한 해당 자원을 자신이 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -949,10 +1176,13 @@
  {
   "id": "ice-asteroid",
   "name": "얼음형 소행성 (Ice Asteroid)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 23,
+  "type": "이벤트",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "해양 타일 2장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -960,10 +1190,11 @@
  {
   "id": "ice-cap-melting",
   "name": "극관 해빙 (Ice Cap Melting)",
-  "cost": null,
-  "type": "",
+  "cost": 5,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "조건: 기온 +2℃ 이상.) (해양 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -977,22 +1208,27 @@
    "도시",
    "건축"
   ],
+  "expansion": "기본판",
+  "effect": "도시 타일 1장 배치. 에너지 생산력 1 감소. 메가크레딧 생산력 2 감소.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "greenhouses",
    "medical-lab",
    "rover-construction"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "immigration-shuttles",
   "name": "이민자 수송 왕복선 (Immigration Shuttles)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 31,
+  "type": "자동",
+  "tags": [
+   "지구",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "메가크레딧 생산력 5 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1000,10 +1236,14 @@
  {
   "id": "import-of-advanced-ghg",
   "name": "강화형 온실가스 수입 (Import of Advanced GHG)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "이벤트",
+  "tags": [
+   "지구",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "열 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1011,10 +1251,14 @@
  {
   "id": "imported-ghg",
   "name": "온실가스 수입 (Imported GHG)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 7,
+  "type": "이벤트",
+  "tags": [
+   "지구",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "열 생산력 1 증가. 열 자원 3개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1022,10 +1266,14 @@
  {
   "id": "imported-hydrogen",
   "name": "수소 수입 (Imported Hydrogen)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 16,
+  "type": "이벤트",
+  "tags": [
+   "지구",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "식물 자원 3개 획득 또는 미생물 자원 3개나 동물 자원 2개를 자신의 다른 카드 1장에 추가. 해양 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1033,10 +1281,14 @@
  {
   "id": "imported-nitrogen",
   "name": "질소 수입 (Imported Nitrogen)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 23,
+  "type": "이벤트",
+  "tags": [
+   "지구",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "테라포밍 등급 1TR 상승. 식물 자원 4개 획득. 자신의 아무 카드 각각 1장에 미생물 자원 3개 추가. 동물 자원 2개 추가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1044,10 +1296,11 @@
  {
   "id": "indentured-workers",
   "name": "무급계약노동자 (Indentured Workers)",
-  "cost": null,
-  "type": "",
+  "cost": 0,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "이번 세대에, 자신이 사용하는 다음번 카드의 추진 비용 8 M€ 할인.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1055,10 +1308,13 @@
  {
   "id": "industrial-center",
   "name": "공업 중심지 (Industrial Center)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 4,
+  "type": "액션",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "아무 도시 타일과 인접한 빈 구역 한 곳에 타일 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1066,10 +1322,14 @@
  {
   "id": "industrial-microbes",
   "name": "공업용 미생물 (Industrial Microbes)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "자동",
+  "tags": [
+   "미생물",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 증가. 강철 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1077,10 +1337,13 @@
  {
   "id": "insects",
   "name": "곤충 (Insects)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "자동",
+  "tags": [
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 6% 이상.) (보유한 식물 태그 1개당 식물 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1088,10 +1351,11 @@
  {
   "id": "insulation",
   "name": "단열 처리 (Insulation)",
-  "cost": null,
-  "type": "",
+  "cost": 2,
+  "type": "자동",
   "tags": [],
   "expansion": "기본판",
+  "effect": "열 생산력을 원하는 수만큼 감소. 같은 수만큼 메가크레딧 생산력 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1099,10 +1363,14 @@
  {
   "id": "interstellar-colony-ship",
   "name": "항성간 개척선 (Interstellar Colony Ship)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 24,
+  "type": "이벤트",
+  "tags": [
+   "지구",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 과학 태그 5개 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1110,10 +1378,13 @@
  {
   "id": "invention-contest",
   "name": "발명 대회 (Invention Contest)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 2,
+  "type": "이벤트",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1121,10 +1392,13 @@
  {
   "id": "inventors-guild",
   "name": "발명가 협회 (Inventors' Guild)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "액션",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1132,10 +1406,13 @@
  {
   "id": "investment-loan",
   "name": "투자차관 (Investment Loan)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 3,
+  "type": "이벤트",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "메가크레딧 생산력 1 감소. 10 M€ 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1143,10 +1420,14 @@
  {
   "id": "io-mining-industries",
   "name": "이오 채굴산업 (Io Mining Industries)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 41,
+  "type": "자동",
+  "tags": [
+   "목성",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "티타늄 생산력 2 증가. 메가크레딧 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1154,10 +1435,13 @@
  {
   "id": "ironworks",
   "name": "제철소 (Ironworks)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "액션",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1165,10 +1449,13 @@
  {
   "id": "kelp-farming",
   "name": "해초 양식장 (Kelp Farming)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 17,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 해양 타일 6장 이상.) (메가크레딧 생산력 2 증가. 식물 생산력 3 증가. 식물 자원 2개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1176,10 +1463,14 @@
  {
   "id": "lagrange-observatory",
   "name": "라그랑주 천문관측소 (Lagrange Observatory)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "자동",
+  "tags": [
+   "과학",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "카드 1장 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1187,10 +1478,11 @@
  {
   "id": "lake-marineris",
   "name": "마리네리스 호수 (Lake Marineris)",
-  "cost": null,
-  "type": "",
+  "cost": 18,
+  "type": "자동",
   "tags": [],
   "expansion": "기본판",
+  "effect": "조건: 기온 +0 C° 이상.) (해양 타일 2장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1198,10 +1490,11 @@
  {
   "id": "land-claim",
   "name": "영토 소유권 주장 (Land Claim)",
-  "cost": null,
-  "type": "",
+  "cost": 1,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1209,10 +1502,14 @@
  {
   "id": "large-convoy",
   "name": "대규모 수송선단 (Large Convoy)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 36,
+  "type": "이벤트",
+  "tags": [
+   "지구",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "해양 타일 1장 배치. 카드 2장 획득. 식물 자원 5개 획득 또는 자신의 아무 카드 1장에 동물 자원 4개 추가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1220,10 +1517,11 @@
  {
   "id": "lava-flows",
   "name": "용암류 (Lava Flows)",
-  "cost": null,
-  "type": "",
+  "cost": 18,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "기온 2단계 상승. 소화산 또는 화산 구역 중 빈 구역 한 곳에 타일 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1231,10 +1529,13 @@
  {
   "id": "lichen",
   "name": "지의류 (Lichen)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 7,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 -24℃ 이상.) (식물 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1242,10 +1543,13 @@
  {
   "id": "lightning-harvest",
   "name": "번개걷이 (Lightning Harvest)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 8,
+  "type": "자동",
+  "tags": [
+   "에너지"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 과학 태그 3개 이상.) (에너지 생산력 1 증가. 메가크레딧 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1253,10 +1557,13 @@
  {
   "id": "livestock",
   "name": "가축 (Livestock)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 13,
+  "type": "액션",
+  "tags": [
+   "동물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 9% 이상.) (식물 생산력 1 감소. 메가크레딧 생산력 2 M€ 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1264,10 +1571,11 @@
  {
   "id": "local-heat-trapping",
   "name": "국소적 축열 (Local Heat Trapping)",
-  "cost": null,
-  "type": "",
+  "cost": 1,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "열 자원 5개 제거. 식물 자원 4개 획득 또는 자신의 다른 카드 1장에 동물 자원 2개 추가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1275,10 +1583,14 @@
  {
   "id": "lunar-beam",
   "name": "루나 빔 (Lunar Beam)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 13,
+  "type": "자동",
+  "tags": [
+   "지구",
+   "에너지"
+  ],
   "expansion": "기본판",
+  "effect": "메가크레딧 생산력 2 감소. 열 생산력 2 증가. 에너지 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1286,10 +1598,13 @@
  {
   "id": "magnetic-field-dome",
   "name": "자기장 돔 (Magnetic Field Dome)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 5,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 2 감소. 식물 생산력 1 증가. 테라포밍 등급 1TR 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1297,10 +1612,13 @@
  {
   "id": "magnetic-field-generators",
   "name": "자기장 생성기 (Magnetic Field Generators)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 20,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 4 감소. 식물 생산력 2 증가. 테라포밍 등급 3TR 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1308,10 +1626,13 @@
  {
   "id": "mangrove",
   "name": "맹그로브 (Mangrove)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 +4℃ 이상.) (배치 제한 무시하고 빈 해양 전용 구역 한 곳에 녹지 타일 1장 배치. 그에 따른 산소 농도 1% 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1319,10 +1640,14 @@
  {
   "id": "mars-university",
   "name": "화성 대학교 (Mars University)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 8,
+  "type": "액션",
+  "tags": [
+   "과학",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1330,10 +1655,13 @@
  {
   "id": "martian-rails",
   "name": "화성 열차 (Martian Rails)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 13,
+  "type": "액션",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1347,22 +1675,26 @@
    "과학",
    "에너지"
   ],
+  "expansion": "기본판",
+  "effect": "조건: 보유한 과학 태그 5개 이상.) (에너지 생산력 6 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "power-plant",
    "fusion-power",
    "space-elevator"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "media-archives",
   "name": "미디어 아카이브 (Media Archives)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 8,
+  "type": "자동",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "모든 플레이어가 지금까지 사용한 모든 사건형 카드 1장당 자신이 1 M€ 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1370,10 +1702,13 @@
  {
   "id": "media-group",
   "name": "미디어 그룹 (Media Group)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "액션",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1384,17 +1719,18 @@
   "cost": 13,
   "type": "자동",
   "tags": [
-   "건축",
-   "과학"
+   "과학",
+   "건축"
   ],
+  "expansion": "기본판",
+  "effect": "이 카드도 포함해서, 보유한 건물 태그 2개당 메가크레딧 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "olympus-conference",
    "development-center",
    "immigrant-city"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "methane-from-titan",
@@ -1402,25 +1738,27 @@
   "cost": 28,
   "type": "자동",
   "tags": [
-   "우주",
-   "목성"
+   "목성",
+   "우주"
   ],
+  "expansion": "기본판",
+  "effect": "열 생산력 2 증가. 식물 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "ganymede-colony",
    "water-import-from-europa",
    "space-elevator"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "micro-mills",
   "name": "소형 풍차 (Micro-Mills)",
-  "cost": null,
-  "type": "",
+  "cost": 3,
+  "type": "자동",
   "tags": [],
   "expansion": "기본판",
+  "effect": "열 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1433,20 +1771,22 @@
   "tags": [
    "건축"
   ],
+  "expansion": "기본판",
+  "effect": "강철 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "rover-construction"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "mineral-deposit",
   "name": "광물 매장층 (Mineral Deposit)",
-  "cost": null,
-  "type": "",
+  "cost": 5,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "강철 자원 5개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1454,10 +1794,11 @@
  {
   "id": "mining-area",
   "name": "광산 지대 (Mining Area)",
-  "cost": null,
-  "type": "",
+  "cost": 4,
+  "type": null,
   "tags": [],
   "expansion": "기본판",
+  "effect": "자신의 타일과 인접한, 강철/티타늄 점유 보너스가 있는 빈 구역에 타일 배치. 해당 점유 보너스 자원 중 한 종류의 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1465,10 +1806,11 @@
  {
   "id": "mining-expedition",
   "name": "대규모 채굴 (Mining Expedition)",
-  "cost": null,
-  "type": "",
+  "cost": 12,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "산소 농도 1% 상승. 강철 자원 2개 획득. 아무 1명의 식물 자원 2개까지 제거.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1476,10 +1818,11 @@
  {
   "id": "mining-rights",
   "name": "광업권 (Mining Rights)",
-  "cost": null,
-  "type": "",
+  "cost": 9,
+  "type": null,
   "tags": [],
   "expansion": "기본판",
+  "effect": "강철/티타늄 점유 보너스가 있는 빈 구역에 타일 배치. 해당 점유 보너스 자원 중 한 종류의 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1487,10 +1830,14 @@
  {
   "id": "miranda-resort",
   "name": "미란다 리조트 (Miranda Resort)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "자동",
+  "tags": [
+   "목성",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "보유한 지구 태그 1개당 메가크레딧 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1498,10 +1845,13 @@
  {
   "id": "mohole-area",
   "name": "모홀 구역 (Mohole Area)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 20,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "열 생산력 4 증가. 빈 해양 전용 구역 한 곳에 타일 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1509,10 +1859,13 @@
  {
   "id": "moss",
   "name": "이끼류 (Moss)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 4,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 해양 타일 3장 이상.) (식물 자원 1개 제거. 식물 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1520,10 +1873,14 @@
  {
   "id": "natural-preserve",
   "name": "자연 보존 (Natural Preserve)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "자동",
+  "tags": [
+   "과학",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 4% 이하.) (메가크레딧 생산력 1 증가. 다른 타일과 인접하지 않은 빈 구역 한 곳에 타일 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1531,10 +1888,13 @@
  {
   "id": "nitrite-reducing-bacteria",
   "name": "질산환원균 (Nitrite Reducing Bacteria)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "액션",
+  "tags": [
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "이 카드에 미생물 자원 3개 추가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1542,10 +1902,13 @@
  {
   "id": "nitrogen-rich-asteroid",
   "name": "다질소 소행성 (Nitrogen-Rich Asteroid)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 31,
+  "type": "이벤트",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "보유한 식물 태그가 3개 이상이면 식물 생산력 4 증가. 그렇지 않으면 식물 생산력 1 증가. 테라포밍 등급 2TR 상승. 기온 1단계 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1553,10 +1916,13 @@
  {
   "id": "nitrophilic-moss",
   "name": "호질소성 이끼류 (Nitrophilic Moss)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 8,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 해양 타일 3장 이상.) (식물 자원 2개 제거. 식물 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1564,10 +1930,14 @@
  {
   "id": "noctis-city",
   "name": "녹티스 시티 (Noctis City)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 18,
+  "type": "자동",
+  "tags": [
+   "도시",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 메가크레딧 생산력 3 증가. 배치 제한 무시하고 녹티스 시티 전용 구역에 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1575,10 +1945,14 @@
  {
   "id": "noctis-farming",
   "name": "녹티스 농경지 (Noctis Farming)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "자동",
+  "tags": [
+   "식물",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 -20℃ 이상.) (메가크레딧 생산력 1 증가. 식물 자원 2개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1586,10 +1960,14 @@
  {
   "id": "nuclear-power",
   "name": "원자력 발전 (Nuclear Power)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "메가크레딧 생산력 2 감소. 에너지 생산력 3 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1597,10 +1975,13 @@
  {
   "id": "nuclear-zone",
   "name": "핵무기 기폭지대 (Nuclear Zone)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "자동",
+  "tags": [
+   "지구"
+  ],
   "expansion": "기본판",
+  "effect": "기온 2단계 상승. 빈 구역 한 곳에 타일 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1615,6 +1996,8 @@
    "지구",
    "건축"
   ],
+  "expansion": "기본판",
+  "effect": "지속 효과: 이 카드도 포함해서 카드 사용 시, 그 카드의 과학 태그 1개마다, 이 카드에 과학 자원 1개 추가하거나, 또는 이 카드에서 과학 자원 1개 제거해서 카드 1장 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
@@ -1622,16 +2005,19 @@
    "development-center",
    "medical-lab",
    "sponsors"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "open-city",
   "name": "개방형 도시 (Open City)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 23,
+  "type": "자동",
+  "tags": [
+   "도시",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 12% 이상.) (에너지 생산력 1 감소. 메가크레딧 생산력 4 증가. 식물 자원 2개 획득. 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1639,10 +2025,13 @@
  {
   "id": "optimal-aerobraking",
   "name": "첨단 대기권제동기술 (Optimal Aerobraking)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 7,
+  "type": "액션",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1650,10 +2039,13 @@
  {
   "id": "ore-processor",
   "name": "광석 제련 (Ore Processor)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 13,
+  "type": "액션",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1661,10 +2053,11 @@
  {
   "id": "permafrost-extraction",
   "name": "영구동토층 해동 (Permafrost Extraction)",
-  "cost": null,
-  "type": "",
+  "cost": 8,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "조건: 기온 -8℃ 이상.) (해양 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1672,10 +2065,14 @@
  {
   "id": "peroxide-power",
   "name": "과산화물 발전 (Peroxide Power)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 7,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "메가크레딧 생산력 1 감소. 에너지 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1683,10 +2080,14 @@
  {
   "id": "pets",
   "name": "애완동물 (Pets)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "액션",
+  "tags": [
+   "지구",
+   "동물"
+  ],
   "expansion": "기본판",
+  "effect": "이 카드에 동물 자원 1개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1694,10 +2095,14 @@
  {
   "id": "phobos-space-haven",
   "name": "포보스 우주휴게소 (Phobos Space Haven)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 25,
+  "type": "자동",
+  "tags": [
+   "우주",
+   "도시"
+  ],
   "expansion": "기본판",
+  "effect": "티타늄 생산력 1 증가. 포보스 우주휴게소 전용 구역에 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1705,10 +2110,14 @@
  {
   "id": "physics-complex",
   "name": "물리 복합연구단지 (Physics Complex)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "액션",
+  "tags": [
+   "과학",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1716,10 +2125,13 @@
  {
   "id": "plantation",
   "name": "산림조성지 (Plantation)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 15,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 과학 태그 2장 이상.) (녹지 타일 1장 배치. 그에 따른 산소 농도 1% 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1727,10 +2139,13 @@
  {
   "id": "power-grid",
   "name": "전력망 (Power Grid)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 18,
+  "type": "자동",
+  "tags": [
+   "에너지"
+  ],
   "expansion": "기본판",
+  "effect": "이 카드도 포함해서, 보유한 에너지 태그 1개당 에너지 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1738,10 +2153,14 @@
  {
   "id": "power-infrastructure",
   "name": "전력 공급 인프라 (Power Infrastructure)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 4,
+  "type": "액션",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1752,24 +2171,28 @@
   "cost": 4,
   "type": "자동",
   "tags": [
-   "건축",
-   "에너지"
+   "에너지",
+   "건축"
   ],
+  "expansion": "기본판",
+  "effect": "에너지 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "deep-well-heating",
    "mass-converter"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "power-supply-consortium",
   "name": "전력 공급 컨소시엄 (Power Supply Consortium)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 5,
+  "type": "자동",
+  "tags": [
+   "에너지"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 에너지 태그 2개 이상.) (아무 1명의 에너지 생산력 1 감소. 자신의 에너지 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1777,10 +2200,13 @@
  {
   "id": "predators",
   "name": "포식동물 (Predators)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 14,
+  "type": "액션",
+  "tags": [
+   "동물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 11% 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1788,10 +2214,11 @@
  {
   "id": "protected-habitats",
   "name": "서식지 보호 (Protected Habitats)",
-  "cost": null,
-  "type": "",
+  "cost": 5,
+  "type": "액션",
   "tags": [],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1805,21 +2232,26 @@
    "식물",
    "건축"
   ],
+  "expansion": "기본판",
+  "effect": "메가크레딧 생산력 2 증가. 배치 제한 무시하고 빈 해양 전용 구역 한 곳에 녹지 타일 1장 배치. 그에 따른 산소 농도 1% 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "greenhouses",
    "trees"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "quantum-extractor",
   "name": "양자추출기 (Quantum Extractor)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 13,
+  "type": "액션",
+  "tags": [
+   "과학",
+   "에너지"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 과학 태그 4개 이상.) (에너지 생산력 4 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1827,10 +2259,13 @@
  {
   "id": "rad-chem-factory",
   "name": "방사선흡수화합물 공장 (Rad-Chem Factory)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 8,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 테라포밍 등급 2TR 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1838,10 +2273,11 @@
  {
   "id": "rad-suits",
   "name": "방사선 안전복 (Rad-Suits)",
-  "cost": null,
-  "type": "",
+  "cost": 6,
+  "type": "자동",
   "tags": [],
   "expansion": "기본판",
+  "effect": "조건: 아무 도시 타일 2장 이상.) (메가크레딧 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1849,10 +2285,14 @@
  {
   "id": "regolith-eaters",
   "name": "표토 섭식 미생물 (Regolith Eaters)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 13,
+  "type": "액션",
+  "tags": [
+   "과학",
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "행동: 이 카드에 미생물 자원 1개 추가 또는 이 카드에 미생물 자원 2개 소비해서 산소 농도 1% 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1860,10 +2300,11 @@
  {
   "id": "release-of-inert-gases",
   "name": "불활성기체 분출 (Release of Inert Gases)",
-  "cost": null,
-  "type": "",
+  "cost": 14,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "테라포밍 등급 2TR 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1871,10 +2312,14 @@
  {
   "id": "research",
   "name": "연구소 (Research)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "자동",
+  "tags": [
+   "과학",
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "카드 2장 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1882,10 +2327,15 @@
  {
   "id": "research-outpost",
   "name": "연구 전진기지 (Research Outpost)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 18,
+  "type": "액션",
+  "tags": [
+   "과학",
+   "도시",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "다른 타일과 인접하지 않은 빈 구역 한 곳에 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1893,10 +2343,13 @@
  {
   "id": "restricted-area",
   "name": "제한 구역 (Restricted Area)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "액션",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "타일 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1904,10 +2357,13 @@
  {
   "id": "robotic-workforce",
   "name": "산업용 로봇 (Robotic Workforce)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "자동",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "보유한 건물 카드 중 1장을 골라서 생산력 증감 사항을 다시 한 번 적용. 생산력과 무관한 것은 다시 적용하지 않음.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1920,21 +2376,23 @@
   "tags": [
    "건축"
   ],
+  "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "immigrant-city",
    "mine"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "sabotage",
   "name": "사보타주 (Sabotage)",
-  "cost": null,
-  "type": "",
+  "cost": 1,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "아무 1명의 티타늄 자원 3개까지 또는 강철 자원 4개까지 또는 7 M€까지 제거.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1942,10 +2400,13 @@
  {
   "id": "satellites",
   "name": "인공위성 (Satellites)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "자동",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "이 카드도 포함해서, 보유한 우주 태그 1개당 메가크레딧 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1958,21 +2419,25 @@
   "tags": [
    "과학"
   ],
+  "expansion": "기본판",
+  "effect": "조건: 산소 농도 6% 이하.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "tardigrades",
    "olympus-conference"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "security-fleet",
   "name": "평화수호함대 (Security Fleet)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "액션",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1980,10 +2445,13 @@
  {
   "id": "shuttles",
   "name": "왕복선 (Shuttles)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "액션",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 5% 이상.) (에너지 생산력 1 감소. 메가크레딧 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -1991,10 +2459,13 @@
  {
   "id": "small-animals",
   "name": "소형 동물 (Small Animals)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "액션",
+  "tags": [
+   "동물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 6% 이상.) (아무 1명의 식물 생산력 1 감소.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2002,10 +2473,13 @@
  {
   "id": "soil-factory",
   "name": "토양정화소 (Soil Factory)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 식물 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2013,10 +2487,14 @@
  {
   "id": "solar-power",
   "name": "태양광 발전 (Solar Power)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2024,10 +2502,15 @@
  {
   "id": "solar-wind-power",
   "name": "태양풍 발전 (Solar Wind Power)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 11,
+  "type": "자동",
+  "tags": [
+   "과학",
+   "우주",
+   "에너지"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 증가 티타늄 자원 2개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2035,10 +2518,13 @@
  {
   "id": "soletta",
   "name": "솔레타 (Soletta)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 35,
+  "type": "자동",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "열 생산력 7 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2052,21 +2538,26 @@
    "우주",
    "건축"
   ],
+  "expansion": "기본판",
+  "effect": "티타늄 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "mass-converter",
    "methane-from-titan"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "space-mirrors",
   "name": "우주 거울 (Space Mirrors)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 3,
+  "type": "액션",
+  "tags": [
+   "에너지",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2074,10 +2565,13 @@
  {
   "id": "space-station",
   "name": "우주정거장 (Space Station)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "액션",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2085,10 +2579,13 @@
  {
   "id": "special-design",
   "name": "특수 설계 (Special Design)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 4,
+  "type": "이벤트",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "이번 세대에, 자신이 사용하는 다음번 카드의 추진 조건 중 행성 지표에는 +/- 2단계 중 원하는 것을 적용.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2101,20 +2598,24 @@
   "tags": [
    "지구"
   ],
+  "expansion": "기본판",
+  "effect": "메가크레딧 생산력 2 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "olympus-conference"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "standard-technology",
   "name": "표준 기술 (Standard Technology)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "액션",
+  "tags": [
+   "과학"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2122,10 +2623,13 @@
  {
   "id": "steelworks",
   "name": "제강소 (Steelworks)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 15,
+  "type": "액션",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2133,10 +2637,13 @@
  {
   "id": "strip-mine",
   "name": "노천채굴 (Strip Mine)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 25,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 2 감소. 강철 생산력 2 증가. 티타늄 생산력 1 증가. 산소 농도 2% 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2144,10 +2651,11 @@
  {
   "id": "subterranean-reservoir",
   "name": "대수층 (Subterranean Reservoir)",
-  "cost": null,
-  "type": "",
+  "cost": 11,
+  "type": "이벤트",
   "tags": [],
   "expansion": "기본판",
+  "effect": "해양 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2155,10 +2663,13 @@
  {
   "id": "symbiotic-fungus",
   "name": "공생성 진균류 (Symbiotic Fungus)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 4,
+  "type": "액션",
+  "tags": [
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 기온 -14℃ 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2171,20 +2682,25 @@
   "tags": [
    "미생물"
   ],
+  "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "search-for-life"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "technology-demonstration",
   "name": "신기술 시연 (Technology Demonstration)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 5,
+  "type": "이벤트",
+  "tags": [
+   "과학",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "카드 2장 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2192,10 +2708,14 @@
  {
   "id": "tectonic-stress-power",
   "name": "지체응력 발전 (Tectonic Stress Power)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 18,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 보유한 과학 태그 2개 이상.) (에너지 생산력 3 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2203,10 +2723,14 @@
  {
   "id": "terraforming-ganymede",
   "name": "테라포밍 가니메데 (Terraforming Ganymede)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 33,
+  "type": "자동",
+  "tags": [
+   "목성",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "이 카드도 포함해서, 보유한 목성 태그 1개당 테라포밍 등급 1TR 상승.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2214,10 +2738,13 @@
  {
   "id": "titanium-mine",
   "name": "티타늄 광산 (Titanium Mine)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 7,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "티타늄 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2225,10 +2752,13 @@
  {
   "id": "toll-station",
   "name": "통행료 징수기지 (Toll Station)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "자동",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "다른 플레이어들이 보유한 우주 태그 1개당 자신의 메가크레딧 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2236,10 +2766,13 @@
  {
   "id": "towing-a-comet",
   "name": "혜성 견인 (Towing A Comet)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 23,
+  "type": "이벤트",
+  "tags": [
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "산소 농도 1% 상승. 해양 타일 1장 배치. 식물 자원 2개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2247,10 +2780,14 @@
  {
   "id": "trans-neptune-probe",
   "name": "해왕성 궤도 바깥 탐사선 (Trans-Neptune Probe)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "자동",
+  "tags": [
+   "과학",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2263,22 +2800,26 @@
   "tags": [
    "식물"
   ],
+  "expansion": "기본판",
+  "effect": "조건: 기온 -4℃ 이상. \n 식물 생산력 3 증가. 식물 자원 1개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "grass",
    "bushes",
    "protected-valley"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "tropical-resort",
   "name": "열대 리조트 (Tropical Resort)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 13,
+  "type": "자동",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "열 생산력 2 감소. 메가크레딧 생산력 3 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2286,10 +2827,13 @@
  {
   "id": "tundra-farming",
   "name": "툰드라 농경지 (Tundra Farming)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 16,
+  "type": "자동",
+  "tags": [
+   "식물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 -6℃ 이상.) (식물 생산력 1 증가. 메가크레딧 생산력 2 증가. 식물 자원 1개 획득.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2297,10 +2841,14 @@
  {
   "id": "underground-city",
   "name": "지하 도시 (Underground City)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 18,
+  "type": "자동",
+  "tags": [
+   "도시",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 2 감소. 강철 생산력 2 증가. 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2308,10 +2856,13 @@
  {
   "id": "underground-detonations",
   "name": "지하 핵폭발 (Underground Detonations)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "액션",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2319,10 +2870,14 @@
  {
   "id": "urbanized-area",
   "name": "광역 대도시권 (Urbanized Area)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 10,
+  "type": "자동",
+  "tags": [
+   "도시",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "에너지 생산력 1 감소. 메가크레딧 생산력 2 증가. 아무 도시 타일 2장 이상과 인접한 빈 구역 한 곳에 도시 타일 1장 배치.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2330,10 +2885,14 @@
  {
   "id": "vesta-shipyard",
   "name": "베스타 조선소 (Vesta Shipyard)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 15,
+  "type": "자동",
+  "tags": [
+   "목성",
+   "우주"
+  ],
   "expansion": "기본판",
+  "effect": "티타늄 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2341,10 +2900,14 @@
  {
   "id": "viral-enhancers",
   "name": "바이러스 벡터 (Viral Enhancers)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 9,
+  "type": "액션",
+  "tags": [
+   "과학",
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2352,10 +2915,13 @@
  {
   "id": "virus",
   "name": "바이러스 (Virus)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 1,
+  "type": "이벤트",
+  "tags": [
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "아무 1명의 동물 자원 2개까지 또는 식물 자원 5개까지 제거.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2366,24 +2932,28 @@
   "cost": 25,
   "type": "액션",
   "tags": [
-   "우주",
-   "목성"
+   "목성",
+   "우주"
   ],
+  "expansion": "기본판",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": [
    "ganymede-colony",
    "methane-from-titan"
-  ],
-  "expansion": "기본판"
+  ]
  },
  {
   "id": "water-splitting-plant",
   "name": "전기분해설비 (Water Splitting Plant)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 12,
+  "type": "액션",
+  "tags": [
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 해양 타일 2장 이상.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2391,10 +2961,13 @@
  {
   "id": "wave-power",
   "name": "파력 발전 (Wave Power)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 8,
+  "type": "자동",
+  "tags": [
+   "에너지"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 해양 타일 3장 이상.) (에너지 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2402,10 +2975,14 @@
  {
   "id": "windmills",
   "name": "풍차 (Windmills)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 6,
+  "type": "자동",
+  "tags": [
+   "에너지",
+   "건축"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 7% 이상.) (에너지 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2413,10 +2990,13 @@
  {
   "id": "worms",
   "name": "연형동물 (Worms)",
-  "cost": null,
-  "type": "",
-  "tags": [],
+  "cost": 8,
+  "type": "자동",
+  "tags": [
+   "미생물"
+  ],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 4% 이상.) (이 카드도 포함해서, 보유한 미생물 태그 2개당 식물 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2424,10 +3004,11 @@
  {
   "id": "zeppelins",
   "name": "체펠린 비행선 (Zeppelins)",
-  "cost": null,
-  "type": "",
+  "cost": 13,
+  "type": "자동",
   "tags": [],
   "expansion": "기본판",
+  "effect": "조건: 산소 농도 5% 이상.) (현재 화성에 배치된 아무 도시 타일 1장당 자신의 메가크레딧 생산력 1 증가.",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2439,6 +3020,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2450,6 +3032,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2461,6 +3044,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2472,6 +3056,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2483,6 +3068,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2494,6 +3080,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2505,6 +3092,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2516,6 +3104,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2527,6 +3116,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2538,6 +3128,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2549,6 +3140,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2560,6 +3152,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2571,6 +3164,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2582,6 +3176,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2593,6 +3188,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2604,6 +3200,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2615,6 +3212,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2626,6 +3224,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2637,6 +3236,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2648,6 +3248,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2659,6 +3260,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2670,6 +3272,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2681,6 +3284,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2692,6 +3296,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2703,6 +3308,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2714,6 +3320,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2725,6 +3332,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2736,6 +3344,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2747,6 +3356,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2758,6 +3368,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2769,6 +3380,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2780,6 +3392,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2791,6 +3404,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2802,6 +3416,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2813,6 +3428,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2824,6 +3440,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2835,6 +3452,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2846,6 +3464,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2857,6 +3476,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2868,6 +3488,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2879,6 +3500,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2890,6 +3512,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2901,6 +3524,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2912,6 +3536,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2923,6 +3548,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2934,6 +3560,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2945,6 +3572,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2956,6 +3584,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2967,6 +3596,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2978,6 +3608,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -2989,6 +3620,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3000,6 +3632,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3011,6 +3644,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3022,6 +3656,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3033,6 +3668,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3044,6 +3680,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3055,6 +3692,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3066,6 +3704,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3077,6 +3716,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3088,6 +3728,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3099,6 +3740,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3110,6 +3752,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3121,6 +3764,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3132,6 +3776,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3143,6 +3788,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3154,6 +3800,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3165,6 +3812,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3176,6 +3824,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3187,6 +3836,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3198,6 +3848,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3209,6 +3860,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3220,6 +3872,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3231,6 +3884,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3242,6 +3896,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3253,6 +3908,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3264,6 +3920,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3275,6 +3932,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3286,6 +3944,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3297,6 +3956,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3308,6 +3968,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3319,6 +3980,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3330,6 +3992,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3341,6 +4004,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3352,6 +4016,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3363,6 +4028,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3374,6 +4040,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3385,6 +4052,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3396,6 +4064,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3407,6 +4076,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3418,6 +4088,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3429,6 +4100,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3440,6 +4112,7 @@
   "type": "",
   "tags": [],
   "expansion": "프렐류드 2",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3451,6 +4124,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3462,6 +4136,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3473,6 +4148,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3484,6 +4160,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3495,6 +4172,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3506,6 +4184,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3517,6 +4196,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3528,6 +4208,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3539,6 +4220,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3550,6 +4232,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3561,6 +4244,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3572,6 +4256,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3583,6 +4268,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3594,6 +4280,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3605,6 +4292,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3616,6 +4304,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3627,6 +4316,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3638,6 +4328,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3649,6 +4340,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3660,6 +4352,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3671,6 +4364,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3682,6 +4376,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3693,6 +4388,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3704,6 +4400,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3715,6 +4412,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3726,6 +4424,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3737,6 +4436,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3748,6 +4448,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3759,6 +4460,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3770,6 +4472,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3781,6 +4484,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3792,6 +4496,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3803,6 +4508,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3814,6 +4520,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3825,6 +4532,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3836,6 +4544,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3847,6 +4556,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3858,6 +4568,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3869,6 +4580,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3880,6 +4592,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3891,6 +4604,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3902,6 +4616,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3913,6 +4628,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3924,6 +4640,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3935,6 +4652,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3946,6 +4664,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3957,6 +4676,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3968,6 +4688,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3979,6 +4700,7 @@
   "type": "",
   "tags": [],
   "expansion": "비너스 넥스트",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -3990,6 +4712,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4001,6 +4724,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4012,6 +4736,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4023,6 +4748,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4034,6 +4760,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4045,6 +4772,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4056,6 +4784,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4067,6 +4796,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4078,6 +4808,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4089,6 +4820,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4100,6 +4832,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4111,6 +4844,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4122,6 +4856,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4133,6 +4868,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4144,6 +4880,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4155,6 +4892,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4166,6 +4904,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4177,6 +4916,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4188,6 +4928,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4199,6 +4940,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4210,6 +4952,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4221,6 +4964,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4232,6 +4976,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4243,6 +4988,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4254,6 +5000,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4265,6 +5012,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4276,6 +5024,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4287,6 +5036,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4298,6 +5048,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4309,6 +5060,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4320,6 +5072,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4331,6 +5084,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4342,6 +5096,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4353,6 +5108,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4364,6 +5120,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4375,6 +5132,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4386,6 +5144,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4397,6 +5156,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4408,6 +5168,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4419,6 +5180,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4430,6 +5192,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4441,6 +5204,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4452,6 +5216,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4463,6 +5228,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4474,6 +5240,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4485,6 +5252,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4496,6 +5264,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4507,6 +5276,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4518,6 +5288,7 @@
   "type": "",
   "tags": [],
   "expansion": "콜로니",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4529,6 +5300,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4540,6 +5312,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4551,6 +5324,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4562,6 +5336,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4573,6 +5348,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4584,6 +5360,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4595,6 +5372,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4606,6 +5384,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4617,6 +5396,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4628,6 +5408,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4639,6 +5420,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4650,6 +5432,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4661,6 +5444,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4672,6 +5456,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4683,6 +5468,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4694,6 +5480,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4705,6 +5492,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4716,6 +5504,7 @@
   "type": "",
   "tags": [],
   "expansion": "턴모일",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4727,6 +5516,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4738,6 +5528,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4749,6 +5540,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4760,6 +5552,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4771,6 +5564,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4782,6 +5576,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4793,6 +5588,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4804,6 +5600,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4815,6 +5612,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4826,6 +5624,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4837,6 +5636,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4848,6 +5648,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4859,6 +5660,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4870,6 +5672,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4881,6 +5684,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4892,6 +5696,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4903,6 +5708,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4914,6 +5720,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4925,6 +5732,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4936,6 +5744,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4947,6 +5756,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4958,6 +5768,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4969,6 +5780,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4980,6 +5792,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -4991,6 +5804,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5002,6 +5816,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5013,6 +5828,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5024,6 +5840,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5035,6 +5852,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5046,6 +5864,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5057,6 +5876,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5068,6 +5888,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5079,6 +5900,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5090,6 +5912,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5101,6 +5924,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5112,6 +5936,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5123,6 +5948,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5134,6 +5960,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5145,6 +5972,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5156,6 +5984,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5167,6 +5996,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5178,6 +6008,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5189,6 +6020,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5200,6 +6032,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5211,6 +6044,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5222,6 +6056,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5233,6 +6068,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5244,6 +6080,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5255,6 +6092,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5266,6 +6104,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5277,6 +6116,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5288,6 +6128,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5299,6 +6140,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5310,6 +6152,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5321,6 +6164,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5332,6 +6176,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5343,6 +6188,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5354,6 +6200,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5365,6 +6212,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5376,6 +6224,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5387,6 +6236,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5398,6 +6248,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5409,6 +6260,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5420,6 +6272,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5431,6 +6284,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5442,6 +6296,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5453,6 +6308,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5464,6 +6320,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5475,6 +6332,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5486,6 +6344,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5497,6 +6356,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5508,6 +6368,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5519,6 +6380,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5530,6 +6392,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5541,6 +6404,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5552,6 +6416,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5563,6 +6428,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5574,6 +6440,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5585,6 +6452,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5596,6 +6464,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5607,6 +6476,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5618,6 +6488,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5629,6 +6500,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5640,6 +6512,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5651,6 +6524,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5662,6 +6536,7 @@
   "type": "",
   "tags": [],
   "expansion": "프로모",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5673,6 +6548,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5684,6 +6560,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5695,6 +6572,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5706,6 +6584,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5717,6 +6596,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5728,6 +6608,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5739,6 +6620,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5750,6 +6632,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5761,6 +6644,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5772,6 +6656,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5783,6 +6668,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5794,6 +6680,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5805,6 +6692,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5816,6 +6704,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5827,6 +6716,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5838,6 +6728,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5849,6 +6740,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5860,6 +6752,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5871,6 +6764,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5882,6 +6776,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5893,6 +6788,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5904,6 +6800,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5915,6 +6812,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5926,6 +6824,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5937,6 +6836,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5948,6 +6848,7 @@
   "type": "",
   "tags": [],
   "expansion": "아레스",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5959,6 +6860,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5970,6 +6872,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5981,6 +6884,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -5992,6 +6896,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6003,6 +6908,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6014,6 +6920,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6025,6 +6932,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6036,6 +6944,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6047,6 +6956,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6058,6 +6968,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6069,6 +6980,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6080,6 +6992,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6091,6 +7004,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6102,6 +7016,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6113,6 +7028,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6124,6 +7040,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6135,6 +7052,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6146,6 +7064,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6157,6 +7076,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6168,6 +7088,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6179,6 +7100,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6190,6 +7112,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6201,6 +7124,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6212,6 +7136,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6223,6 +7148,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6234,6 +7160,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6245,6 +7172,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6256,6 +7184,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6267,6 +7196,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6278,6 +7208,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6289,6 +7220,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6300,6 +7232,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6311,6 +7244,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6322,6 +7256,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6333,6 +7268,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6344,6 +7280,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6355,6 +7292,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6366,6 +7304,7 @@
   "type": "",
   "tags": [],
   "expansion": "CEO",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6377,6 +7316,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6388,6 +7328,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6399,6 +7340,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6410,6 +7352,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6421,6 +7364,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6432,6 +7376,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6443,6 +7388,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6454,6 +7400,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6465,6 +7412,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6476,6 +7424,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6487,6 +7436,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6498,6 +7448,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6509,6 +7460,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6520,6 +7472,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6531,6 +7484,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6542,6 +7496,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6553,6 +7508,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6564,6 +7520,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6575,6 +7532,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6586,6 +7544,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6597,6 +7556,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6608,6 +7568,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6619,6 +7580,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6630,6 +7592,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6641,6 +7604,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6652,6 +7616,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6663,6 +7628,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6674,6 +7640,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6685,6 +7652,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6696,6 +7664,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6707,6 +7676,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6718,6 +7688,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6729,6 +7700,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6740,6 +7712,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6751,6 +7724,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6762,6 +7736,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6773,6 +7748,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6784,6 +7760,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6795,6 +7772,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6806,6 +7784,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6817,6 +7796,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6828,6 +7808,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6839,6 +7820,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6850,6 +7832,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6861,6 +7844,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6872,6 +7856,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6883,6 +7868,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6894,6 +7880,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6905,6 +7892,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6916,6 +7904,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6927,6 +7916,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6938,6 +7928,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6949,6 +7940,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6960,6 +7952,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6971,6 +7964,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6982,6 +7976,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -6993,6 +7988,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7004,6 +8000,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7015,6 +8012,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7026,6 +8024,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7037,6 +8036,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7048,6 +8048,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7059,6 +8060,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7070,6 +8072,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7081,6 +8084,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7092,6 +8096,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7103,6 +8108,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7114,6 +8120,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7125,6 +8132,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7136,6 +8144,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7147,6 +8156,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7158,6 +8168,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7169,6 +8180,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7180,6 +8192,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7191,6 +8204,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7202,6 +8216,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7213,6 +8228,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7224,6 +8240,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7235,6 +8252,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7246,6 +8264,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7257,6 +8276,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7268,6 +8288,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7279,6 +8300,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7290,6 +8312,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7301,6 +8324,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7312,6 +8336,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7323,6 +8348,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7334,6 +8360,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7345,6 +8372,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7356,6 +8384,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7367,6 +8396,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7378,6 +8408,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7389,6 +8420,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7400,6 +8432,7 @@
   "type": "",
   "tags": [],
   "expansion": "더 문",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7411,6 +8444,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7422,6 +8456,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7433,6 +8468,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7444,6 +8480,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7455,6 +8492,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7466,6 +8504,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7477,6 +8516,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7488,6 +8528,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7499,6 +8540,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7510,6 +8552,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7521,6 +8564,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7532,6 +8576,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7543,6 +8588,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7554,6 +8600,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7565,6 +8612,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7576,6 +8624,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7587,6 +8636,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7598,6 +8648,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7609,6 +8660,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7620,6 +8672,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7631,6 +8684,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7642,6 +8696,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7653,6 +8708,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7664,6 +8720,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7675,6 +8732,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7686,6 +8744,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7697,6 +8756,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7708,6 +8768,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7719,6 +8780,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7730,6 +8792,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7741,6 +8804,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7752,6 +8816,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7763,6 +8828,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7774,6 +8840,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7785,6 +8852,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7796,6 +8864,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7807,6 +8876,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7818,6 +8888,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7829,6 +8900,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7840,6 +8912,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7851,6 +8924,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7862,6 +8936,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7873,6 +8948,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7884,6 +8960,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7895,6 +8972,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7906,6 +8984,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7917,6 +8996,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7928,6 +9008,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7939,6 +9020,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7950,6 +9032,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7961,6 +9044,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7972,6 +9056,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7983,6 +9068,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -7994,6 +9080,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8005,6 +9092,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8016,6 +9104,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8027,6 +9116,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8038,6 +9128,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8049,6 +9140,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8060,6 +9152,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8071,6 +9164,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8082,6 +9176,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8093,6 +9188,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8104,6 +9200,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8115,6 +9212,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8126,6 +9224,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8137,6 +9236,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8148,6 +9248,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8159,6 +9260,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8170,6 +9272,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8181,6 +9284,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8192,6 +9296,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8203,6 +9308,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8214,6 +9320,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8225,6 +9332,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8236,6 +9344,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8247,6 +9356,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8258,6 +9368,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8269,6 +9380,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8280,6 +9392,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8291,6 +9404,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8302,6 +9416,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8313,6 +9428,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8324,6 +9440,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8335,6 +9452,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8346,6 +9464,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8357,6 +9476,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8368,6 +9488,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8379,6 +9500,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8390,6 +9512,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8401,6 +9524,7 @@
   "type": "",
   "tags": [],
   "expansion": "패스파인더",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8412,6 +9536,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8423,6 +9548,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8434,6 +9560,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8445,6 +9572,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8456,6 +9584,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8467,6 +9596,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8478,6 +9608,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8489,6 +9620,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8500,6 +9632,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8511,6 +9644,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8522,6 +9656,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8533,6 +9668,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8544,6 +9680,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8555,6 +9692,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8566,6 +9704,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8577,6 +9716,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8588,6 +9728,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8599,6 +9740,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8610,6 +9752,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8621,6 +9764,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8632,6 +9776,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8643,6 +9788,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8654,6 +9800,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8665,6 +9812,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8676,6 +9824,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8687,6 +9836,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8698,6 +9848,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8709,6 +9860,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8720,6 +9872,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8731,6 +9884,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8742,6 +9896,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8753,6 +9908,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8764,6 +9920,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8775,6 +9932,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8786,6 +9944,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8797,6 +9956,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8808,6 +9968,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8819,6 +9980,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8830,6 +9992,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8841,6 +10004,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8852,6 +10016,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8863,6 +10028,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8874,6 +10040,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8885,6 +10052,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8896,6 +10064,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8907,6 +10076,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8918,6 +10088,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8929,6 +10100,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8940,6 +10112,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8951,6 +10124,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8962,6 +10136,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8973,6 +10148,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8984,6 +10160,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -8995,6 +10172,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9006,6 +10184,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9017,6 +10196,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9028,6 +10208,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9039,6 +10220,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9050,6 +10232,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9061,6 +10244,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9072,6 +10256,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9083,6 +10268,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9094,6 +10280,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9105,6 +10292,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9116,6 +10304,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9127,6 +10316,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9138,6 +10328,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9149,6 +10340,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9160,6 +10352,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9171,6 +10364,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9182,6 +10376,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9193,6 +10388,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9204,6 +10400,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9215,6 +10412,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9226,6 +10424,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9237,6 +10436,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9248,6 +10448,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9259,6 +10460,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9270,6 +10472,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9281,6 +10484,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9292,6 +10496,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9303,6 +10508,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9314,6 +10520,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9325,6 +10532,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9336,6 +10544,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9347,6 +10556,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9358,6 +10568,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9369,6 +10580,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9380,6 +10592,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9391,6 +10604,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9402,6 +10616,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9413,6 +10628,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9424,6 +10640,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9435,6 +10652,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9446,6 +10664,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9457,6 +10676,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9468,6 +10688,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9479,6 +10700,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9490,6 +10712,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9501,6 +10724,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9512,6 +10736,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9523,6 +10748,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9534,6 +10760,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9545,6 +10772,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9556,6 +10784,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9567,6 +10796,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9578,6 +10808,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9589,6 +10820,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9600,6 +10832,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9611,6 +10844,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9622,6 +10856,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9633,6 +10868,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
@@ -9644,6 +10880,7 @@
   "type": "",
   "tags": [],
   "expansion": "언더월드",
+  "effect": "",
   "myRating": 0,
   "myNotes": "",
   "synergies": []
