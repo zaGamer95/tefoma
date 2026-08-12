@@ -1,5 +1,13 @@
 [
  {
+  "id": "beginner-corporation",
+  "name": "초보자용 기업 (Beginner Corporation)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "기본판",
+  "tags": []
+ },
+ {
   "id": "credicor",
   "name": "크레디코르 (Credicor)",
   "startingResources": "57 M€",
@@ -147,5 +155,517 @@
    "지구",
    "TR"
   ]
+ },
+ {
+  "id": "aridor",
+  "name": "아리도르 (Aridor)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "콜로니",
+  "tags": []
+ },
+ {
+  "id": "arklight",
+  "name": "아크라이트 (Arklight)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "콜로니",
+  "tags": []
+ },
+ {
+  "id": "polyphemos",
+  "name": "폴리페모스 (Polyphemos)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "콜로니",
+  "tags": []
+ },
+ {
+  "id": "poseidon",
+  "name": "포세이돈 (Poseidon)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "콜로니",
+  "tags": []
+ },
+ {
+  "id": "stormcraft-incorporated",
+  "name": "스톰크래프트 (Stormcraft Incorporated)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "콜로니",
+  "tags": []
+ },
+ {
+  "id": "crescent-research-association",
+  "name": "Crescent Research Association",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "더 문",
+  "tags": []
+ },
+ {
+  "id": "intragen-sanctuary-headquarters",
+  "name": "Intragen Sanctuary Headquarters",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "더 문",
+  "tags": []
+ },
+ {
+  "id": "luna-first-incorporated",
+  "name": "Luna First Incorporated",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "더 문",
+  "tags": []
+ },
+ {
+  "id": "luna-hyperloop-corporation",
+  "name": "Luna Hyperloop Corporation",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "더 문",
+  "tags": []
+ },
+ {
+  "id": "luna-trade-federation",
+  "name": "Luna Trade Federation",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "더 문",
+  "tags": []
+ },
+ {
+  "id": "nanotech-industries",
+  "name": "Nanotech Industries",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "더 문",
+  "tags": []
+ },
+ {
+  "id": "the-archaic-foundation-institute",
+  "name": "The Archaic Foundation Institute",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "더 문",
+  "tags": []
+ },
+ {
+  "id": "the-darkside-of-the-moon-syndicate",
+  "name": "The Darkside of The Moon Syndicate",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "더 문",
+  "tags": []
+ },
+ {
+  "id": "the-grand-luna-capital-group",
+  "name": "The Grand Luna Capital Group",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "더 문",
+  "tags": []
+ },
+ {
+  "id": "adhai-high-orbit-constructions",
+  "name": "Adhai High Orbit Constructions",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "ambient",
+  "name": "Ambient",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "bio-sol",
+  "name": "Bio-Sol",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "chimera",
+  "name": "Chimera",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "collegium-copernicus",
+  "name": "Collegium Copernicus",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "habitat-marte",
+  "name": "Habitat Marte",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "mars-frontier-alliance",
+  "name": "Mars Frontier Alliance",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "martian-insurance-group",
+  "name": "Martian Insurance Group",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "odyssey",
+  "name": "Odyssey",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "polaris",
+  "name": "Polaris",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "robin-haulings",
+  "name": "Robin Haulings",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "soylent-seedling-systems",
+  "name": "Soylent Seedling Systems",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "steelaris",
+  "name": "Steelaris",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "패스파인더",
+  "tags": []
+ },
+ {
+  "id": "cheung-shing-mars",
+  "name": "쳉 싱 마스 (Cheung Shing MARS)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프렐류드",
+  "tags": []
+ },
+ {
+  "id": "palladin-shipping",
+  "name": "Palladin Shipping",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프렐류드",
+  "tags": []
+ },
+ {
+  "id": "point-luna",
+  "name": "포인트 루나 (Point Luna)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프렐류드",
+  "tags": []
+ },
+ {
+  "id": "robinson-industries",
+  "name": "로빈슨 인더스트리 (Robinson Industries)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프렐류드",
+  "tags": []
+ },
+ {
+  "id": "sagitta-frontier-services",
+  "name": "Sagitta Frontier Services",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프렐류드",
+  "tags": []
+ },
+ {
+  "id": "spire",
+  "name": "Spire",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프렐류드",
+  "tags": []
+ },
+ {
+  "id": "valley-trust",
+  "name": "밸리 트러스트 (Valley Trust)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프렐류드",
+  "tags": []
+ },
+ {
+  "id": "vitor",
+  "name": "비토르 (Vitor)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프렐류드",
+  "tags": []
+ },
+ {
+  "id": "arcadian-communities",
+  "name": "아카디아 공동체 (Arcadian Communities)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프로모",
+  "tags": []
+ },
+ {
+  "id": "astrodrill",
+  "name": "아스트로드릴 (AstroDrill)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프로모",
+  "tags": []
+ },
+ {
+  "id": "factorum",
+  "name": "팩토럼 (Factorum)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프로모",
+  "tags": []
+ },
+ {
+  "id": "kuiper-cooperative",
+  "name": "Kuiper Cooperative",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프로모",
+  "tags": []
+ },
+ {
+  "id": "mons-insurance",
+  "name": "몬스 손해보험 (Mons Insurance)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프로모",
+  "tags": []
+ },
+ {
+  "id": "pharmacy-union",
+  "name": "파머시 유니온 (Pharmacy Union)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프로모",
+  "tags": []
+ },
+ {
+  "id": "philares",
+  "name": "필레어스 (Philares)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프로모",
+  "tags": []
+ },
+ {
+  "id": "recyclon",
+  "name": "리사이클론 (Recyclon)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프로모",
+  "tags": []
+ },
+ {
+  "id": "splice",
+  "name": "스플라이스 (Splice)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프로모",
+  "tags": []
+ },
+ {
+  "id": "tycho-magnetics",
+  "name": "Tycho Magnetics",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "프로모",
+  "tags": []
+ },
+ {
+  "id": "lakefront-resorts",
+  "name": "레이크프론트 리조트 (Lakefront Resorts)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "턴모일",
+  "tags": []
+ },
+ {
+  "id": "pristar",
+  "name": "프리스타 (Pristar)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "턴모일",
+  "tags": []
+ },
+ {
+  "id": "utopia-invest",
+  "name": "유토피아 (Utopia Invest)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "턴모일",
+  "tags": []
+ },
+ {
+  "id": "aeron-genomics",
+  "name": "Aeron Genomics",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "anubis-securities",
+  "name": "Anubis Securities",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "arborist-collective",
+  "name": "Arborist Collective",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "demetron-labs",
+  "name": "Demetron Labs",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "hadesphere",
+  "name": "Hadesphere",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "hecate-speditions",
+  "name": "Hecate Speditions",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "henkei-genetics",
+  "name": "Henkei Genetics",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "jenson-boyle-co",
+  "name": "Jenson-Boyle & Co",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "keplertec",
+  "name": "Keplertec",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "kingdom-of-tauraro",
+  "name": "Kingdom of Tauraro",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "voltagon",
+  "name": "Voltagon",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "언더월드",
+  "tags": []
+ },
+ {
+  "id": "aphrodite",
+  "name": "아프로디테 (Aphrodite)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "비너스 넥스트",
+  "tags": []
+ },
+ {
+  "id": "celestic",
+  "name": "셀레스틱 (Celestic)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "비너스 넥스트",
+  "tags": []
+ },
+ {
+  "id": "manutech",
+  "name": "매뉴테크 (Manutech)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "비너스 넥스트",
+  "tags": []
+ },
+ {
+  "id": "morning-star-inc",
+  "name": "모닝스타 인코퍼레이션 (Morning Star Inc.)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "비너스 넥스트",
+  "tags": []
+ },
+ {
+  "id": "viron",
+  "name": "바이론 (Viron)",
+  "startingResources": "",
+  "effect": "",
+  "expansion": "비너스 넥스트",
+  "tags": []
  }
 ]
