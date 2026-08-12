@@ -69,8 +69,16 @@ Single-page app, 6 sections. Two content types, handled differently.
 `cards.json` holds everything else (864). A corporation must never appear in both — the
 카드별 평가 section is for cards you play from hand, not corporations you pick at setup.
 
-`cards.json` holds the **full roster (864)** — base game plus every expansion — but only a
-few have details filled in. Unknown values use explicit sentinels, never zero:
+`cards.json` holds the **full roster (864)** — base game plus every expansion.
+
+- **기본판 (208)** — complete: cost, type, tags, and printed `effect` all sourced.
+  Verified by `cardNumber`, which runs 001–208 with no gaps and no duplicates. Use that
+  number range to re-verify after any bulk edit; a count alone won't catch a swap.
+  33 of them have an empty `effect` because those cards carry no printed text at all —
+  they're icon-only. That is correct data, not a gap to fill.
+- **Expansions (656)** — name and `expansion` only, so far.
+
+Unknown values use explicit sentinels, never zero:
 
 - `cost: null` → renders `? M€`
 - `type: ""` → the type badge is hidden, and it stays out of the filter list
@@ -104,17 +112,41 @@ fills in real content.
 
 ---
 
-## Legal
+## Facts vs. opinions
 
-Do not use official **artwork or images** from publisher sources.
+The dividing line is **fact vs. opinion**, not "written by whom".
 
-Card names, numeric costs, and printed effect text are treated as factual reference and
-are sourced from the open-source implementation's data and Korean locale — the owner
-decided this on 2026-08-13, superseding the earlier rule that all descriptive content be
-original.
+**Objective facts — copy them verbatim.** Card names, costs, types, tags, and the effect
+text printed on the card. Don't paraphrase these; a reference consulted mid-game must
+match what's on the table. Source them from the open-source implementation's card data
+and its Korean locale.
 
-The distinction is kept in the data: `effect` is the printed card text (factual), while
-`myNotes` and `myRating` are the owner's own commentary and must never be auto-generated.
+**Opinions — only the owner writes these.** Ratings, strategy commentary, difficulty
+calls, "when is this worth buying". Never auto-generate them, never fill them with a
+plausible-sounding guess, and never present a generated judgement as the owner's.
+
+The data keeps the two apart, and that separation is the point:
+
+| Field | Kind | Who fills it |
+| --- | --- | --- |
+| `name` `cost` `type` `tags` `effect` | fact | sourced, verbatim |
+| `myRating` `myNotes` | opinion | **owner only** |
+
+The same split applies to the prose sections: rules explanations are factual, while the
+strategy calls in `04`–`06` are the owner's own and should be edited by them.
+
+## Images
+
+Not a legal restriction — the concern is **payload size**. The site gets used on a phone
+mid-game, so a slow first paint is the real cost.
+
+Images are fine when they're efficient: inline SVG, CSS-drawn shapes, or icon sprites.
+Prefer vector over raster; avoid publisher artwork scans and large PNG/JPEG assets. The
+starfield and Mars orb are drawn with CSS gradients for exactly this reason — zero
+requests, zero bytes.
+
+If an asset would help comprehension (resource icons, tag symbols, parameter tracks),
+draw it as SVG rather than skipping it.
 
 ---
 
