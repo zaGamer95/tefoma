@@ -53,7 +53,7 @@ export function CardList() {
       (data ?? []).map((card) => ({
         card,
         index: buildIndex(
-          [card.name, card.cost ?? '', card.myNotes],
+          [card.name, card.cost ?? '', card.effect, card.myNotes],
           [card.type, card.expansion, ...card.tags],
         ),
       })),
@@ -178,8 +178,13 @@ export function CardList() {
             <Rating value={card.myRating} />
           </div>
 
+          {card.effect && <p className="effect">{card.effect}</p>}
+
           {card.myNotes ? (
-            <p className="card__body">{card.myNotes}</p>
+            <p className="card__body">
+              <span className="note-label">내 메모</span>
+              {card.myNotes}
+            </p>
           ) : (
             <p className="card__body card__body--empty">
               아직 메모를 쓰지 않았습니다. <code>public/data/cards.json</code> 의{' '}
