@@ -272,24 +272,57 @@ body::before {
 }
 .prose blockquote p:last-child { margin-bottom: 0; }
 
+/*
+ * 표는 감싼 상자가 스크롤한다. 표 자체에 overflow를 걸면 display:block 이 되어
+ * 열 너비 계산이 깨지고 헤더와 본문이 어긋난다.
+ */
+.table-wrap {
+  margin: 0 0 1.6rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  background: var(--bg-sunken);
+  /* 넘칠 때 오른쪽에 잘린 느낌을 주는 그림자 */
+  background-image: linear-gradient(to left, rgba(255, 106, 19, 0.10), transparent 2.5rem);
+}
+
 .prose table {
   width: 100%;
   border-collapse: collapse;
-  margin: 0 0 1.5rem;
-  font-size: 0.92rem;
-  display: block;
-  overflow-x: auto;
+  font-size: 0.9rem;
+  /* 좁은 화면에서 글자가 뭉개지는 대신 스크롤되도록 */
+  min-width: max-content;
 }
-.prose th, .prose td { padding: 0.55rem 0.8rem; border-bottom: 1px solid var(--line-soft); text-align: left; }
-.prose th {
-  background: var(--bg-sunken);
-  color: var(--rust);
-  font-weight: 600;
+
+.prose th,
+.prose td {
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line-soft);
   white-space: nowrap;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-size: 0.78rem;
 }
+
+.prose thead th {
+  position: sticky;
+  top: 0;
+  background: #0b0a09;
+  color: var(--rust);
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--rust-dim);
+}
+
+/* 첫 열은 항목 이름인 경우가 많아 강조 */
+.prose tbody td:first-child { color: var(--sand); font-weight: 500; }
+.prose tbody tr:nth-child(odd) { background: rgba(255, 255, 255, 0.018); }
+.prose tbody tr:hover { background: rgba(255, 106, 19, 0.06); }
+.prose tbody tr:last-child td { border-bottom: 0; }
+
+/* 숫자·수치 열은 자릿수를 맞춰 읽기 쉽게 */
+.prose td { font-variant-numeric: tabular-nums; }
 
 /* ── 목록 UI (기업 / 카드) ──────────────────────────────── */
 .list { max-width: 60rem; }
