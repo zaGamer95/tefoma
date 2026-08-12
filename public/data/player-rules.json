@@ -1,0 +1,106 @@
+{
+ "source": "공식 룰북 (Terraforming Mars, FryxGames) — 솔로 변형 및 어워드 항목",
+ "baseline": 3,
+ "fields": [
+  { "key": "startingTR", "label": "시작 TR" },
+  { "key": "generations", "label": "세대 수" },
+  { "key": "milestones", "label": "마일스톤" },
+  { "key": "awardFirst", "label": "어워드 1위" },
+  { "key": "awardSecond", "label": "어워드 2위" },
+  { "key": "neutral", "label": "중립 타일" },
+  { "key": "lose", "label": "패배 조건" }
+ ],
+ "counts": [
+  {
+   "n": 1,
+   "label": "1인 (솔로)",
+   "values": {
+    "startingTR": "14",
+    "generations": "정확히 14세대",
+    "milestones": "사용하지 않음",
+    "awardFirst": "사용하지 않음",
+    "awardSecond": "사용하지 않음",
+    "neutral": "도시 2개 + 인접 녹지 2개",
+    "lose": "14세대 끝까지 세 파라미터를 못 채우면 패배"
+   },
+   "notes": [
+    "중립 타일은 산소를 올리지 않는다. 덱 맨 위 카드 4장의 비용 숫자로 위치를 정한다.",
+    "시작 생산력 보너스 없이 시작한다.",
+    "중립 상대가 있어 자원·생산력을 빼앗거나 깎는 카드를 쓸 수 있다.",
+    "14세대가 끝난 뒤에도 식물을 녹지로 바꿀 수 있다. 단 이때는 산소가 오르지 않는다.",
+    "타르시스 리퍼블릭을 고르면 중립 도시 2개에 대한 M€ 생산력도 받는다.",
+    "공식 룰북의 솔로 규칙은 코퍼레이트 에라 기준으로 쓰여 있다."
+   ]
+  },
+  {
+   "n": 2,
+   "label": "2인",
+   "values": {
+    "startingTR": "20",
+    "generations": "세 파라미터가 다 찰 때까지",
+    "milestones": "8M€, 최대 3개, 각 5VP",
+    "awardFirst": "5VP",
+    "awardSecond": "0VP (2인전 예외)",
+    "neutral": "없음",
+    "lose": "없음"
+   },
+   "notes": [
+    "2인전에서는 어워드 2위에 점수가 없다. 1위만 5VP를 가져간다.",
+    "그래서 어워드 하나의 가치가 3~5인전보다 크다. 후원 전에 1위를 확실히 잡을 수 있는지 보고 결정할 것.",
+    "그 밖의 규칙은 3~5인전과 같다."
+   ]
+  },
+  {
+   "n": 3,
+   "label": "3인",
+   "values": {
+    "startingTR": "20",
+    "generations": "세 파라미터가 다 찰 때까지",
+    "milestones": "8M€, 최대 3개, 각 5VP",
+    "awardFirst": "5VP",
+    "awardSecond": "2VP",
+    "neutral": "없음",
+    "lose": "없음"
+   },
+   "notes": [
+    "표준 규칙이 그대로 적용된다.",
+    "인원이 늘수록 타일 경쟁이 심해져 도시·녹지 계열의 가치가 오른다."
+   ]
+  },
+  {
+   "n": 4,
+   "label": "4인",
+   "values": {
+    "startingTR": "20",
+    "generations": "세 파라미터가 다 찰 때까지",
+    "milestones": "8M€, 최대 3개, 각 5VP",
+    "awardFirst": "5VP",
+    "awardSecond": "2VP",
+    "neutral": "없음",
+    "lose": "없음"
+   },
+   "notes": [
+    "표준 규칙이 그대로 적용된다.",
+    "파라미터가 빨리 오르므로 생산 카드의 회수 기간이 짧아진다. 엔진을 더 일찍 접어야 한다."
+   ]
+  },
+  {
+   "n": 5,
+   "label": "5인",
+   "values": {
+    "startingTR": "20",
+    "generations": "세 파라미터가 다 찰 때까지",
+    "milestones": "8M€, 최대 3개, 각 5VP",
+    "awardFirst": "5VP",
+    "awardSecond": "2VP",
+    "neutral": "없음",
+    "lose": "없음"
+   },
+   "notes": [
+    "표준 규칙이 그대로 적용된다.",
+    "마일스톤은 최대 3개뿐이라 선착순 경쟁이 가장 치열하다.",
+    "게임이 가장 빨리 끝나므로 후반을 노린 장기 엔진은 회수되지 않는다."
+   ]
+  }
+ ]
+}

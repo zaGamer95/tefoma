@@ -334,6 +334,121 @@ body::before {
 /* 숫자·수치 열은 자릿수를 맞춰 읽기 쉽게 */
 .prose td { font-variant-numeric: tabular-nums; }
 
+/* ── 인원수별 규칙 패널 ─────────────────────────────────── */
+.pcount {
+  max-width: 70ch;
+  margin: 0 0 2.5rem;
+  padding: 1.1rem 1.2rem 1rem;
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.pcount__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.pcount__title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.pcount__tabs {
+  display: flex;
+  gap: 0.3rem;
+  background: var(--bg-sunken);
+  border: 1px solid var(--line-soft);
+  border-radius: 999px;
+  padding: 0.2rem;
+}
+
+.pcount__tab {
+  min-width: 2.9rem;
+  min-height: 2.1rem;
+  padding: 0.25rem 0.6rem;
+  font: inherit;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.76rem;
+  color: var(--sand-dim);
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.pcount__tab:hover { color: var(--sand); }
+.pcount__tab--on {
+  background: var(--rust);
+  color: #120800;
+  box-shadow: var(--glow);
+}
+
+.pcount__label {
+  margin: 0.9rem 0 0.6rem;
+  font-size: 0.82rem;
+  color: var(--rust-bright);
+}
+
+.pcount__grid { margin: 0; }
+
+.pcount__row {
+  display: flex;
+  gap: 0.9rem;
+  padding: 0.45rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.88rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+.pcount__row:last-child { border-bottom: 0; }
+.pcount__row dt { flex: none; width: 6.5rem; color: var(--dust); }
+.pcount__row dd { margin: 0; }
+
+/* 표준(3~5인)과 값이 다른 항목만 눈에 띄게 */
+.pcount__row--diff { background: rgba(255, 106, 19, 0.07); }
+.pcount__row--diff dd { color: #fff; font-weight: 500; }
+
+.pcount__badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.02rem 0.4rem;
+  font-size: 0.63rem;
+  letter-spacing: 0.04em;
+  color: var(--rust);
+  border: 1px solid var(--rust-dim);
+  border-radius: 3px;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+}
+
+.pcount__notes {
+  margin: 0.9rem 0 0;
+  padding-left: 1.1rem;
+  font-size: 0.84rem;
+  line-height: 1.65;
+  color: var(--sand-dim);
+}
+.pcount__notes li { margin-bottom: 0.35rem; }
+.pcount__notes li::marker { color: var(--rust-dim); }
+
+.pcount__source {
+  margin: 0.9rem 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--line-soft);
+  font-size: 0.7rem;
+  color: var(--dust);
+}
+
+@media (max-width: 480px) {
+  .pcount__row { flex-direction: column; gap: 0.15rem; }
+  .pcount__row dt { width: auto; font-size: 0.75rem; }
+}
+
 /* ── 목록 UI (기업 / 카드) ──────────────────────────────── */
 .list { max-width: 60rem; }
 

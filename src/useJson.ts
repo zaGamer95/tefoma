@@ -13,7 +13,13 @@ interface JsonState<T> {
  * 404가 난다. (프로젝트 규칙 3번)
  */
 export function useJson<T>(file: string): JsonState<T> {
-  const [data, setData] = useState<T[] | null>(null)
+  const { data, error } = useJsonDoc<T[]>(file)
+  return { data, error }
+}
+
+/** 배열이 아니라 객체 하나를 담은 JSON용. */
+export function useJsonDoc<T>(file: string): { data: T | null; error: string | null } {
+  const [data, setData] = useState<T | null>(null)
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
@@ -24,7 +30,7 @@ export function useJson<T>(file: string): JsonState<T> {
         if (!res.ok) throw new Error(`${res.status} ${res.statusText}`)
         return res.json()
       })
-      .then((json: T[]) => {
+      .then((json: T) => {
         if (!cancelled) setData(json)
       })
       .catch((err: unknown) => {
