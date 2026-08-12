@@ -3,21 +3,84 @@
     "id": "credicor",
     "name": "크레디코르 (Credicor)",
     "startingResources": "57 M€",
-    "effect": "20M€ 이상인 카드나 표준 프로젝트를 실행할 때 4M€ 할인.",
-    "tags": ["자금", "무난함", "초보추천"]
+    "effect": "20M€ 이상짜리 카드나 표준 프로젝트를 실행할 때마다 4M€를 돌려받는다.",
+    "tags": ["난이도 하", "자금", "표준프로젝트"]
   },
   {
     "id": "ecoline",
     "name": "에코라인 (Ecoline)",
-    "startingResources": "36 M€, 식물 생산 2, 식물 3",
-    "effect": "식물 7개로 녹지 타일을 놓을 수 있음 (기본 8개).",
-    "tags": ["식물", "녹지", "중급"]
+    "startingResources": "36 M€, 식물 3, 식물 생산 2",
+    "effect": "식물 7개로 녹지를 놓을 수 있다 (기본 8개).",
+    "tags": ["난이도 중", "식물", "녹지"]
   },
   {
     "id": "helion",
     "name": "헬리온 (Helion)",
     "startingResources": "42 M€, 열 생산 3",
-    "effect": "열을 M€ 대신 지불 수단으로 사용 가능.",
-    "tags": ["열", "온도", "유연함", "상급"]
+    "effect": "열을 M€ 대신 지불 수단으로 쓸 수 있다.",
+    "tags": ["난이도 상", "열", "온도", "유연함"]
+  },
+  {
+    "id": "interplanetary-cinematics",
+    "name": "인터플래니터리 시네마틱스 (Interplanetary Cinematics)",
+    "startingResources": "30 M€, 철 20",
+    "effect": "이벤트 카드를 낼 때마다 2M€를 받는다.",
+    "tags": ["난이도 중", "건축", "이벤트", "철"]
+  },
+  {
+    "id": "inventrix",
+    "name": "인벤트릭스 (Inventrix)",
+    "startingResources": "45 M€, 시작 시 카드 3장",
+    "effect": "카드의 글로벌 요구조건을 위아래로 3단계까지 완화해서 적용한다.",
+    "tags": ["난이도 중", "과학", "유연함"]
+  },
+  {
+    "id": "mining-guild",
+    "name": "마이닝 길드 (Mining Guild)",
+    "startingResources": "30 M€, 철 5, 철 생산 1",
+    "effect": "철 또는 티타늄 보너스가 있는 칸에 타일을 놓을 때마다 철 생산 +1.",
+    "tags": ["난이도 중", "건축", "철", "타일"]
+  },
+  {
+    "id": "phobolog",
+    "name": "포보로그 (PhoboLog)",
+    "startingResources": "23 M€, 티타늄 10",
+    "effect": "티타늄의 가치가 1M€ 오른다 (개당 4M€).",
+    "tags": ["난이도 중", "우주", "티타늄"]
+  },
+  {
+    "id": "saturn-systems",
+    "name": "새턴 시스템즈 (Saturn Systems)",
+    "startingResources": "42 M€, 티타늄 생산 1",
+    "effect": "누구든 목성 태그 카드를 낼 때마다 2M€를 받는다.",
+    "tags": ["난이도 중", "목성", "우주", "수입"]
+  },
+  {
+    "id": "teractor",
+    "name": "테랙터 (Teractor)",
+    "startingResources": "60 M€",
+    "effect": "지구 태그가 붙은 카드의 비용이 3M€ 싸진다.",
+    "tags": ["난이도 하", "지구", "자금"]
+  },
+  {
+    "id": "tharsis-republic",
+    "name": "타르시스 리퍼블릭 (Tharsis Republic)",
+    "startingResources": "40 M€, 시작 시 도시 타일 1개",
+    "effect": "누구든 도시를 놓으면 3M€. 내가 도시를 놓으면 M€ 생산도 +1.",
+    "tags": ["난이도 하", "도시", "타일", "수입"]
+  },
+  {
+    "id": "thorgate",
+    "name": "토르게이트 (ThorGate)",
+    "startingResources": "48 M€, 에너지 생산 1",
+    "effect": "발전소 표준 프로젝트와 에너지 태그 카드가 3M€ 싸진다.",
+    "tags": ["난이도 하", "에너지", "전력"]
+  },
+  {
+    "id": "unmi",
+    "name": "국제연합 화성 이니셔티브 (United Nations Mars Initiative)",
+    "startingResources": "40 M€",
+    "effect": "이번 세대에 TR을 이미 올렸다면, 3M€를 내고 TR을 1 더 올릴 수 있다.",
+    "tags": ["난이도 상", "지구", "TR"]
   }
 ]
