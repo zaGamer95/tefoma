@@ -4,6 +4,7 @@ import { Sidebar } from './components/Sidebar'
 import { Prose } from './components/Prose'
 import { CorporationList } from './components/CorporationList'
 import { CardList } from './components/CardList'
+import { PlayerCountRules } from './components/PlayerCountRules'
 import { SECTIONS } from './sections'
 import type { SectionDef } from './sections'
 
@@ -16,6 +17,11 @@ function renderSection(section: SectionDef) {
     case 'prose':
       return <Prose content={section.content ?? ''} />
   }
+}
+
+function renderWidget(section: SectionDef) {
+  if (section.widget === 'playerCount') return <PlayerCountRules />
+  return null
 }
 
 export default function App() {
@@ -71,6 +77,7 @@ export default function App() {
                 element={
                   <>
                     <h1 className="page-title">{section.title}</h1>
+                    {renderWidget(section)}
                     {renderSection(section)}
                   </>
                 }

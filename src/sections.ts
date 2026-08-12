@@ -17,6 +17,8 @@ export interface SectionDef {
   kind: SectionKind
   /** kind === 'prose' 일 때만 존재 */
   content?: string
+  /** 본문 위에 얹을 인터랙티브 패널 */
+  widget?: 'playerCount'
 }
 
 /**
@@ -24,7 +26,7 @@ export interface SectionDef {
  * 섹션을 추가하려면 여기에만 넣으면 된다.
  */
 export const SECTIONS: SectionDef[] = [
-  { path: 'basics', title: '기초 규칙', kind: 'prose', content: basics },
+  { path: 'basics', title: '기초 규칙', kind: 'prose', content: basics, widget: 'playerCount' },
   { path: 'corporations', title: '기업별 일람', kind: 'corps' },
   { path: 'cards', title: '카드별 평가', kind: 'cards' },
   { path: 'corp-difficulty', title: '기업별 난이도와 전략', kind: 'prose', content: corpDifficulty },
