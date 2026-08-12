@@ -322,6 +322,33 @@ body::before {
 
 .chip--alt { border-style: dashed; }
 
+.cost--unknown { color: var(--dust); background: transparent; border: 1px dashed var(--line); }
+
+.expansion {
+  font-size: 0.72rem;
+  color: var(--rust-bright);
+  background: rgba(200, 85, 43, 0.12);
+  border-radius: 4px;
+  padding: 0.05rem 0.45rem;
+  white-space: nowrap;
+}
+
+.more {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0 2rem;
+  padding: 0.85rem;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--sand);
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.more:hover { border-color: var(--rust); background: rgba(200, 85, 43, 0.1); }
+.more small { color: var(--dust); }
+
 .card__body { margin: 0.8rem 0 0; font-size: 0.94rem; line-height: 1.7; }
 
 .card__body--empty { color: var(--dust); font-size: 0.85rem; font-style: italic; }

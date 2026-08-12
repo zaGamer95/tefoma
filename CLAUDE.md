@@ -63,7 +63,18 @@ Single-page app, 6 sections. Two content types, handled differently.
 | File | Section | Fields |
 | --- | --- | --- |
 | `corporations.json` | 기업별 일람 | `id`, `name`, `startingResources`, `effect`, `tags` |
-| `cards.json` | 카드별 평가 | `id`, `name`, `cost`, `type`, `tags`, `myRating` (1–5), `myNotes`, `synergies[]` |
+| `cards.json` | 카드별 평가 | `id`, `name`, `cost`, `type`, `tags`, `expansion`, `myRating` (1–5), `myNotes`, `synergies[]` |
+
+`cards.json` holds the **full roster (941)** — base game plus every expansion — but only a
+few have details filled in. Unknown values use explicit sentinels, never zero:
+
+- `cost: null` → renders `? M€`
+- `type: ""` → the type badge is hidden, and it stays out of the filter list
+- `myRating: 0` → renders **미평가**, not zero stars
+
+`expansion` is the module label (`기본판`, `프렐류드`, `비너스 넥스트`, …) and drives its own
+filter row. Card data is verified against the open-source implementation
+[terraforming-mars/terraforming-mars](https://github.com/terraforming-mars/terraforming-mars).
 
 **`synergies[]` references other card `id`s and must render as clickable links that
 jump to the referenced card.** This is the single most important feature of the cards
