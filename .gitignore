@@ -1,0 +1,17 @@
+# Secrets — never commit
+.secrets/
+.env
+.env.*
+*.pem
+*.key
+.claude/settings.local.json
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# macOS
+.DS_Store
