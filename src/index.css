@@ -132,10 +132,20 @@ body::before {
   display: flex;
   align-items: center;
   gap: 0.7rem;
-  padding: 0 0.5rem 1.25rem;
+  padding: 0.5rem 0.5rem 1.25rem;
   border-bottom: 1px solid var(--line-soft);
   margin-bottom: 1rem;
+  /* 링크지만 밑줄 없이 원래 모양 유지 */
+  text-decoration: none;
+  color: inherit;
+  border-radius: var(--radius);
+  transition: opacity 0.15s ease;
 }
+.sidebar__brand:hover { opacity: 0.82; }
+.sidebar__brand:hover .sidebar__mark {
+  box-shadow: 0 0 0 3px rgba(255, 106, 19, 0.18), 0 0 26px rgba(255, 106, 19, 0.7);
+}
+.sidebar__brand-text { display: block; }
 .sidebar__brand strong {
   display: block;
   font-family: var(--font-display);
