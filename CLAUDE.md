@@ -4,7 +4,11 @@ Personal Terraforming Mars strategy guide. Static site, Korean-language content,
 deployed to GitHub Pages. Written for the repo owner's own reference during play.
 
 - **Repo:** https://github.com/zaGamer95/tefoma (public, default branch `main`)
-- **Live URL:** https://zagamer95.github.io/tefoma/ (GitHub Pages *project page*)
+- **Live URL:** https://wonbo.site/tefoma/ — the user site `zaGamer95.github.io` has the
+  custom domain `wonbo.site`, and project pages inherit it. The `zagamer95.github.io/tefoma/`
+  address redirects there. HTTPS is enforced.
+- **The path segment is still `/tefoma/`**, so `base: '/tefoma/'` is correct either way.
+  A custom domain does *not* move a project page to the domain root.
 - **Site language:** Korean. All UI labels and content in Korean.
 
 ---
@@ -92,6 +96,20 @@ sources. Card names and numeric costs are fine as factual reference. All descrip
 content must be the owner's own commentary.
 
 ---
+
+## Branching — never push directly to `main`
+
+`main` is integration-only. All work lands through a branch and a merge, so every
+change has a reviewable record.
+
+1. Branch off `main` with a name matching the Conventional Commit type:
+   `feat/카드-시너지-링크`, `fix/…`, `docs/…`, `ci/…`, `chore/…`
+2. Commit to that branch (Korean, Conventional Commits)
+3. Push the **branch**, open a PR, then merge it in
+4. Delete the branch after merge
+
+Never `git push origin main`. `.claude/settings.json` hard-denies it as a backstop.
+If a direct push seems necessary, stop and ask instead.
 
 ## Conventions
 
