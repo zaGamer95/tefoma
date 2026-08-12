@@ -4,29 +4,385 @@
     "name": "소행성 (Asteroid)",
     "cost": 14,
     "type": "이벤트",
-    "tags": ["우주", "이벤트"],
-    "myRating": 3,
-    "myNotes": "온도 1단계와 상대 식물 제거를 겸한다. 식물 기업을 상대할 때 값이 크게 오르고, 아무도 식물을 안 모으면 그냥 비싼 온도 카드다. 티타늄으로 값을 깎을 수 있다는 점을 잊지 말 것.",
-    "synergies": ["deep-well-heating"]
+    "tags": [
+      "우주",
+      "이벤트"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "big-asteroid",
+      "deep-well-heating"
+    ]
+  },
+  {
+    "id": "big-asteroid",
+    "name": "대형 소행성 (Big Asteroid)",
+    "cost": 27,
+    "type": "이벤트",
+    "tags": [
+      "우주",
+      "이벤트"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "asteroid"
+    ]
   },
   {
     "id": "deep-well-heating",
     "name": "심층 열 시추 (Deep Well Heating)",
     "cost": 13,
     "type": "자동",
-    "tags": ["건축", "에너지"],
-    "myRating": 4,
-    "myNotes": "에너지 생산과 온도 1단계를 동시에 준다. 초반에 잡으면 엔진과 파라미터를 한 장으로 해결하는 셈이라 값이 매우 좋다. 8세대 이후에는 생산분을 회수하기 어렵다.",
-    "synergies": ["asteroid", "greenhouses"]
+    "tags": [
+      "건축",
+      "에너지"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "asteroid",
+      "power-plant",
+      "fusion-power"
+    ]
+  },
+  {
+    "id": "power-plant",
+    "name": "발전소 (Power Plant)",
+    "cost": 4,
+    "type": "자동",
+    "tags": [
+      "건축",
+      "에너지"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "deep-well-heating",
+      "mass-converter"
+    ]
+  },
+  {
+    "id": "fusion-power",
+    "name": "핵융합 발전 (Fusion Power)",
+    "cost": 14,
+    "type": "자동",
+    "tags": [
+      "과학",
+      "에너지",
+      "건축"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "deep-well-heating",
+      "mass-converter"
+    ]
+  },
+  {
+    "id": "mass-converter",
+    "name": "질량 변환기 (Mass Converter)",
+    "cost": 8,
+    "type": "자동",
+    "tags": [
+      "과학",
+      "우주",
+      "에너지"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "power-plant",
+      "fusion-power",
+      "space-elevator"
+    ]
   },
   {
     "id": "greenhouses",
     "name": "온실 (Greenhouses)",
     "cost": 6,
     "type": "자동",
-    "tags": ["건축", "식물"],
-    "myRating": 3,
-    "myNotes": "도시 1개당 식물 1개를 받는다. 도시가 많이 깔린 3~4인전 중반에 내면 값이 좋고, 도시가 적은 초반에 내면 거의 빈 카드다. 낼 타이밍을 반드시 기다릴 것.",
-    "synergies": ["deep-well-heating"]
+    "tags": [
+      "건축",
+      "식물"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "protected-valley",
+      "immigrant-city",
+      "ganymede-colony"
+    ]
+  },
+  {
+    "id": "trees",
+    "name": "나무 (Trees)",
+    "cost": 13,
+    "type": "자동",
+    "tags": [
+      "식물"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "grass",
+      "bushes",
+      "protected-valley"
+    ]
+  },
+  {
+    "id": "grass",
+    "name": "풀 (Grass)",
+    "cost": 11,
+    "type": "자동",
+    "tags": [
+      "식물"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "trees",
+      "bushes"
+    ]
+  },
+  {
+    "id": "bushes",
+    "name": "관목 (Bushes)",
+    "cost": 10,
+    "type": "자동",
+    "tags": [
+      "식물"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "trees",
+      "grass"
+    ]
+  },
+  {
+    "id": "protected-valley",
+    "name": "보호 계곡 (Protected Valley)",
+    "cost": 23,
+    "type": "자동",
+    "tags": [
+      "식물",
+      "건축"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "greenhouses",
+      "trees"
+    ]
+  },
+  {
+    "id": "tardigrades",
+    "name": "완보동물 (Tardigrades)",
+    "cost": 4,
+    "type": "액션",
+    "tags": [
+      "미생물"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "search-for-life"
+    ]
+  },
+  {
+    "id": "search-for-life",
+    "name": "생명체 탐사 (Search for Life)",
+    "cost": 3,
+    "type": "액션",
+    "tags": [
+      "과학"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "tardigrades",
+      "olympus-conference"
+    ]
+  },
+  {
+    "id": "olympus-conference",
+    "name": "올림푸스 회의 (Olympus Conference)",
+    "cost": 10,
+    "type": "자동",
+    "tags": [
+      "과학",
+      "지구",
+      "건축"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "search-for-life",
+      "development-center",
+      "medical-lab",
+      "sponsors"
+    ]
+  },
+  {
+    "id": "development-center",
+    "name": "개발 센터 (Development Center)",
+    "cost": 11,
+    "type": "액션",
+    "tags": [
+      "과학",
+      "건축"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "olympus-conference",
+      "medical-lab"
+    ]
+  },
+  {
+    "id": "medical-lab",
+    "name": "의료 연구소 (Medical Lab)",
+    "cost": 13,
+    "type": "자동",
+    "tags": [
+      "건축",
+      "과학"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "olympus-conference",
+      "development-center",
+      "immigrant-city"
+    ]
+  },
+  {
+    "id": "immigrant-city",
+    "name": "이민 도시 (Immigrant City)",
+    "cost": 13,
+    "type": "자동",
+    "tags": [
+      "도시",
+      "건축"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "greenhouses",
+      "medical-lab",
+      "rover-construction"
+    ]
+  },
+  {
+    "id": "ganymede-colony",
+    "name": "가니메데 콜로니 (Ganymede Colony)",
+    "cost": 20,
+    "type": "자동",
+    "tags": [
+      "우주",
+      "목성",
+      "도시"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "greenhouses",
+      "methane-from-titan",
+      "water-import-from-europa"
+    ]
+  },
+  {
+    "id": "methane-from-titan",
+    "name": "타이탄의 메탄 (Methane from Titan)",
+    "cost": 28,
+    "type": "자동",
+    "tags": [
+      "우주",
+      "목성"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "ganymede-colony",
+      "water-import-from-europa",
+      "space-elevator"
+    ]
+  },
+  {
+    "id": "water-import-from-europa",
+    "name": "에우로파 물 수입 (Water Import from Europa)",
+    "cost": 25,
+    "type": "액션",
+    "tags": [
+      "우주",
+      "목성"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "ganymede-colony",
+      "methane-from-titan"
+    ]
+  },
+  {
+    "id": "space-elevator",
+    "name": "우주 엘리베이터 (Space Elevator)",
+    "cost": 27,
+    "type": "액션",
+    "tags": [
+      "우주",
+      "건축"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "mass-converter",
+      "methane-from-titan"
+    ]
+  },
+  {
+    "id": "mine",
+    "name": "광산 (Mine)",
+    "cost": 4,
+    "type": "자동",
+    "tags": [
+      "건축"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "rover-construction"
+    ]
+  },
+  {
+    "id": "rover-construction",
+    "name": "로버 제작 (Rover Construction)",
+    "cost": 8,
+    "type": "자동",
+    "tags": [
+      "건축"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "immigrant-city",
+      "mine"
+    ]
+  },
+  {
+    "id": "sponsors",
+    "name": "스폰서 (Sponsors)",
+    "cost": 6,
+    "type": "자동",
+    "tags": [
+      "지구"
+    ],
+    "myRating": 0,
+    "myNotes": "",
+    "synergies": [
+      "olympus-conference"
+    ]
   }
 ]

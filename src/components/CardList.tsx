@@ -4,6 +4,8 @@ import type { Card } from '../types'
 
 function Rating({ value }: { value: number }) {
   const v = Math.max(0, Math.min(5, Math.round(value)))
+  // 0 = 아직 평가하지 않음. 별 0개로 두면 "최하점"처럼 보이므로 구분해서 표시한다.
+  if (v === 0) return <span className="unrated">미평가</span>
   return (
     <span className="rating" title={`${v} / 5`} aria-label={`평가 ${v}점 만점 5점`}>
       <span className="rating__on" aria-hidden="true">{'★'.repeat(v)}</span>
@@ -16,6 +18,8 @@ export function CardList() {
   const { data, error } = useJson<Card>('cards.json')
   const [query, setQuery] = useState('')
   const [type, setType] = useState('전체')
+  /** 평가를 아직 안 쓴 카드만 추리기 — 채워 넣을 때 쓴다 */
+  const [unratedOnly, setUnratedOnly] = useState(false)
   /** 시너지 링크로 방금 이동한 카드 — 잠시 강조 표시 */
   const [focused, setFocused] = useState<string | null>(null)
 
@@ -36,14 +40,15 @@ export function CardList() {
     const q = query.trim().toLowerCase()
     return data.filter((c) => {
       const matchesType = type === '전체' || c.type === type
+      const matchesRated = !unratedOnly || !c.myRating
       const matchesQuery =
         !q ||
         c.name.toLowerCase().includes(q) ||
         c.myNotes.toLowerCase().includes(q) ||
         c.tags.some((t) => t.toLowerCase().includes(q))
-      return matchesType && matchesQuery
+      return matchesType && matchesRated && matchesQuery
     })
-  }, [data, query, type])
+  }, [data, query, type, unratedOnly])
 
   /**
    * 시너지 링크 클릭. 대상 카드가 현재 필터에 걸러져 있을 수 있으므로
@@ -52,6 +57,7 @@ export function CardList() {
   function jumpTo(id: string) {
     setQuery('')
     setType('전체')
+    setUnratedOnly(false)
     setFocused(id)
   }
 
@@ -90,6 +96,14 @@ export function CardList() {
               {t}
             </button>
           ))}
+          <button
+            type="button"
+            className={`chip chip--alt${unratedOnly ? ' chip--on' : ''}`}
+            onClick={() => setUnratedOnly((v) => !v)}
+            aria-pressed={unratedOnly}
+          >
+            미평가만
+          </button>
         </div>
       </div>
 
@@ -111,7 +125,14 @@ export function CardList() {
             <Rating value={card.myRating} />
           </div>
 
-          <p className="card__body">{card.myNotes}</p>
+          {card.myNotes ? (
+            <p className="card__body">{card.myNotes}</p>
+          ) : (
+            <p className="card__body card__body--empty">
+              아직 메모를 쓰지 않았습니다. <code>public/data/cards.json</code> 의{' '}
+              <code>myNotes</code> 와 <code>myRating</code> 을 채우세요.
+            </p>
+          )}
 
           <ul className="tags">
             {card.tags.map((t) => (
