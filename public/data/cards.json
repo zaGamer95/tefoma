@@ -84,10 +84,9 @@
     "id": "mass-converter",
     "name": "질량 변환기 (Mass Converter)",
     "cost": 8,
-    "type": "자동",
+    "type": "액션",
     "tags": [
       "과학",
-      "우주",
       "에너지"
     ],
     "myRating": 0,
@@ -210,7 +209,7 @@
     "id": "olympus-conference",
     "name": "올림푸스 회의 (Olympus Conference)",
     "cost": 10,
-    "type": "자동",
+    "type": "액션",
     "tags": [
       "과학",
       "지구",
@@ -262,7 +261,7 @@
     "id": "immigrant-city",
     "name": "이민 도시 (Immigrant City)",
     "cost": 13,
-    "type": "자동",
+    "type": "액션",
     "tags": [
       "도시",
       "건축"
@@ -360,7 +359,7 @@
     "id": "rover-construction",
     "name": "로버 제작 (Rover Construction)",
     "cost": 8,
-    "type": "자동",
+    "type": "액션",
     "tags": [
       "건축"
     ],
