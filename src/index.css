@@ -312,7 +312,27 @@ body::before {
 .rating__on { color: var(--rust-bright); }
 .rating__off { color: var(--line); }
 
+.unrated {
+  font-size: 0.72rem;
+  color: var(--dust);
+  border: 1px dashed var(--line);
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+}
+
+.chip--alt { border-style: dashed; }
+
 .card__body { margin: 0.8rem 0 0; font-size: 0.94rem; line-height: 1.7; }
+
+.card__body--empty { color: var(--dust); font-size: 0.85rem; font-style: italic; }
+.card__body--empty code {
+  font-style: normal;
+  background: var(--bg-sunken);
+  border: 1px solid var(--line-soft);
+  border-radius: 3px;
+  padding: 0 0.3em;
+  font-size: 0.9em;
+}
 
 .tags { display: flex; flex-wrap: wrap; gap: 0.35rem; list-style: none; margin: 0.85rem 0 0; padding: 0; }
 .tag {
