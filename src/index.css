@@ -441,6 +441,8 @@ body::before {
 /* 검색창·개수 등 계기판스러운 소소한 마감 */
 .count {
   font-family: var(--font-display);
+  /* Orbitron은 500/700/900만 자체 호스팅한다. 400을 쓰면 합성 굵기가 나온다. */
+  font-weight: 500;
   font-size: 0.7rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
