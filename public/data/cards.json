@@ -1,0 +1,32 @@
+[
+  {
+    "id": "asteroid",
+    "name": "소행성 (Asteroid)",
+    "cost": 14,
+    "type": "이벤트",
+    "tags": ["우주", "이벤트"],
+    "myRating": 3,
+    "myNotes": "온도 1단계와 상대 식물 제거를 겸한다. 식물 기업을 상대할 때 값이 크게 오르고, 아무도 식물을 안 모으면 그냥 비싼 온도 카드다. 티타늄으로 값을 깎을 수 있다는 점을 잊지 말 것.",
+    "synergies": ["deep-well-heating"]
+  },
+  {
+    "id": "deep-well-heating",
+    "name": "심층 열 시추 (Deep Well Heating)",
+    "cost": 13,
+    "type": "자동",
+    "tags": ["건축", "에너지"],
+    "myRating": 4,
+    "myNotes": "에너지 생산과 온도 1단계를 동시에 준다. 초반에 잡으면 엔진과 파라미터를 한 장으로 해결하는 셈이라 값이 매우 좋다. 8세대 이후에는 생산분을 회수하기 어렵다.",
+    "synergies": ["asteroid", "greenhouses"]
+  },
+  {
+    "id": "greenhouses",
+    "name": "온실 (Greenhouses)",
+    "cost": 6,
+    "type": "자동",
+    "tags": ["건축", "식물"],
+    "myRating": 3,
+    "myNotes": "도시 1개당 식물 1개를 받는다. 도시가 많이 깔린 3~4인전 중반에 내면 값이 좋고, 도시가 적은 초반에 내면 거의 빈 카드다. 낼 타이밍을 반드시 기다릴 것.",
+    "synergies": ["deep-well-heating"]
+  }
+]

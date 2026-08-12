@@ -1,0 +1,23 @@
+[
+  {
+    "id": "credicor",
+    "name": "크레디코르 (Credicor)",
+    "startingResources": "57 M€",
+    "effect": "20M€ 이상인 카드나 표준 프로젝트를 실행할 때 4M€ 할인.",
+    "tags": ["자금", "무난함", "초보추천"]
+  },
+  {
+    "id": "ecoline",
+    "name": "에코라인 (Ecoline)",
+    "startingResources": "36 M€, 식물 생산 2, 식물 3",
+    "effect": "식물 7개로 녹지 타일을 놓을 수 있음 (기본 8개).",
+    "tags": ["식물", "녹지", "중급"]
+  },
+  {
+    "id": "helion",
+    "name": "헬리온 (Helion)",
+    "startingResources": "42 M€, 열 생산 3",
+    "effect": "열을 M€ 대신 지불 수단으로 사용 가능.",
+    "tags": ["열", "온도", "유연함", "상급"]
+  }
+]
