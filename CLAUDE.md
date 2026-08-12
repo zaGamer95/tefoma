@@ -97,6 +97,20 @@ content must be the owner's own commentary.
 
 ---
 
+## Branching — never push directly to `main`
+
+`main` is integration-only. All work lands through a branch and a merge, so every
+change has a reviewable record.
+
+1. Branch off `main` with a name matching the Conventional Commit type:
+   `feat/카드-시너지-링크`, `fix/…`, `docs/…`, `ci/…`, `chore/…`
+2. Commit to that branch (Korean, Conventional Commits)
+3. Push the **branch**, open a PR, then merge it in
+4. Delete the branch after merge
+
+Never `git push origin main`. `.claude/settings.json` hard-denies it as a backstop.
+If a direct push seems necessary, stop and ask instead.
+
 ## Conventions
 
 - **Commit messages in Korean, Conventional Commits format** — e.g. `feat: 카드 시너지 링크 추가`
