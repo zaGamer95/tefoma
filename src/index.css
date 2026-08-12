@@ -90,9 +90,9 @@ body::before {
 .hamburger {
   display: grid;
   gap: 4px;
-  width: 2.5rem;
-  height: 2.5rem;
-  padding: 0.6rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0.65rem;
   align-content: center;
   background: transparent;
   border: 1px solid var(--line);
@@ -229,6 +229,9 @@ body::before {
   .sidebar { transform: none; }
   .content { padding-top: 0; margin-left: var(--sidebar-w); }
   .content__inner { padding: 3rem 3rem 6rem; }
+  /* 폭이 넉넉하므로 칩은 줄바꿈으로 전부 보여 준다 */
+  .chips { flex-wrap: wrap; overflow-x: visible; }
+  .chip { min-height: 2rem; }
 }
 
 /* ── 산문 ────────────────────────────────────────────────── */
@@ -295,9 +298,14 @@ body::before {
 
 .toolbar__search {
   width: 100%;
-  padding: 0.7rem 0.9rem;
+  padding: 0.75rem 0.9rem;
   font: inherit;
-  font-size: 0.95rem;
+  /*
+   * 16px 미만이면 iOS Safari가 입력 포커스 시 화면을 확대해 버린다.
+   * 확대된 뒤에는 스스로 돌아오지 않아 검색할 때마다 레이아웃이 튄다.
+   * 반드시 1rem 이상 유지할 것.
+   */
+  font-size: 1rem;
   color: var(--sand);
   background: var(--bg-sunken);
   border: 1px solid var(--line);
@@ -306,12 +314,34 @@ body::before {
 .toolbar__search::placeholder { color: var(--dust); }
 .toolbar__search:focus { border-color: var(--rust); outline: none; }
 
-.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+/*
+ * 칩이 많다 (기업 목록은 35개). 좁은 화면에서 줄바꿈하면 필터만 열 줄 가까이
+ * 차지해 본문이 화면 밖으로 밀린다. 그래서 모바일에서는 한 줄로 두고 가로 스크롤.
+ * 데스크톱에서는 폭이 넉넉하므로 줄바꿈한다.
+ */
+.chips {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 0.15rem;
+  /* 스크롤 중 칩이 잘려 보이지 않도록 */
+  scroll-snap-type: x proximity;
+}
+.chips::-webkit-scrollbar { display: none; }
+.chips > * { scroll-snap-align: start; }
 
 .chip {
-  padding: 0.32rem 0.78rem;
+  display: inline-flex;
+  align-items: center;
+  /* 손가락으로 누를 수 있는 최소 높이 */
+  min-height: 2.5rem;
+  white-space: nowrap;
+  flex: none;
+  padding: 0.32rem 0.85rem;
   font: inherit;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   color: var(--sand-dim);
   background: transparent;
   border: 1px solid var(--line);
@@ -362,8 +392,16 @@ body::before {
 }
 .card--focused::before { opacity: 1; }
 
-.card__head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
-.card__name { font-size: 1.04rem; margin: 0; letter-spacing: 0; font-weight: 600; }
+.card__head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.75rem; }
+.card__name {
+  font-size: 1.04rem;
+  margin: 0;
+  letter-spacing: 0;
+  font-weight: 600;
+  /* 이름이 최대 47자라 좁은 화면에서 비용 배지를 밀어내지 않도록 줄어들 수 있게 */
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
 
 .cost {
   flex: none;
@@ -486,8 +524,11 @@ body::before {
 .synergy__list { display: flex; flex-wrap: wrap; gap: 0.4rem; list-style: none; margin: 0; padding: 0; }
 
 .synergy__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
   font: inherit;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   color: var(--rust-bright);
   background: rgba(255, 106, 19, 0.08);
   border: 1px solid var(--rust-dim);

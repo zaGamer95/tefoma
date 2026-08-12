@@ -5327,7 +5327,7 @@
  },
  {
   "id": "deimos-down-promo",
-  "name": "Deimos Down:promo",
+  "name": "Deimos Down",
   "cost": null,
   "type": "",
   "tags": [],
@@ -5459,7 +5459,7 @@
  },
  {
   "id": "great-dam-promo",
-  "name": "Great Dam:promo",
+  "name": "Great Dam",
   "cost": null,
   "type": "",
   "tags": [],
@@ -5613,7 +5613,7 @@
  },
  {
   "id": "magnetic-field-generators-promo",
-  "name": "Magnetic Field Generators:promo",
+  "name": "Magnetic Field Generators",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6185,7 +6185,7 @@
  },
  {
   "id": "capital-ares",
-  "name": "Capital:ares",
+  "name": "Capital",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6196,7 +6196,7 @@
  },
  {
   "id": "commercial-district-ares",
-  "name": "상업지구 (아레스) (Commercial District:ares)",
+  "name": "상업지구 (Commercial District)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6207,7 +6207,7 @@
  },
  {
   "id": "deimos-down-ares",
-  "name": "데이모스 추락 (아레스) (Deimos Down:ares)",
+  "name": "데이모스 추락 (Deimos Down)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6240,7 +6240,7 @@
  },
  {
   "id": "ecological-zone-ares",
-  "name": "Ecological Zone:ares",
+  "name": "Ecological Zone",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6262,7 +6262,7 @@
  },
  {
   "id": "great-dam-ares",
-  "name": "Great Dam:ares",
+  "name": "Great Dam",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6273,7 +6273,7 @@
  },
  {
   "id": "industrial-center-ares",
-  "name": "Industrial Center:ares",
+  "name": "Industrial Center",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6284,7 +6284,7 @@
  },
  {
   "id": "lava-flows-ares",
-  "name": "Lava Flows:ares",
+  "name": "Lava Flows",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6295,7 +6295,7 @@
  },
  {
   "id": "magnetic-field-generators-ares",
-  "name": "자기장 생성기 (아레스) (Magnetic Field Generators:ares)",
+  "name": "자기장 생성기 (Magnetic Field Generators)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6328,7 +6328,7 @@
  },
  {
   "id": "mining-area-ares",
-  "name": "Mining Area:ares",
+  "name": "Mining Area",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6339,7 +6339,7 @@
  },
  {
   "id": "mining-rights-ares",
-  "name": "Mining Rights:ares",
+  "name": "Mining Rights",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6350,7 +6350,7 @@
  },
  {
   "id": "mohole-area-ares",
-  "name": "모홀 구역 (아레스) (Mohole Area:ares)",
+  "name": "모홀 구역 (Mohole Area)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6361,7 +6361,7 @@
  },
  {
   "id": "natural-preserve-ares",
-  "name": "Natural Preserve:ares",
+  "name": "Natural Preserve",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6372,7 +6372,7 @@
  },
  {
   "id": "nuclear-zone-ares",
-  "name": "Nuclear Zone:ares",
+  "name": "Nuclear Zone",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6416,7 +6416,7 @@
  },
  {
   "id": "restricted-area-ares",
-  "name": "제한 구역 (아레스) (Restricted Area:ares)",
+  "name": "제한 구역 (Restricted Area)",
   "cost": null,
   "type": "",
   "tags": [],
