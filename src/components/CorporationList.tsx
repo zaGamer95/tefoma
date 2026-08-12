@@ -18,7 +18,10 @@ export function CorporationList() {
     () =>
       (data ?? []).map((corp) => ({
         corp,
-        index: buildIndex([corp.name, corp.effect, corp.startingResources], corp.tags),
+        index: buildIndex(
+          [corp.name, corp.effect, corp.startingResources],
+          [corp.expansion, ...corp.tags],
+        ),
       })),
     [data],
   )
@@ -68,6 +71,7 @@ export function CorporationList() {
         <section key={corp.id} className="card" id={`corp-${corp.id}`}>
           <header className="card__head">
             <h3 className="card__name">{corp.name}</h3>
+            <span className="expansion">{corp.expansion}</span>
           </header>
           <dl className="card__meta">
             <dt>시작 자원</dt>

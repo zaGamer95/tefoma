@@ -3,6 +3,8 @@ export interface Corporation {
   name: string
   startingResources: string
   effect: string
+  /** 기본판 / 프렐류드 / 비너스 넥스트 … */
+  expansion: string
   tags: string[]
 }
 
