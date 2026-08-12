@@ -15,14 +15,19 @@ function Rating({ value }: { value: number }) {
   )
 }
 
+/** 한 번에 그리는 카드 수. 941장을 전부 그리면 휴대폰에서 버벅인다. */
+const PAGE = 60
+
 export function CardList() {
   const { data, error } = useJson<Card>('cards.json')
   const [query, setQuery] = useState('')
   const [type, setType] = useState('전체')
+  const [expansion, setExpansion] = useState('전체')
   /** 평가를 아직 안 쓴 카드만 추리기 — 채워 넣을 때 쓴다 */
   const [unratedOnly, setUnratedOnly] = useState(false)
   /** 시너지 링크로 방금 이동한 카드 — 잠시 강조 표시 */
   const [focused, setFocused] = useState<string | null>(null)
+  const [limit, setLimit] = useState(PAGE)
 
   /** id -> 카드. 시너지 링크의 이름 표시와 유효성 검사에 쓴다. */
   const byId = useMemo(() => {
@@ -31,17 +36,26 @@ export function CardList() {
     return map
   }, [data])
 
-  const types = useMemo(() => {
-    if (!data) return []
-    return ['전체', ...new Set(data.map((c) => c.type))]
-  }, [data])
+  // 종류가 비어 있는 카드(아직 확인 안 함)는 필터 목록에 넣지 않는다.
+  const types = useMemo(
+    () => ['전체', ...new Set((data ?? []).map((c) => c.type).filter(Boolean))],
+    [data],
+  )
+
+  const expansions = useMemo(
+    () => ['전체', ...new Set((data ?? []).map((c) => c.expansion).filter(Boolean))],
+    [data],
+  )
 
   /** 카드마다 한 번만 색인을 만들어 둔다. 검색어가 바뀌어도 다시 만들지 않는다. */
   const indexed = useMemo(
     () =>
       (data ?? []).map((card) => ({
         card,
-        index: buildIndex([card.name, card.cost, card.myNotes], [card.type, ...card.tags]),
+        index: buildIndex(
+          [card.name, card.cost ?? '', card.myNotes],
+          [card.type, card.expansion, ...card.tags],
+        ),
       })),
     [data],
   )
@@ -51,12 +65,18 @@ export function CardList() {
       indexed
         .filter(({ card, index }) => {
           const okType = type === '전체' || card.type === type
+          const okExp = expansion === '전체' || card.expansion === expansion
           const okRated = !unratedOnly || !card.myRating
-          return okType && okRated && matchesQuery(index, query)
+          return okType && okExp && okRated && matchesQuery(index, query)
         })
         .map(({ card }) => card),
-    [indexed, query, type, unratedOnly],
+    [indexed, query, type, expansion, unratedOnly],
   )
+
+  // 조건이 바뀌면 다시 처음부터 보여 준다.
+  useEffect(() => setLimit(PAGE), [query, type, expansion, unratedOnly])
+
+  const visible = shown.slice(0, limit)
 
   /**
    * 시너지 링크 클릭. 대상 카드가 현재 필터에 걸러져 있을 수 있으므로
@@ -65,7 +85,11 @@ export function CardList() {
   function jumpTo(id: string) {
     setQuery('')
     setType('전체')
+    setExpansion('전체')
     setUnratedOnly(false)
+    // 필터를 지우면 대상이 목록 뒤쪽에 올 수 있다. 그 카드까지 그려지도록 한도를 올린다.
+    const pos = (data ?? []).findIndex((c) => c.id === id)
+    if (pos >= 0) setLimit((cur) => Math.max(cur, pos + 1))
     setFocused(id)
   }
 
@@ -93,6 +117,19 @@ export function CardList() {
           onChange={(e) => setQuery(e.target.value)}
           aria-label="카드 검색"
         />
+        <div className="chips" role="group" aria-label="확장 필터">
+          {expansions.map((e) => (
+            <button
+              key={e}
+              type="button"
+              className={`chip${expansion === e ? ' chip--on' : ''}`}
+              onClick={() => setExpansion(e)}
+            >
+              {e}
+            </button>
+          ))}
+        </div>
+
         <div className="chips" role="group" aria-label="종류 필터">
           {types.map((t) => (
             <button
@@ -115,9 +152,12 @@ export function CardList() {
         </div>
       </div>
 
-      <p className="count">{shown.length}장 / 전체 {data.length}장</p>
+      <p className="count">
+        {shown.length}장 / 전체 {data.length}장
+        {visible.length < shown.length && ` — ${visible.length}장 표시 중`}
+      </p>
 
-      {shown.map((card) => (
+      {visible.map((card) => (
         <section
           key={card.id}
           id={`card-${card.id}`}
@@ -125,11 +165,16 @@ export function CardList() {
         >
           <header className="card__head">
             <h3 className="card__name">{card.name}</h3>
-            <span className="cost" title="비용">{card.cost} M€</span>
+            {card.cost === null ? (
+              <span className="cost cost--unknown" title="비용 미확인">? M€</span>
+            ) : (
+              <span className="cost" title="비용">{card.cost} M€</span>
+            )}
           </header>
 
           <div className="card__meta card__meta--row">
-            <span className="type">{card.type}</span>
+            <span className="expansion">{card.expansion}</span>
+            {card.type && <span className="type">{card.type}</span>}
             <Rating value={card.myRating} />
           </div>
 
@@ -181,6 +226,17 @@ export function CardList() {
           )}
         </section>
       ))}
+
+      {visible.length < shown.length && (
+        <button
+          type="button"
+          className="more"
+          onClick={() => setLimit((n) => n + PAGE)}
+        >
+          {Math.min(PAGE, shown.length - visible.length)}장 더 보기
+          <small> (남은 {shown.length - visible.length}장)</small>
+        </button>
+      )}
 
       {shown.length === 0 && <p className="state">조건에 맞는 카드가 없습니다.</p>}
     </div>
