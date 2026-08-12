@@ -65,7 +65,11 @@ Single-page app, 6 sections. Two content types, handled differently.
 | `corporations.json` | 기업별 일람 | `id`, `name`, `startingResources`, `effect`, `tags` |
 | `cards.json` | 카드별 평가 | `id`, `name`, `cost`, `type`, `tags`, `expansion`, `myRating` (1–5), `myNotes`, `synergies[]` |
 
-`cards.json` holds the **full roster (941)** — base game plus every expansion — but only a
+**The two data files are disjoint.** `corporations.json` holds every corporation (77);
+`cards.json` holds everything else (864). A corporation must never appear in both — the
+카드별 평가 section is for cards you play from hand, not corporations you pick at setup.
+
+`cards.json` holds the **full roster (864)** — base game plus every expansion — but only a
 few have details filled in. Unknown values use explicit sentinels, never zero:
 
 - `cost: null` → renders `? M€`

@@ -2433,149 +2433,6 @@
   "synergies": []
  },
  {
-  "id": "beginner-corporation",
-  "name": "초보자용 기업 (Beginner Corporation)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "credicor",
-  "name": "크레디코르 (CrediCor)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "ecoline",
-  "name": "에코라인 (Ecoline)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "helion",
-  "name": "헬리온 (Helion)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "interplanetary-cinematics",
-  "name": "인터플래너터리 시네마틱스 (Interplanetary Cinematics)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "inventrix",
-  "name": "인벤트릭스 (Inventrix)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "mining-guild",
-  "name": "광업협동조합 (Mining Guild)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "phobolog",
-  "name": "포볼로그 (PhoboLog)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "saturn-systems",
-  "name": "새턴 시스템 (Saturn Systems)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "teractor",
-  "name": "테렉터 (Teractor)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "tharsis-republic",
-  "name": "타르시스 공화국 (Tharsis Republic)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "thorgate",
-  "name": "토르게이트 (ThorGate)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "united-nations-mars-initiative",
-  "name": "국제연합 화성 이니셔티브 (United Nations Mars Initiative)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "기본판",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "acquired-space-agency",
   "name": "항공우주국 합병 (Acquired Space Agency)",
   "cost": null,
@@ -2633,17 +2490,6 @@
  {
   "id": "business-empire",
   "name": "재벌 (Business Empire)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프렐류드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "cheung-shing-mars",
-  "name": "쳉 싱 마스 (Cheung Shing MARS)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -2895,17 +2741,6 @@
   "synergies": []
  },
  {
-  "id": "point-luna",
-  "name": "포인트 루나 (Point Luna)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프렐류드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "polar-industries",
   "name": "극지 공업단지 (Polar Industries)",
   "cost": null,
@@ -2952,17 +2787,6 @@
  {
   "id": "research-network",
   "name": "연구 네트워크 (Research Network)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프렐류드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "robinson-industries",
-  "name": "로빈슨 인더스트리 (Robinson Industries)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -3051,28 +2875,6 @@
  {
   "id": "unmi-contractor",
   "name": "UNMI 도급 계약 (UNMI Contractor)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프렐류드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "valley-trust",
-  "name": "밸리 트러스트 (Valley Trust)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프렐류드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "vitor",
-  "name": "비토르 (Vitor)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -3379,17 +3181,6 @@
   "synergies": []
  },
  {
-  "id": "palladin-shipping",
-  "name": "Palladin Shipping",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프렐류드 2",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "planetary-alliance",
   "name": "Planetary Alliance",
   "cost": null,
@@ -3456,17 +3247,6 @@
   "synergies": []
  },
  {
-  "id": "sagitta-frontier-services",
-  "name": "Sagitta Frontier Services",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프렐류드 2",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "soil-bacteria",
   "name": "Soil Bacteria",
   "cost": null,
@@ -3502,17 +3282,6 @@
  {
   "id": "special-permit",
   "name": "Special Permit",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프렐류드 2",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "spire",
-  "name": "Spire",
   "cost": null,
   "type": "",
   "tags": [],
@@ -3709,17 +3478,6 @@
   "synergies": []
  },
  {
-  "id": "aphrodite",
-  "name": "아프로디테 (Aphrodite)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "비너스 넥스트",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "atalanta-planitia-lab",
   "name": "애틀란타 분지 연구실 (Atalanta Planitia Lab)",
   "cost": null,
@@ -3733,17 +3491,6 @@
  {
   "id": "atmoscoop",
   "name": "공기긁개 (Atmoscoop)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "비너스 넥스트",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "celestic",
-  "name": "셀레스틱 (Celestic)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -3973,17 +3720,6 @@
   "synergies": []
  },
  {
-  "id": "manutech",
-  "name": "매뉴테크 (Manutech)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "비너스 넥스트",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "maxwell-base",
   "name": "맥스웰 기지 (Maxwell Base)",
   "cost": null,
@@ -3997,17 +3733,6 @@
  {
   "id": "mining-quota",
   "name": "채굴 할당량 (Mining Quota)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "비너스 넥스트",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "morning-star-inc",
-  "name": "모닝스타 인코퍼레이션 (Morning Star Inc.)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -4248,17 +3973,6 @@
   "synergies": []
  },
  {
-  "id": "viron",
-  "name": "바이론 (Viron)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "비너스 넥스트",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "water-to-venus",
   "name": "금성으로 물 수송 (Water to Venus)",
   "cost": null,
@@ -4283,28 +3997,6 @@
  {
   "id": "airliners",
   "name": "여객기 운항 (Airliners)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "콜로니",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "aridor",
-  "name": "아리도르 (Aridor)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "콜로니",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "arklight",
-  "name": "아크라이트 (Arklight)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -4611,28 +4303,6 @@
   "synergies": []
  },
  {
-  "id": "polyphemos",
-  "name": "폴리페모스 (Polyphemos)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "콜로니",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "poseidon",
-  "name": "포세이돈 (Poseidon)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "콜로니",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "productive-outpost",
   "name": "고생산성 전진기지 (Productive Outpost)",
   "cost": null,
@@ -4756,17 +4426,6 @@
  {
   "id": "spin-off-department",
   "name": "파생상품 개발부서 (Spin-off Department)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "콜로니",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "stormcraft-incorporated",
-  "name": "스톰크래프트 (Stormcraft Incorporated)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -4930,17 +4589,6 @@
   "synergies": []
  },
  {
-  "id": "lakefront-resorts",
-  "name": "레이크프론트 리조트 (Lakefront Resorts)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "턴모일",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "martian-media-center",
   "name": "화성 미디어 센터 (Martian Media Center)",
   "cost": null,
@@ -4976,17 +4624,6 @@
  {
   "id": "political-alliance",
   "name": "정치 동맹 (Political Alliance)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "턴모일",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "pristar",
-  "name": "프리스타 (Pristar)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -5053,17 +4690,6 @@
  {
   "id": "terralabs-research",
   "name": "테라랩스 (TerraLabs Research)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "턴모일",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "utopia-invest",
-  "name": "유토피아 (Utopia Invest)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -5150,17 +4776,6 @@
   "synergies": []
  },
  {
-  "id": "arcadian-communities",
-  "name": "아카디아 공동체 (Arcadian Communities)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프로모",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "asteroid-deflection-system",
   "name": "소행성 궤도 굴절 방어체계 (Asteroid Deflection System)",
   "cost": null,
@@ -5196,17 +4811,6 @@
  {
   "id": "astra-mechanica",
   "name": "Astra Mechanica",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프로모",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "astrodrill",
-  "name": "아스트로드릴 (AstroDrill)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -5414,17 +5018,6 @@
   "synergies": []
  },
  {
-  "id": "factorum",
-  "name": "팩 토 럼 (Factorum)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프로모",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "field-capped-city",
   "name": "자기장 방호탑 도시 (Field-Capped City)",
   "cost": null,
@@ -5590,17 +5183,6 @@
   "synergies": []
  },
  {
-  "id": "kuiper-cooperative",
-  "name": "Kuiper Cooperative",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프로모",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "law-suit",
   "name": "고소 (Law Suit)",
   "cost": null,
@@ -5711,17 +5293,6 @@
   "synergies": []
  },
  {
-  "id": "mons-insurance",
-  "name": "몬스 손해보험 (Mons Insurance)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프로모",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "neptunian-power-consultants",
   "name": "Neptunian Power Consultants",
   "cost": null,
@@ -5788,28 +5359,6 @@
   "synergies": []
  },
  {
-  "id": "pharmacy-union",
-  "name": "파머시 유니온 (Pharmacy Union)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프로모",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "philares",
-  "name": "필레어스 (Philares)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프로모",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "poldertech-dutch",
   "name": "PolderTECH Dutch",
   "cost": null,
@@ -5867,17 +5416,6 @@
  {
   "id": "public-plans",
   "name": "Public Plans",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프로모",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "recyclon",
-  "name": "리사이클론 (Recyclon)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -5977,17 +5515,6 @@
  {
   "id": "solar-logistics",
   "name": "Solar Logistics",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프로모",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "splice",
-  "name": "스플라이스 (Splice)",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6098,17 +5625,6 @@
  {
   "id": "topsoil-contract",
   "name": "표토 공급 계약 (Topsoil Contract)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "프로모",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "tycho-magnetics",
-  "name": "Tycho Magnetics",
   "cost": null,
   "type": "",
   "tags": [],
@@ -6987,17 +6503,6 @@
   "synergies": []
  },
  {
-  "id": "crescent-research-association",
-  "name": "Crescent Research Association",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "더 문",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "darkside-incubation-plant",
   "name": "Darkside Incubation Plant",
   "cost": null,
@@ -7218,17 +6723,6 @@
   "synergies": []
  },
  {
-  "id": "intragen-sanctuary-headquarters",
-  "name": "Intragen Sanctuary Headquarters",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "더 문",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "iron-extraction-center",
   "name": "Iron Extraction Center",
   "cost": null,
@@ -7295,28 +6789,6 @@
   "synergies": []
  },
  {
-  "id": "luna-first-incorporated",
-  "name": "Luna First Incorporated",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "더 문",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "luna-hyperloop-corporation",
-  "name": "Luna Hyperloop Corporation",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "더 문",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "luna-mining-hub",
   "name": "Luna Mining Hub",
   "cost": null,
@@ -7374,17 +6846,6 @@
  {
   "id": "luna-staging-station",
   "name": "Luna Staging Station",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "더 문",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "luna-trade-federation",
-  "name": "Luna Trade Federation",
   "cost": null,
   "type": "",
   "tags": [],
@@ -7636,17 +7097,6 @@
   "synergies": []
  },
  {
-  "id": "nanotech-industries",
-  "name": "Nanotech Industries",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "더 문",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "new-colony-planning-initiatives",
   "name": "New Colony Planning Initiatives",
   "cost": null,
@@ -7856,39 +7306,6 @@
   "synergies": []
  },
  {
-  "id": "the-archaic-foundation-institute",
-  "name": "The Archaic Foundation Institute",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "더 문",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "the-darkside-of-the-moon-syndicate",
-  "name": "The Darkside of The Moon Syndicate",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "더 문",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "the-grand-luna-capital-group",
-  "name": "The Grand Luna Capital Group",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "더 문",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "the-womb",
   "name": "The Womb",
   "cost": null,
@@ -7988,17 +7405,6 @@
   "synergies": []
  },
  {
-  "id": "adhai-high-orbit-constructions",
-  "name": "Adhai High Orbit Constructions",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "advanced-power-grid",
   "name": "향상된 전력 격자 (Advanced Power Grid)",
   "cost": null,
@@ -8012,17 +7418,6 @@
  {
   "id": "agro-drones",
   "name": "농업용 드론 (Agro-Drones)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "ambient",
-  "name": "Ambient",
   "cost": null,
   "type": "",
   "tags": [],
@@ -8056,17 +7451,6 @@
  {
   "id": "aurorai",
   "name": "Aurorai",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "bio-sol",
-  "name": "Bio-Sol",
   "cost": null,
   "type": "",
   "tags": [],
@@ -8122,28 +7506,6 @@
  {
   "id": "charity-donation",
   "name": "자선 기부 (Charity Donation)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "chimera",
-  "name": "Chimera",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "collegium-copernicus",
-  "name": "Collegium Copernicus",
   "cost": null,
   "type": "",
   "tags": [],
@@ -8417,17 +7779,6 @@
   "synergies": []
  },
  {
-  "id": "habitat-marte",
-  "name": "Habitat Marte",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "high-temp-superconductors",
   "name": "고온 초전도체 (High Temp. Superconductors)",
   "cost": null,
@@ -8549,17 +7900,6 @@
   "synergies": []
  },
  {
-  "id": "mars-frontier-alliance",
-  "name": "Mars Frontier Alliance",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "mars-maths",
   "name": "Mars Maths",
   "cost": null,
@@ -8584,17 +7924,6 @@
  {
   "id": "martian-dust-processing-plant",
   "name": "화성 분진 처리 시설 (Martian Dust Processing Plant)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "martian-insurance-group",
-  "name": "Martian Insurance Group",
   "cost": null,
   "type": "",
   "tags": [],
@@ -8692,17 +8021,6 @@
   "synergies": []
  },
  {
-  "id": "odyssey",
-  "name": "Odyssey",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "orbital-laboratories",
   "name": "궤도상 실험실 (Orbital Laboratories)",
   "cost": null,
@@ -8738,17 +8056,6 @@
  {
   "id": "personal-agenda",
   "name": "개인적인 의제 (Personal Agenda)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "polaris",
-  "name": "Polaris",
   "cost": null,
   "type": "",
   "tags": [],
@@ -8868,17 +8175,6 @@
   "synergies": []
  },
  {
-  "id": "robin-haulings",
-  "name": "Robin Haulings",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "secret-labs",
   "name": "비밀 연구소 (Secret Labs)",
   "cost": null,
@@ -8967,17 +8263,6 @@
   "synergies": []
  },
  {
-  "id": "soylent-seedling-systems",
-  "name": "Soylent Seedling Systems",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "space-debris-cleaning-operation",
   "name": "우주 잔해 청소 작업 (Space Debris Cleaning Operation)",
   "cost": null,
@@ -9002,17 +8287,6 @@
  {
   "id": "specialized-settlement",
   "name": "특수 결제 (Specialized Settlement)",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "패스파인더",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "steelaris",
-  "name": "Steelaris",
   "cost": null,
   "type": "",
   "tags": [],
@@ -9143,41 +8417,8 @@
   "synergies": []
  },
  {
-  "id": "aeron-genomics",
-  "name": "Aeron Genomics",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "anti-trust-crackdown",
   "name": "Anti-trust Crackdown",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "anubis-securities",
-  "name": "Anubis Securities",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "arborist-collective",
-  "name": "Arborist Collective",
   "cost": null,
   "type": "",
   "tags": [],
@@ -9398,17 +8639,6 @@
  {
   "id": "deepwater-dome",
   "name": "Deepwater Dome",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "demetron-labs",
-  "name": "Demetron Labs",
   "cost": null,
   "type": "",
   "tags": [],
@@ -9660,39 +8890,6 @@
   "synergies": []
  },
  {
-  "id": "hadesphere",
-  "name": "Hadesphere",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "hecate-speditions",
-  "name": "Hecate Speditions",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "henkei-genetics",
-  "name": "Henkei Genetics",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
   "id": "hyperspace-drive-prototype",
   "name": "Hyperspace Drive Prototype",
   "cost": null,
@@ -9761,39 +8958,6 @@
  {
   "id": "investor-plaza",
   "name": "Investor Plaza",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "jenson-boyle-co",
-  "name": "Jenson-Boyle & Co",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "keplertec",
-  "name": "Keplertec",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "kingdom-of-tauraro",
-  "name": "Kingdom of Tauraro",
   "cost": null,
   "type": "",
   "tags": [],
@@ -10443,17 +9607,6 @@
  {
   "id": "underground-smuggling-ring",
   "name": "Underground Smuggling Ring",
-  "cost": null,
-  "type": "",
-  "tags": [],
-  "expansion": "언더월드",
-  "myRating": 0,
-  "myNotes": "",
-  "synergies": []
- },
- {
-  "id": "voltagon",
-  "name": "Voltagon",
   "cost": null,
   "type": "",
   "tags": [],
