@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useJson } from '../useJson'
+import { buildIndex, matchesQuery } from '../search'
 import type { Card } from '../types'
 
 function Rating({ value }: { value: number }) {
@@ -35,20 +36,27 @@ export function CardList() {
     return ['전체', ...new Set(data.map((c) => c.type))]
   }, [data])
 
-  const shown = useMemo(() => {
-    if (!data) return []
-    const q = query.trim().toLowerCase()
-    return data.filter((c) => {
-      const matchesType = type === '전체' || c.type === type
-      const matchesRated = !unratedOnly || !c.myRating
-      const matchesQuery =
-        !q ||
-        c.name.toLowerCase().includes(q) ||
-        c.myNotes.toLowerCase().includes(q) ||
-        c.tags.some((t) => t.toLowerCase().includes(q))
-      return matchesType && matchesRated && matchesQuery
-    })
-  }, [data, query, type, unratedOnly])
+  /** 카드마다 한 번만 색인을 만들어 둔다. 검색어가 바뀌어도 다시 만들지 않는다. */
+  const indexed = useMemo(
+    () =>
+      (data ?? []).map((card) => ({
+        card,
+        index: buildIndex([card.name, card.cost, card.myNotes], [card.type, ...card.tags]),
+      })),
+    [data],
+  )
+
+  const shown = useMemo(
+    () =>
+      indexed
+        .filter(({ card, index }) => {
+          const okType = type === '전체' || card.type === type
+          const okRated = !unratedOnly || !card.myRating
+          return okType && okRated && matchesQuery(index, query)
+        })
+        .map(({ card }) => card),
+    [indexed, query, type, unratedOnly],
+  )
 
   /**
    * 시너지 링크 클릭. 대상 카드가 현재 필터에 걸러져 있을 수 있으므로
@@ -80,7 +88,7 @@ export function CardList() {
         <input
           type="search"
           className="toolbar__search"
-          placeholder="카드 이름, 태그, 내 메모로 검색"
+          placeholder="한글·영문 모두 검색 (space, 우주, ㅅㅎㅅ)"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           aria-label="카드 검색"

@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { useJson } from '../useJson'
+import { buildIndex, matchesQuery } from '../search'
 import type { Corporation } from '../types'
 
 export function CorporationList() {
@@ -12,18 +13,26 @@ export function CorporationList() {
     return ['전체', ...new Set(data.flatMap((c) => c.tags))]
   }, [data])
 
-  const shown = useMemo(() => {
-    if (!data) return []
-    const q = query.trim().toLowerCase()
-    return data.filter((c) => {
-      const matchesTag = tag === '전체' || c.tags.includes(tag)
-      const matchesQuery =
-        !q ||
-        c.name.toLowerCase().includes(q) ||
-        c.effect.toLowerCase().includes(q)
-      return matchesTag && matchesQuery
-    })
-  }, [data, query, tag])
+  /** 기업마다 한 번만 색인을 만들어 둔다. */
+  const indexed = useMemo(
+    () =>
+      (data ?? []).map((corp) => ({
+        corp,
+        index: buildIndex([corp.name, corp.effect, corp.startingResources], corp.tags),
+      })),
+    [data],
+  )
+
+  const shown = useMemo(
+    () =>
+      indexed
+        .filter(({ corp, index }) => {
+          const okTag = tag === '전체' || corp.tags.includes(tag)
+          return okTag && matchesQuery(index, query)
+        })
+        .map(({ corp }) => corp),
+    [indexed, query, tag],
+  )
 
   if (error) return <p className="state state--error">불러오지 못했습니다: {error}</p>
   if (!data) return <p className="state">불러오는 중…</p>
@@ -34,7 +43,7 @@ export function CorporationList() {
         <input
           type="search"
           className="toolbar__search"
-          placeholder="기업 이름이나 효과로 검색"
+          placeholder="한글·영문 모두 검색 (helion, 헬리온, ㅎㄹㅇ)"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           aria-label="기업 검색"
