@@ -7,12 +7,18 @@
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#000000" />
 
-    <!-- Orbitron: 영문·숫자 표제용(우주선 계기판 느낌) / IBM Plex Sans KR: 한글 본문 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--
+      Orbitron: 영문·숫자 표제용(우주선 계기판 느낌) / IBM Plex Sans KR: 한글 본문.
+      외부 CDN을 쓰지 않고 public/fonts/ 에서 직접 서빙한다.
+      상대경로라 base '/tefoma/' 아래에서도 그대로 동작한다.
+    -->
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./fonts/Orbitron-700-001.woff2"
+      crossorigin
     />
     <meta name="description" content="테라포밍 마스 개인 가이드 — 기초 규칙, 기업별 일람, 카드별 평가와 시너지" />
     <title>tefoma — 테라포밍 마스 가이드</title>
