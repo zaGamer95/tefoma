@@ -5,6 +5,7 @@ import { Prose } from './components/Prose'
 import { CorporationList } from './components/CorporationList'
 import { CardList } from './components/CardList'
 import { PlayerCountRules } from './components/PlayerCountRules'
+import { References } from './components/References'
 import { SECTIONS } from './sections'
 import type { SectionDef } from './sections'
 
@@ -79,6 +80,8 @@ export default function App() {
                     <h1 className="page-title">{section.title}</h1>
                     {renderWidget(section)}
                     {renderSection(section)}
+                    {/* 등록된 참고 자료가 없는 섹션에서는 아무것도 그리지 않는다 */}
+                    <References section={section.path} />
                   </>
                 }
               />

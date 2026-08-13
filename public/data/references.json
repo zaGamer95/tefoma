@@ -1,0 +1,29 @@
+{
+ "basics": [
+  {
+   "title": "공식 룰북 (PDF, 영문)",
+   "url": "https://cdn.1j1ju.com/medias/13/3f/fb-terraforming-mars-rule.pdf",
+   "note": "이 페이지의 수치와 규칙은 전부 이 문서에서 확인했습니다. 솔로 규칙, 2인전 어워드 예외, 바다 타일 9개 모두 여기 원문 기준입니다."
+  },
+  {
+   "title": "FryxGames — 제작사 공식 페이지",
+   "url": "https://www.fryxgames.se/games/terraforming-mars/",
+   "note": "게임 제작사. 룰북 원본과 확장 정보."
+  },
+  {
+   "title": "Board Game Arena — 게임 도움말",
+   "url": "https://en.doc.boardgamearena.com/Gamehelpterraformingmars",
+   "note": "온라인 구현체의 규칙 요약. 솔로 규칙 확인에 참고."
+  },
+  {
+   "title": "UltraBoardGames — 규칙 요약",
+   "url": "https://www.ultraboardgames.com/terraforming-mars/game-rules.php",
+   "note": "영문 규칙 요약본."
+  },
+  {
+   "title": "terraforming-mars (오픈소스 구현)",
+   "url": "https://github.com/terraforming-mars/terraforming-mars",
+   "note": "카드 비용·종류·태그·효과와 한국어 표기의 출처. 카드별 평가와 기업별 일람 데이터도 여기서 가져왔습니다."
+  }
+ ]
+}
