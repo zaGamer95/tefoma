@@ -334,6 +334,73 @@ body::before {
 /* 숫자·수치 열은 자릿수를 맞춰 읽기 쉽게 */
 .prose td { font-variant-numeric: tabular-nums; }
 
+/* ── 참고 자료 (문서 하단 각주) ──────────────────────────── */
+.refs {
+  max-width: 70ch;
+  margin: 3.5rem 0 0;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line-soft);
+}
+
+.refs__title {
+  margin: 0 0 0.9rem;
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dust);
+}
+
+.refs__list { list-style: none; margin: 0; padding: 0; }
+
+.refs__item {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 0.85rem;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.refs__num {
+  flex: none;
+  min-width: 1.35rem;
+  height: 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--rust);
+  border: 1px solid var(--rust-dim);
+  border-radius: 3px;
+  margin-top: 0.1rem;
+}
+
+.refs__link {
+  color: var(--rust-bright);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.refs__link:hover { border-bottom-color: var(--rust); }
+
+/* 어느 사이트로 나가는지 미리 보이게 */
+.refs__host {
+  margin-left: 0.4rem;
+  font-size: 0.7rem;
+  color: var(--dust);
+  white-space: nowrap;
+}
+.refs__host::before { content: '↗ '; }
+
+.refs__note {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--sand-dim);
+  font-size: 0.78rem;
+}
+
 /* ── 인원수별 규칙 패널 ─────────────────────────────────── */
 .pcount {
   max-width: 70ch;
