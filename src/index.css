@@ -401,6 +401,31 @@ body::before {
   font-size: 0.78rem;
 }
 
+/* 출처 / 더 읽을거리 / 알아두기 구분 */
+.refs__kind {
+  display: inline-block;
+  margin-right: 0.45rem;
+  padding: 0.02rem 0.35rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.03em;
+  border-radius: 3px;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+  border: 1px solid var(--line);
+  color: var(--dust);
+}
+.refs__kind--source { color: var(--rust); border-color: var(--rust-dim); }
+.refs__kind--reading { color: var(--sand-dim); }
+
+/* '알아두기'는 어디까지가 의견인지 밝히는 항목이라 눈에 띄게 */
+.refs__kind--note {
+  color: var(--ember);
+  border-color: var(--rust-dim);
+  background: rgba(255, 106, 19, 0.1);
+}
+.refs__item--note .refs__link { color: var(--sand); }
+.refs__item--note .refs__num { color: var(--ember); }
+
 /* ── 인원수별 규칙 패널 ─────────────────────────────────── */
 .pcount {
   max-width: 70ch;
