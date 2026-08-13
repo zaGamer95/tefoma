@@ -1,9 +1,23 @@
 import { useJsonDoc } from '../useJson'
 
+/**
+ * source — 이 문서의 사실을 확인한 곳
+ * reading — 출처는 아니고 더 볼 만한 자료
+ * note   — 어디까지가 의견인지 밝히는 항목
+ */
+type RefKind = 'source' | 'reading' | 'note'
+
 interface Reference {
+  kind?: RefKind
   title: string
   url: string
   note?: string
+}
+
+const KIND_LABEL: Record<RefKind, string> = {
+  source: '출처',
+  reading: '더 읽을거리',
+  note: '알아두기',
 }
 
 type ReferenceMap = Record<string, Reference[]>
@@ -35,25 +49,29 @@ export function References({ section }: ReferencesProps) {
     <aside className="refs" aria-label="참고 자료">
       <h2 className="refs__title">참고 자료</h2>
       <ol className="refs__list">
-        {items.map((r, i) => (
-          <li key={r.url} className="refs__item">
-            <span className="refs__num" aria-hidden="true">
-              {i + 1}
-            </span>
-            <span>
-              <a
-                className="refs__link"
-                href={r.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {r.title}
-                <span className="refs__host">{host(r.url)}</span>
-              </a>
-              {r.note && <span className="refs__note">{r.note}</span>}
-            </span>
-          </li>
-        ))}
+        {items.map((r, i) => {
+          const kind = r.kind ?? 'source'
+          return (
+            <li key={r.url + i} className={`refs__item refs__item--${kind}`}>
+              <span className="refs__num" aria-hidden="true">
+                {i + 1}
+              </span>
+              <span>
+                <span className={`refs__kind refs__kind--${kind}`}>{KIND_LABEL[kind]}</span>
+                <a
+                  className="refs__link"
+                  href={r.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {r.title}
+                  <span className="refs__host">{host(r.url)}</span>
+                </a>
+                {r.note && <span className="refs__note">{r.note}</span>}
+              </span>
+            </li>
+          )
+        })}
       </ol>
     </aside>
   )

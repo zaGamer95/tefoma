@@ -1,29 +1,134 @@
 {
  "basics": [
   {
+   "kind": "source",
    "title": "공식 룰북 (PDF, 영문)",
    "url": "https://cdn.1j1ju.com/medias/13/3f/fb-terraforming-mars-rule.pdf",
    "note": "이 페이지의 수치와 규칙은 전부 이 문서에서 확인했습니다. 솔로 규칙, 2인전 어워드 예외, 바다 타일 9개 모두 여기 원문 기준입니다."
   },
   {
+   "kind": "source",
    "title": "FryxGames — 제작사 공식 페이지",
    "url": "https://www.fryxgames.se/games/terraforming-mars/",
    "note": "게임 제작사. 룰북 원본과 확장 정보."
   },
   {
+   "kind": "source",
    "title": "Board Game Arena — 게임 도움말",
    "url": "https://en.doc.boardgamearena.com/Gamehelpterraformingmars",
    "note": "온라인 구현체의 규칙 요약. 솔로 규칙 확인에 참고."
   },
   {
+   "kind": "source",
    "title": "UltraBoardGames — 규칙 요약",
    "url": "https://www.ultraboardgames.com/terraforming-mars/game-rules.php",
    "note": "영문 규칙 요약본."
   },
   {
+   "kind": "source",
    "title": "terraforming-mars (오픈소스 구현)",
    "url": "https://github.com/terraforming-mars/terraforming-mars",
    "note": "카드 비용·종류·태그·효과와 한국어 표기의 출처. 카드별 평가와 기업별 일람 데이터도 여기서 가져왔습니다."
+  },
+  {
+   "kind": "reading",
+   "title": "terraforming-mars 위키 — FAQ",
+   "url": "https://github.com/terraforming-mars/terraforming-mars/wiki/FAQ",
+   "note": "룰북만으로 애매한 상황의 판정 정리."
+  }
+ ],
+ "corporations": [
+  {
+   "kind": "source",
+   "title": "terraforming-mars — 기업 카드 정의",
+   "url": "https://github.com/terraforming-mars/terraforming-mars",
+   "note": "기업 이름과 확장 구분의 출처. 시작 자원과 능력 설명은 직접 정리한 것입니다."
+  },
+  {
+   "kind": "source",
+   "title": "한국어 로케일",
+   "url": "https://github.com/terraforming-mars/terraforming-mars/tree/main/src/locales/ko",
+   "note": "기업 한글명 39종의 출처. 나머지는 로케일에 한국어가 없어 영문 그대로입니다."
+  }
+ ],
+ "cards": [
+  {
+   "kind": "source",
+   "title": "terraforming-mars — 카드 정의",
+   "url": "https://github.com/terraforming-mars/terraforming-mars",
+   "note": "비용·종류·태그·효과의 출처. 기본판 208종은 cardNumber 001~208이 빠짐없이 들어 있는지 확인했습니다."
+  },
+  {
+   "kind": "source",
+   "title": "한국어 로케일",
+   "url": "https://github.com/terraforming-mars/terraforming-mars/tree/main/src/locales/ko",
+   "note": "카드 한글명과 효과 문구의 출처."
+  },
+  {
+   "kind": "reading",
+   "title": "TM Cards List — 카드 목록 검색",
+   "url": "https://ssimeonoff.github.io/cards-list",
+   "note": "확장 포함 전체 카드를 이미지로 훑어볼 때. 수치 교차 확인용."
+  }
+ ],
+ "corp-difficulty": [
+  {
+   "kind": "note",
+   "title": "이 문서의 난이도 분류와 평가는 직접 쓴 의견입니다",
+   "url": "https://github.com/zaGamer95/tefoma/blob/main/src/content/04-corp-difficulty.md",
+   "note": "기업 이름·시작 자원·능력 같은 사실은 아래 자료 기준이지만, 난이도 상·중·하 분류와 선택 기준은 개인적인 판단입니다."
+  },
+  {
+   "kind": "source",
+   "title": "terraforming-mars — 기업 카드 정의",
+   "url": "https://github.com/terraforming-mars/terraforming-mars",
+   "note": "언급한 기업들의 시작 자원과 능력을 확인한 곳."
+  },
+  {
+   "kind": "reading",
+   "title": "Hayasuke — 카드 평가 (일본어)",
+   "url": "https://note.com/hayasuke_board/n/n40202a8d3fbb",
+   "note": "일본 대회 상위 플레이어의 카드 평가. 기업과 카드 궁합을 다르게 보는 관점이라 비교해 볼 만합니다."
+  }
+ ],
+ "card-buying": [
+  {
+   "kind": "note",
+   "title": "이 문서의 구매 기준은 직접 쓴 의견입니다",
+   "url": "https://github.com/zaGamer95/tefoma/blob/main/src/content/05-card-buying.md",
+   "note": "손익 분기 계산과 세대별 기준은 개인적인 판단입니다. 카드 비용과 드래프트 규칙 같은 사실만 아래 자료 기준입니다."
+  },
+  {
+   "kind": "source",
+   "title": "공식 룰북 (PDF, 영문)",
+   "url": "https://cdn.1j1ju.com/medias/13/3f/fb-terraforming-mars-rule.pdf",
+   "note": "카드 구매 3M€, 드래프트 변형 규칙의 출처."
+  },
+  {
+   "kind": "reading",
+   "title": "TM Cards List — 카드 목록 검색",
+   "url": "https://ssimeonoff.github.io/cards-list",
+   "note": "어떤 카드가 몇 M€인지 훑어보며 감각을 잡을 때."
+  }
+ ],
+ "parameter-timing": [
+  {
+   "kind": "note",
+   "title": "이 문서의 타이밍 판단은 직접 쓴 의견입니다",
+   "url": "https://github.com/zaGamer95/tefoma/blob/main/src/content/06-parameter-timing.md",
+   "note": "언제 올리고 언제 미룰지는 개인적인 판단입니다. 파라미터 수치와 보너스 위치 같은 사실만 아래 자료 기준입니다."
+  },
+  {
+   "kind": "source",
+   "title": "공식 룰북 (PDF, 영문)",
+   "url": "https://cdn.1j1ju.com/medias/13/3f/fb-terraforming-mars-rule.pdf",
+   "note": "온도 -24°C·-20°C·0°C 보너스, 산소 8% 연쇄, 종료 조건의 출처."
+  },
+  {
+   "kind": "reading",
+   "title": "terraforming-mars 위키 — FAQ",
+   "url": "https://github.com/terraforming-mars/terraforming-mars/wiki/FAQ",
+   "note": "마지막 파라미터와 종료 시점 관련 판정."
   }
  ]
 }
