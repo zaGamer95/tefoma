@@ -62,21 +62,24 @@ Single-page app, 6 sections. Two content types, handled differently.
 
 | File | Section | Fields |
 | --- | --- | --- |
-| `corporations.json` | 기업별 일람 | `id`, `name`, `startingResources`, `effect`, `tags` |
-| `cards.json` | 카드별 평가 | `id`, `name`, `cost`, `type`, `tags`, `expansion`, `myRating` (1–5), `myNotes`, `synergies[]` |
+| `corporations.json` | 기업별 일람 | `id`, `name`, `startingResources`, `effect`, `expansion`, `tags` |
+| `cards.json` | 카드별 평가 | `id`, `name`, `cost`, `type`, `tags`, `expansion`, `effect`, `myRating` (1–5), `myNotes`, `synergies[]` |
 
-**The two data files are disjoint.** `corporations.json` holds every corporation (77);
-`cards.json` holds everything else (864). A corporation must never appear in both — the
+**The two data files are disjoint.** `corporations.json` holds every corporation (89);
+`cards.json` holds everything else (852). A corporation must never appear in both — the
 카드별 평가 section is for cards you play from hand, not corporations you pick at setup.
 
-`cards.json` holds the **full roster (864)** — base game plus every expansion.
+`cards.json` holds the **full roster (852)** — base game plus every expansion.
 
 - **기본판 (208)** — complete: cost, type, tags, and printed `effect` all sourced.
   Verified by `cardNumber`, which runs 001–208 with no gaps and no duplicates. Use that
   number range to re-verify after any bulk edit; a count alone won't catch a swap.
   33 of them have an empty `effect` because those cards carry no printed text at all —
   they're icon-only. That is correct data, not a gap to fill.
-- **Expansions (656)** — name and `expansion` only, so far.
+- **Expansions (644)** — cost, type, tags, and `effect` sourced the same way.
+  **프렐류드 (102) and CEO (37) cards have no cost at all** — `cost: null` is correct
+  there, not missing data, and the UI hides the cost badge for those two types.
+  Of the 713 cards that do have a cost, **every one is filled**.
 
 Unknown values use explicit sentinels, never zero:
 
@@ -92,8 +95,8 @@ filter row. Card data is verified against the open-source implementation
 jump to the referenced card.** This is the single most important feature of the cards
 section — the entire point is showing which cards combo together.
 
-Seed each file with 2–3 realistic placeholder entries so the UI is testable. The owner
-fills in real content.
+The roster is complete; what's left to fill is `myRating` and `myNotes`, and those are
+the owner's to write.
 
 ---
 
@@ -106,7 +109,11 @@ fills in real content.
 
 ## Design
 
-- Mars theme: warm rust/terracotta base on a dark background. Not a generic Bootstrap look.
+- Near-black background (`#050505`) with **orange as the only accent** (`#ff6a13`).
+  Mars sunset gradient and a CSS-drawn starfield. Not a generic Bootstrap look.
+- Orbitron for display text (wordmark, numbers, costs, badges) — it has **no Hangul**,
+  so never set it as the body font; IBM Plex Sans KR carries all Korean text.
+  Both are self-hosted in `public/fonts/`, no external CDN.
 - Readable long-form typography: generous line-height, max content width ~70ch for prose
 - **Must be usable on a phone** — it gets referenced mid-game
 

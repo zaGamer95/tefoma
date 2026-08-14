@@ -15,8 +15,11 @@ function Rating({ value }: { value: number }) {
   )
 }
 
-/** 한 번에 그리는 카드 수. 941장을 전부 그리면 휴대폰에서 버벅인다. */
+/** 한 번에 그리는 카드 수. 800장 넘게 전부 그리면 휴대폰에서 버벅인다. */
 const PAGE = 60
+
+/** 비용 개념이 없는 카드 종류 — 비용 배지를 아예 그리지 않는다. */
+const NO_COST_TYPES = new Set(['프렐류드', 'CEO'])
 
 export function CardList() {
   const { data, error } = useJson<Card>('cards.json')
@@ -165,7 +168,11 @@ export function CardList() {
         >
           <header className="card__head">
             <h3 className="card__name">{card.name}</h3>
-            {card.cost === null ? (
+            {/*
+              프렐류드와 CEO 카드는 비용 개념 자체가 없다.
+              여기에 '? M€' 를 띄우면 '비용을 아직 못 채웠다'는 뜻으로 읽혀 오해를 부른다.
+            */}
+            {NO_COST_TYPES.has(card.type) ? null : card.cost === null ? (
               <span className="cost cost--unknown" title="비용 미확인">? M€</span>
             ) : (
               <span className="cost" title="비용">{card.cost} M€</span>
