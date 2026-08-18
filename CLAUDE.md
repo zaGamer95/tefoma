@@ -128,6 +128,13 @@ text printed on the card. Don't paraphrase these; a reference consulted mid-game
 match what's on the table. Source them from the open-source implementation's card data
 and its Korean locale.
 
+> **Korean names: two different provenances.** The locale covers 기본판, 비너스 넥스트,
+> 콜로니, 프렐류드, 턴모일, and most of 패스파인더 — those match the Korean edition.
+> **아레스, 프로모, CEO, 프렐류드 2, 더 문, 언더월드 and 48 corporations were translated
+> here on 2026-08-19 because no Korean locale exists for them.** Those are unofficial and
+> may not match a future Korean release. If an official translation appears, prefer it.
+> English names are preserved in parentheses throughout, so search always works either way.
+
 **Opinions — only the owner writes these.** Ratings, strategy commentary, difficulty
 calls, "when is this worth buying". Never auto-generate them, never fill them with a
 plausible-sounding guess, and never present a generated judgement as the owner's.
