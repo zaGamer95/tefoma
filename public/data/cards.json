@@ -3578,7 +3578,7 @@
  },
  {
   "id": "applied-science",
-  "name": "Applied Science",
+  "name": "응용 과학 (Applied Science)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3592,7 +3592,7 @@
  },
  {
   "id": "atmospheric-enhancers",
-  "name": "Atmospheric Enhancers",
+  "name": "대기 증강 장치 (Atmospheric Enhancers)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3606,7 +3606,7 @@
  },
  {
   "id": "board-of-directors",
-  "name": "Board of Directors",
+  "name": "이사회 (Board of Directors)",
   "cost": 12,
   "type": "프렐류드",
   "tags": [
@@ -3620,7 +3620,7 @@
  },
  {
   "id": "ceres-tech-market",
-  "name": "Ceres Tech Market",
+  "name": "세레스 기술 시장 (Ceres Tech Market)",
   "cost": 12,
   "type": "액션",
   "tags": [
@@ -3635,7 +3635,7 @@
  },
  {
   "id": "cloud-tourism",
-  "name": "Cloud Tourism",
+  "name": "구름 관광 (Cloud Tourism)",
   "cost": 11,
   "type": "액션",
   "tags": [
@@ -3650,7 +3650,7 @@
  },
  {
   "id": "colonial-envoys",
-  "name": "Colonial Envoys",
+  "name": "식민지 사절단 (Colonial Envoys)",
   "cost": 4,
   "type": "이벤트",
   "tags": [],
@@ -3662,7 +3662,7 @@
  },
  {
   "id": "colonial-representation",
-  "name": "Colonial Representation",
+  "name": "식민지 대표권 (Colonial Representation)",
   "cost": 10,
   "type": "액션",
   "tags": [],
@@ -3674,7 +3674,7 @@
  },
  {
   "id": "colony-trade-hub",
-  "name": "Colony Trade Hub",
+  "name": "콜로니 무역 거점 (Colony Trade Hub)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3688,7 +3688,7 @@
  },
  {
   "id": "corridors-of-power",
-  "name": "Corridors of Power",
+  "name": "권력의 통로 (Corridors of Power)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3702,7 +3702,7 @@
  },
  {
   "id": "early-colonization",
-  "name": "Early Colonization",
+  "name": "초기 개척 (Early Colonization)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3716,7 +3716,7 @@
  },
  {
   "id": "envoys-from-venus",
-  "name": "Envoys From Venus",
+  "name": "금성에서 온 사절단 (Envoys From Venus)",
   "cost": 1,
   "type": "이벤트",
   "tags": [
@@ -3730,7 +3730,7 @@
  },
  {
   "id": "floating-refinery",
-  "name": "Floating Refinery",
+  "name": "공중 정제소 (Floating Refinery)",
   "cost": 7,
   "type": "액션",
   "tags": [
@@ -3744,7 +3744,7 @@
  },
  {
   "id": "floating-trade-hub",
-  "name": "Floating Trade Hub",
+  "name": "공중 무역 거점 (Floating Trade Hub)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3758,7 +3758,7 @@
  },
  {
   "id": "focused-organization",
-  "name": "Focused Organization",
+  "name": "집중형 조직 (Focused Organization)",
   "cost": null,
   "type": "프렐류드",
   "tags": [],
@@ -3770,7 +3770,7 @@
  },
  {
   "id": "frontier-town",
-  "name": "Frontier Town",
+  "name": "변경 마을 (Frontier Town)",
   "cost": 11,
   "type": "자동",
   "tags": [
@@ -3785,7 +3785,7 @@
  },
  {
   "id": "ghg-shipment",
-  "name": "GHG Shipment",
+  "name": "온실가스 수송 (GHG Shipment)",
   "cost": 3,
   "type": "이벤트",
   "tags": [
@@ -3799,7 +3799,7 @@
  },
  {
   "id": "high-circles",
-  "name": "High Circles",
+  "name": "상류 사교계 (High Circles)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3813,7 +3813,7 @@
  },
  {
   "id": "industrial-complex",
-  "name": "Industrial Complex",
+  "name": "산업 단지 (Industrial Complex)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3827,7 +3827,7 @@
  },
  {
   "id": "ishtar-expedition",
-  "name": "Ishtar Expedition",
+  "name": "이슈타르 탐사대 (Ishtar Expedition)",
   "cost": 6,
   "type": "이벤트",
   "tags": [
@@ -3841,7 +3841,7 @@
  },
  {
   "id": "jovian-envoys",
-  "name": "Jovian Envoys",
+  "name": "목성권 사절단 (Jovian Envoys)",
   "cost": 2,
   "type": "이벤트",
   "tags": [],
@@ -3853,7 +3853,7 @@
  },
  {
   "id": "l1-trade-terminal",
-  "name": "L1 Trade Terminal",
+  "name": "L1 무역 터미널 (L1 Trade Terminal)",
   "cost": 25,
   "type": "액션",
   "tags": [
@@ -3867,7 +3867,7 @@
  },
  {
   "id": "main-belt-asteroids",
-  "name": "Main Belt Asteroids",
+  "name": "소행성대 소행성 (Main Belt Asteroids)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3881,7 +3881,7 @@
  },
  {
   "id": "microgravity-nutrition",
-  "name": "Microgravity Nutrition",
+  "name": "미소중력 영양학 (Microgravity Nutrition)",
   "cost": 11,
   "type": "자동",
   "tags": [
@@ -3896,7 +3896,7 @@
  },
  {
   "id": "nobel-prize",
-  "name": "Nobel Prize",
+  "name": "노벨상 (Nobel Prize)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3910,7 +3910,7 @@
  },
  {
   "id": "old-mining-colony",
-  "name": "Old Mining Colony",
+  "name": "오래된 광산 개척지 (Old Mining Colony)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3924,7 +3924,7 @@
  },
  {
   "id": "planetary-alliance",
-  "name": "Planetary Alliance",
+  "name": "행성 동맹 (Planetary Alliance)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -3940,7 +3940,7 @@
  },
  {
   "id": "preservation-program",
-  "name": "Preservation Program",
+  "name": "보존 계획 (Preservation Program)",
   "cost": null,
   "type": "프렐류드",
   "tags": [],
@@ -3952,7 +3952,7 @@
  },
  {
   "id": "project-eden",
-  "name": "Project Eden",
+  "name": "에덴 계획 (Project Eden)",
   "cost": 0,
   "type": "프렐류드",
   "tags": [
@@ -3967,7 +3967,7 @@
  },
  {
   "id": "recession",
-  "name": "Recession",
+  "name": "경기 침체 (Recession)",
   "cost": null,
   "type": "프렐류드",
   "tags": [],
@@ -3979,7 +3979,7 @@
  },
  {
   "id": "red-appeasement",
-  "name": "Red Appeasement",
+  "name": "레드파 유화 (Red Appeasement)",
   "cost": 0,
   "type": "이벤트",
   "tags": [],
@@ -3991,7 +3991,7 @@
  },
  {
   "id": "rise-to-power",
-  "name": "Rise To Power",
+  "name": "권력 부상 (Rise To Power)",
   "cost": null,
   "type": "프렐류드",
   "tags": [],
@@ -4003,7 +4003,7 @@
  },
  {
   "id": "soil-bacteria",
-  "name": "Soil Bacteria",
+  "name": "토양 세균 (Soil Bacteria)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -4017,7 +4017,7 @@
  },
  {
   "id": "soil-studies",
-  "name": "Soil Studies",
+  "name": "토양 연구 (Soil Studies)",
   "cost": 13,
   "type": "이벤트",
   "tags": [
@@ -4032,7 +4032,7 @@
  },
  {
   "id": "space-lanes",
-  "name": "Space Lanes",
+  "name": "우주 항로 (Space Lanes)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -4046,7 +4046,7 @@
  },
  {
   "id": "special-permit",
-  "name": "Special Permit",
+  "name": "특별 허가 (Special Permit)",
   "cost": 5,
   "type": "이벤트",
   "tags": [
@@ -4060,7 +4060,7 @@
  },
  {
   "id": "sponsoring-nation",
-  "name": "Sponsoring Nation",
+  "name": "후원국 (Sponsoring Nation)",
   "cost": 21,
   "type": "자동",
   "tags": [
@@ -4074,7 +4074,7 @@
  },
  {
   "id": "stratospheric-expedition",
-  "name": "Stratospheric Expedition",
+  "name": "성층권 탐사 (Stratospheric Expedition)",
   "cost": 12,
   "type": "이벤트",
   "tags": [
@@ -4089,7 +4089,7 @@
  },
  {
   "id": "suitable-infrastructure",
-  "name": "Suitable Infrastructure",
+  "name": "적정 기반시설 (Suitable Infrastructure)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -4103,7 +4103,7 @@
  },
  {
   "id": "summit-logistics",
-  "name": "Summit Logistics",
+  "name": "정상회담 물류 (Summit Logistics)",
   "cost": 10,
   "type": "자동",
   "tags": [
@@ -4118,7 +4118,7 @@
  },
  {
   "id": "terraforming-deal",
-  "name": "Terraforming Deal",
+  "name": "테라포밍 협약 (Terraforming Deal)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -4132,7 +4132,7 @@
  },
  {
   "id": "unexpected-application",
-  "name": "Unexpected Application",
+  "name": "뜻밖의 응용 (Unexpected Application)",
   "cost": 4,
   "type": "이벤트",
   "tags": [
@@ -4146,7 +4146,7 @@
  },
  {
   "id": "venus-allies",
-  "name": "Venus Allies",
+  "name": "금성 동맹 (Venus Allies)",
   "cost": 30,
   "type": "자동",
   "tags": [
@@ -4161,7 +4161,7 @@
  },
  {
   "id": "venus-contract",
-  "name": "Venus Contract",
+  "name": "금성 계약 (Venus Contract)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -4175,7 +4175,7 @@
  },
  {
   "id": "venus-l1-shade",
-  "name": "Venus L1 Shade",
+  "name": "금성 L1 차폐막 (Venus L1 Shade)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -4189,7 +4189,7 @@
  },
  {
   "id": "venus-orbital-survey",
-  "name": "Venus Orbital Survey",
+  "name": "금성 궤도 조사 (Venus Orbital Survey)",
   "cost": 18,
   "type": "액션",
   "tags": [
@@ -4204,7 +4204,7 @@
  },
  {
   "id": "venus-shuttles",
-  "name": "Venus Shuttles",
+  "name": "금성 왕복선 (Venus Shuttles)",
   "cost": 9,
   "type": "액션",
   "tags": [
@@ -4218,7 +4218,7 @@
  },
  {
   "id": "venus-trade-hub",
-  "name": "Venus Trade Hub",
+  "name": "금성 무역 거점 (Venus Trade Hub)",
   "cost": 12,
   "type": "액션",
   "tags": [
@@ -4233,7 +4233,7 @@
  },
  {
   "id": "wg-project",
-  "name": "WG Project",
+  "name": "세계정부 계획 (WG Project)",
   "cost": 9,
   "type": "자동",
   "tags": [
@@ -4247,7 +4247,7 @@
  },
  {
   "id": "world-government-advisor",
-  "name": "World Government Advisor",
+  "name": "세계정부 고문 (World Government Advisor)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -5886,7 +5886,7 @@
  },
  {
   "id": "16-psyche",
-  "name": "16 Psyche",
+  "name": "소행성 16 프시케 (16 Psyche)",
   "cost": 31,
   "type": "자동",
   "tags": [
@@ -5914,7 +5914,7 @@
  },
  {
   "id": "albedo-plants",
-  "name": "Albedo Plants",
+  "name": "반사율 조절 식물 (Albedo Plants)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -5928,7 +5928,7 @@
  },
  {
   "id": "anti-desertification-techniques",
-  "name": "Anti-desertification Techniques",
+  "name": "사막화 방지 기술 (Anti-desertification Techniques)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -5943,7 +5943,7 @@
  },
  {
   "id": "aqueduct-systems",
-  "name": "Aqueduct Systems",
+  "name": "수로 시설 (Aqueduct Systems)",
   "cost": 9,
   "type": "자동",
   "tags": [
@@ -6002,7 +6002,7 @@
  },
  {
   "id": "astra-mechanica",
-  "name": "Astra Mechanica",
+  "name": "아스트라 메카니카 (Astra Mechanica)",
   "cost": 7,
   "type": "자동",
   "tags": [
@@ -6045,7 +6045,7 @@
  },
  {
   "id": "carbon-nanosystems",
-  "name": "Carbon Nanosystems",
+  "name": "탄소 나노시스템 (Carbon Nanosystems)",
   "cost": 14,
   "type": "액션",
   "tags": [
@@ -6060,7 +6060,7 @@
  },
  {
   "id": "casinos",
-  "name": "Casinos",
+  "name": "카지노 (Casinos)",
   "cost": 5,
   "type": "자동",
   "tags": [
@@ -6074,7 +6074,7 @@
  },
  {
   "id": "city-parks",
-  "name": "City Parks",
+  "name": "도시 공원 (City Parks)",
   "cost": 7,
   "type": "자동",
   "tags": [
@@ -6142,7 +6142,7 @@
  },
  {
   "id": "cyberia-systems",
-  "name": "Cyberia Systems",
+  "name": "사이베리아 시스템 (Cyberia Systems)",
   "cost": 16,
   "type": "자동",
   "tags": [],
@@ -6154,7 +6154,7 @@
  },
  {
   "id": "deimos-down-promo",
-  "name": "Deimos Down",
+  "name": "데이모스 추락 (Deimos Down)",
   "cost": 31,
   "type": "이벤트",
   "tags": [
@@ -6168,7 +6168,7 @@
  },
  {
   "id": "directed-heat-usage",
-  "name": "Directed Heat Usage",
+  "name": "열 직접 활용 (Directed Heat Usage)",
   "cost": 1,
   "type": "액션",
   "tags": [],
@@ -6246,7 +6246,7 @@
  },
  {
   "id": "established-methods",
-  "name": "Established Methods",
+  "name": "검증된 공법 (Established Methods)",
   "cost": null,
   "type": "프렐류드",
   "tags": [],
@@ -6274,7 +6274,7 @@
  },
  {
   "id": "floyd-continuum",
-  "name": "Floyd Continuum",
+  "name": "플로이드 연속체 (Floyd Continuum)",
   "cost": 4,
   "type": "액션",
   "tags": [
@@ -6288,7 +6288,7 @@
  },
  {
   "id": "giant-solar-collector",
-  "name": "Giant Solar Collector",
+  "name": "초대형 태양광 집열기 (Giant Solar Collector)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -6303,7 +6303,7 @@
  },
  {
   "id": "great-dam-promo",
-  "name": "Great Dam",
+  "name": "대형 댐 (Great Dam)",
   "cost": 15,
   "type": "자동",
   "tags": [
@@ -6344,7 +6344,7 @@
  },
  {
   "id": "hermetic-order-of-mars",
-  "name": "Hermetic Order of Mars",
+  "name": "화성 비전 결사 (Hermetic Order of Mars)",
   "cost": 10,
   "type": "자동",
   "tags": [],
@@ -6371,7 +6371,7 @@
  },
  {
   "id": "homeostasis-bureau",
-  "name": "Homeostasis Bureau",
+  "name": "항상성 관리국 (Homeostasis Bureau)",
   "cost": 16,
   "type": "액션",
   "tags": [
@@ -6385,7 +6385,7 @@
  },
  {
   "id": "hospitals",
-  "name": "Hospitals",
+  "name": "병원 (Hospitals)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -6399,7 +6399,7 @@
  },
  {
   "id": "icy-impactors",
-  "name": "Icy Impactors",
+  "name": "얼음 충돌체 (Icy Impactors)",
   "cost": 15,
   "type": "액션",
   "tags": [
@@ -6457,7 +6457,7 @@
  },
  {
   "id": "kaguya-tech",
-  "name": "Kaguya Tech",
+  "name": "카구야 테크 (Kaguya Tech)",
   "cost": 10,
   "type": "자동",
   "tags": [
@@ -6486,7 +6486,7 @@
  },
  {
   "id": "magnetic-field-generators-promo",
-  "name": "Magnetic Field Generators",
+  "name": "자기장 생성기 (Magnetic Field Generators)",
   "cost": 22,
   "type": "자동",
   "tags": [
@@ -6514,7 +6514,7 @@
  },
  {
   "id": "mars-nomads",
-  "name": "Mars Nomads",
+  "name": "화성 유목민 (Mars Nomads)",
   "cost": 13,
   "type": "액션",
   "tags": [],
@@ -6526,7 +6526,7 @@
  },
  {
   "id": "martian-lumber-corp",
-  "name": "Martian Lumber Corp",
+  "name": "화성 목재 회사 (Martian Lumber Corp)",
   "cost": 6,
   "type": "액션",
   "tags": [
@@ -6609,7 +6609,7 @@
  },
  {
   "id": "neptunian-power-consultants",
-  "name": "Neptunian Power Consultants",
+  "name": "해왕성 전력 컨설턴트 (Neptunian Power Consultants)",
   "cost": 14,
   "type": "액션",
   "tags": [
@@ -6623,7 +6623,7 @@
  },
  {
   "id": "new-holland",
-  "name": "New Holland",
+  "name": "뉴 홀란드 (New Holland)",
   "cost": 20,
   "type": "자동",
   "tags": [
@@ -6717,7 +6717,7 @@
  },
  {
   "id": "protected-growth",
-  "name": "Protected Growth",
+  "name": "보호 재배 (Protected Growth)",
   "cost": 2,
   "type": "이벤트",
   "tags": [
@@ -6731,7 +6731,7 @@
  },
  {
   "id": "public-baths",
-  "name": "Public Baths",
+  "name": "공중목욕탕 (Public Baths)",
   "cost": 6,
   "type": "자동",
   "tags": [
@@ -6745,7 +6745,7 @@
  },
  {
   "id": "public-plans",
-  "name": "Public Plans",
+  "name": "공공 계획 (Public Plans)",
   "cost": 7,
   "type": "이벤트",
   "tags": [],
@@ -6757,7 +6757,7 @@
  },
  {
   "id": "red-ships",
-  "name": "Red Ships",
+  "name": "붉은 함대 (Red Ships)",
   "cost": 2,
   "type": "액션",
   "tags": [],
@@ -6783,7 +6783,7 @@
  },
  {
   "id": "robot-pollinators",
-  "name": "Robot Pollinators",
+  "name": "수분 로봇 (Robot Pollinators)",
   "cost": 9,
   "type": "자동",
   "tags": [],
@@ -6850,7 +6850,7 @@
  },
  {
   "id": "soil-enrichment",
-  "name": "Soil Enrichment",
+  "name": "토양 개량 (Soil Enrichment)",
   "cost": 6,
   "type": "이벤트",
   "tags": [
@@ -6865,7 +6865,7 @@
  },
  {
   "id": "solar-logistics",
-  "name": "Solar Logistics",
+  "name": "태양계 물류 (Solar Logistics)",
   "cost": 20,
   "type": "액션",
   "tags": [
@@ -6880,7 +6880,7 @@
  },
  {
   "id": "st-joseph-of-cupertino-mission",
-  "name": "St. Joseph of Cupertino Mission",
+  "name": "쿠퍼티노의 성 요셉 선교단 (St. Joseph of Cupertino Mission)",
   "cost": 7,
   "type": "액션",
   "tags": [],
@@ -6907,7 +6907,7 @@
  },
  {
   "id": "static-harvesting",
-  "name": "Static Harvesting",
+  "name": "정전기 수확 (Static Harvesting)",
   "cost": 5,
   "type": "자동",
   "tags": [
@@ -6921,7 +6921,7 @@
  },
  {
   "id": "sterling-vents",
-  "name": "Sterling Vents",
+  "name": "스털링 배기구 (Sterling Vents)",
   "cost": 5,
   "type": "자동",
   "tags": [
@@ -6936,7 +6936,7 @@
  },
  {
   "id": "strategic-base-planning",
-  "name": "Strategic Base Planning",
+  "name": "전략 기지 계획 (Strategic Base Planning)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -6968,7 +6968,7 @@
  },
  {
   "id": "supercapacitors",
-  "name": "Supercapacitors",
+  "name": "초고용량 축전기 (Supercapacitors)",
   "cost": 4,
   "type": "액션",
   "tags": [
@@ -6983,7 +6983,7 @@
  },
  {
   "id": "supermarkets",
-  "name": "Supermarkets",
+  "name": "대형 마트 (Supermarkets)",
   "cost": 9,
   "type": "자동",
   "tags": [],
@@ -6995,7 +6995,7 @@
  },
  {
   "id": "teslaract",
-  "name": "Teslaract",
+  "name": "테슬라랙트 (Teslaract)",
   "cost": 14,
   "type": "액션",
   "tags": [
@@ -7025,7 +7025,7 @@
  },
  {
   "id": "vermin",
-  "name": "Vermin",
+  "name": "유해 생물 (Vermin)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -7040,7 +7040,7 @@
  },
  {
   "id": "weather-balloons",
-  "name": "Weather Balloons",
+  "name": "기상 관측 기구 (Weather Balloons)",
   "cost": 11,
   "type": "액션",
   "tags": [
@@ -7054,7 +7054,7 @@
  },
  {
   "id": "delta-project",
-  "name": "Delta Project",
+  "name": "델타 프로젝트 (Delta Project)",
   "cost": null,
   "type": "프렐류드",
   "tags": [],
@@ -7066,7 +7066,7 @@
  },
  {
   "id": "bio-fertilizer-facility",
-  "name": "Bio-Fertilizer Facility",
+  "name": "생물 비료 시설 (Bio-Fertilizer Facility)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -7081,7 +7081,7 @@
  },
  {
   "id": "bioengineering-enclosure",
-  "name": "Bioengineering Enclosure",
+  "name": "생명공학 사육장 (Bioengineering Enclosure)",
   "cost": 7,
   "type": "액션",
   "tags": [
@@ -7095,7 +7095,7 @@
  },
  {
   "id": "butterfly-effect",
-  "name": "Butterfly Effect",
+  "name": "나비 효과 (Butterfly Effect)",
   "cost": 8,
   "type": "이벤트",
   "tags": [],
@@ -7107,7 +7107,7 @@
  },
  {
   "id": "capital-ares",
-  "name": "Capital",
+  "name": "수도 (Capital)",
   "cost": 26,
   "type": "자동",
   "tags": [
@@ -7150,7 +7150,7 @@
  },
  {
   "id": "desperate-measures",
-  "name": "Desperate Measures",
+  "name": "극약 처방 (Desperate Measures)",
   "cost": 1,
   "type": "이벤트",
   "tags": [],
@@ -7162,7 +7162,7 @@
  },
  {
   "id": "ecological-survey",
-  "name": "Ecological Survey",
+  "name": "생태 조사 (Ecological Survey)",
   "cost": 9,
   "type": "액션",
   "tags": [
@@ -7176,7 +7176,7 @@
  },
  {
   "id": "ecological-zone-ares",
-  "name": "Ecological Zone",
+  "name": "자연 생태 형성지 (Ecological Zone)",
   "cost": 12,
   "type": "액션",
   "tags": [
@@ -7191,7 +7191,7 @@
  },
  {
   "id": "geological-survey",
-  "name": "Geological Survey",
+  "name": "지질 조사 (Geological Survey)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -7205,7 +7205,7 @@
  },
  {
   "id": "great-dam-ares",
-  "name": "Great Dam",
+  "name": "대형 댐 (Great Dam)",
   "cost": 15,
   "type": "자동",
   "tags": [
@@ -7220,7 +7220,7 @@
  },
  {
   "id": "industrial-center-ares",
-  "name": "Industrial Center",
+  "name": "공업 중심지 (Industrial Center)",
   "cost": 4,
   "type": "액션",
   "tags": [
@@ -7234,7 +7234,7 @@
  },
  {
   "id": "lava-flows-ares",
-  "name": "Lava Flows",
+  "name": "용암류 (Lava Flows)",
   "cost": 18,
   "type": "이벤트",
   "tags": [],
@@ -7260,7 +7260,7 @@
  },
  {
   "id": "marketing-experts",
-  "name": "Marketing Experts",
+  "name": "마케팅 전문가 (Marketing Experts)",
   "cost": 5,
   "type": "액션",
   "tags": [
@@ -7274,7 +7274,7 @@
  },
  {
   "id": "metallic-asteroid",
-  "name": "Metallic Asteroid",
+  "name": "금속 소행성 (Metallic Asteroid)",
   "cost": 13,
   "type": "이벤트",
   "tags": [
@@ -7288,7 +7288,7 @@
  },
  {
   "id": "mining-area-ares",
-  "name": "Mining Area",
+  "name": "광산 지대 (Mining Area)",
   "cost": 4,
   "type": "자동",
   "tags": [
@@ -7302,7 +7302,7 @@
  },
  {
   "id": "mining-rights-ares",
-  "name": "Mining Rights",
+  "name": "광업권 (Mining Rights)",
   "cost": 9,
   "type": "자동",
   "tags": [
@@ -7330,7 +7330,7 @@
  },
  {
   "id": "natural-preserve-ares",
-  "name": "Natural Preserve",
+  "name": "자연 보존 (Natural Preserve)",
   "cost": 9,
   "type": "자동",
   "tags": [
@@ -7345,7 +7345,7 @@
  },
  {
   "id": "nuclear-zone-ares",
-  "name": "Nuclear Zone",
+  "name": "핵무기 기폭지대 (Nuclear Zone)",
   "cost": 2,
   "type": "자동",
   "tags": [
@@ -7359,7 +7359,7 @@
  },
  {
   "id": "ocean-city",
-  "name": "Ocean City",
+  "name": "해상 도시 (Ocean City)",
   "cost": 18,
   "type": "자동",
   "tags": [
@@ -7374,7 +7374,7 @@
  },
  {
   "id": "ocean-farm",
-  "name": "Ocean Farm",
+  "name": "해상 농장 (Ocean Farm)",
   "cost": 15,
   "type": "자동",
   "tags": [
@@ -7389,7 +7389,7 @@
  },
  {
   "id": "ocean-sanctuary",
-  "name": "Ocean Sanctuary",
+  "name": "해양 보호구역 (Ocean Sanctuary)",
   "cost": 9,
   "type": "액션",
   "tags": [
@@ -7417,7 +7417,7 @@
  },
  {
   "id": "solar-farm",
-  "name": "Solar Farm",
+  "name": "태양광 발전 단지 (Solar Farm)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -7432,7 +7432,7 @@
  },
  {
   "id": "apollo",
-  "name": "Apollo",
+  "name": "아폴로 (Apollo)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7444,7 +7444,7 @@
  },
  {
   "id": "asimov",
-  "name": "Asimov",
+  "name": "아시모프 (Asimov)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7456,7 +7456,7 @@
  },
  {
   "id": "bjorn",
-  "name": "Bjorn",
+  "name": "비외른 (Bjorn)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7468,7 +7468,7 @@
  },
  {
   "id": "caesar",
-  "name": "Caesar",
+  "name": "카이사르 (Caesar)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7480,7 +7480,7 @@
  },
  {
   "id": "clarke",
-  "name": "Clarke",
+  "name": "클라크 (Clarke)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7492,7 +7492,7 @@
  },
  {
   "id": "co-leadership",
-  "name": "Co-leadership",
+  "name": "공동 대표 (Co-leadership)",
   "cost": null,
   "type": "프렐류드",
   "tags": [],
@@ -7504,7 +7504,7 @@
  },
  {
   "id": "duncan",
-  "name": "Duncan",
+  "name": "던컨 (Duncan)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7516,7 +7516,7 @@
  },
  {
   "id": "ender",
-  "name": "Ender",
+  "name": "엔더 (Ender)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7528,7 +7528,7 @@
  },
  {
   "id": "faraday",
-  "name": "Faraday",
+  "name": "패러데이 (Faraday)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7540,7 +7540,7 @@
  },
  {
   "id": "floyd",
-  "name": "Floyd",
+  "name": "플로이드 (Floyd)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7552,7 +7552,7 @@
  },
  {
   "id": "gaia",
-  "name": "Gaia",
+  "name": "가이아 (Gaia)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7564,7 +7564,7 @@
  },
  {
   "id": "gordon",
-  "name": "Gordon",
+  "name": "고든 (Gordon)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7576,7 +7576,7 @@
  },
  {
   "id": "greta",
-  "name": "Greta",
+  "name": "그레타 (Greta)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7600,7 +7600,7 @@
  },
  {
   "id": "huan",
-  "name": "Huan",
+  "name": "환 (Huan)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7612,7 +7612,7 @@
  },
  {
   "id": "ingrid",
-  "name": "Ingrid",
+  "name": "잉그리드 (Ingrid)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7624,7 +7624,7 @@
  },
  {
   "id": "jansson",
-  "name": "Jansson",
+  "name": "얀손 (Jansson)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7636,7 +7636,7 @@
  },
  {
   "id": "karen",
-  "name": "Karen",
+  "name": "카렌 (Karen)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7648,7 +7648,7 @@
  },
  {
   "id": "lowell",
-  "name": "Lowell",
+  "name": "로웰 (Lowell)",
   "cost": null,
   "type": "CEO",
   "tags": [
@@ -7662,7 +7662,7 @@
  },
  {
   "id": "maria",
-  "name": "Maria",
+  "name": "마리아 (Maria)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7674,7 +7674,7 @@
  },
  {
   "id": "musk",
-  "name": "Musk",
+  "name": "머스크 (Musk)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7686,7 +7686,7 @@
  },
  {
   "id": "naomi",
-  "name": "Naomi",
+  "name": "나오미 (Naomi)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7698,7 +7698,7 @@
  },
  {
   "id": "neil",
-  "name": "Neil",
+  "name": "닐 (Neil)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7710,7 +7710,7 @@
  },
  {
   "id": "oscar",
-  "name": "Oscar",
+  "name": "오스카 (Oscar)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7722,7 +7722,7 @@
  },
  {
   "id": "petra",
-  "name": "Petra",
+  "name": "페트라 (Petra)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7734,7 +7734,7 @@
  },
  {
   "id": "quill",
-  "name": "Quill",
+  "name": "퀼 (Quill)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7746,7 +7746,7 @@
  },
  {
   "id": "rogers",
-  "name": "Rogers",
+  "name": "로저스 (Rogers)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7758,7 +7758,7 @@
  },
  {
   "id": "ryu",
-  "name": "Ryu",
+  "name": "류 (Ryu)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7770,7 +7770,7 @@
  },
  {
   "id": "shara",
-  "name": "Shara",
+  "name": "샤라 (Shara)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7782,7 +7782,7 @@
  },
  {
   "id": "stefan",
-  "name": "Stefan",
+  "name": "슈테판 (Stefan)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7794,7 +7794,7 @@
  },
  {
   "id": "tate",
-  "name": "Tate",
+  "name": "테이트 (Tate)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7806,7 +7806,7 @@
  },
  {
   "id": "ulrich",
-  "name": "Ulrich",
+  "name": "울리히 (Ulrich)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7818,7 +7818,7 @@
  },
  {
   "id": "van-allen",
-  "name": "Van Allen",
+  "name": "밴 앨런 (Van Allen)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7830,7 +7830,7 @@
  },
  {
   "id": "will",
-  "name": "Will",
+  "name": "윌 (Will)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7842,7 +7842,7 @@
  },
  {
   "id": "xavier",
-  "name": "Xavier",
+  "name": "자비에 (Xavier)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7854,7 +7854,7 @@
  },
  {
   "id": "xu",
-  "name": "Xu",
+  "name": "쉬 (Xu)",
   "cost": null,
   "type": "CEO",
   "tags": [
@@ -7868,7 +7868,7 @@
  },
  {
   "id": "yvonne",
-  "name": "Yvonne",
+  "name": "이본 (Yvonne)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7880,7 +7880,7 @@
  },
  {
   "id": "zan",
-  "name": "Zan",
+  "name": "잔 (Zan)",
   "cost": null,
   "type": "CEO",
   "tags": [],
@@ -7892,7 +7892,7 @@
  },
  {
   "id": "ai-controlled-mine-network",
-  "name": "AI Controlled Mine Network",
+  "name": "AI 제어 광산 네트워크 (AI Controlled Mine Network)",
   "cost": 6,
   "type": "자동",
   "tags": [
@@ -7906,7 +7906,7 @@
  },
  {
   "id": "algae-bioreactors",
-  "name": "Algae Bioreactors",
+  "name": "조류 생물반응기 (Algae Bioreactors)",
   "cost": 9,
   "type": "자동",
   "tags": [
@@ -7920,7 +7920,7 @@
  },
  {
   "id": "an-offer-you-cant-refuse",
-  "name": "An Offer You Can't Refuse",
+  "name": "거절할 수 없는 제안 (An Offer You Can't Refuse)",
   "cost": 5,
   "type": "이벤트",
   "tags": [],
@@ -7932,7 +7932,7 @@
  },
  {
   "id": "ancient-shipyards",
-  "name": "Ancient Shipyards",
+  "name": "고대 조선소 (Ancient Shipyards)",
   "cost": 6,
   "type": "액션",
   "tags": [
@@ -7947,7 +7947,7 @@
  },
  {
   "id": "archimedes-hydroponics-station",
-  "name": "Archimedes Hydroponics Station",
+  "name": "아르키메데스 수경재배 기지 (Archimedes Hydroponics Station)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -7961,7 +7961,7 @@
  },
  {
   "id": "aristarchus-road-network",
-  "name": "Aristarchus Road Network",
+  "name": "아리스타르코스 도로망 (Aristarchus Road Network)",
   "cost": 15,
   "type": "자동",
   "tags": [
@@ -7975,7 +7975,7 @@
  },
  {
   "id": "basic-infrastructure",
-  "name": "Basic Infrastructure",
+  "name": "기본 기반시설 (Basic Infrastructure)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -7989,7 +7989,7 @@
  },
  {
   "id": "colonist-shuttles",
-  "name": "Colonist Shuttles",
+  "name": "이주민 왕복선 (Colonist Shuttles)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -8003,7 +8003,7 @@
  },
  {
   "id": "copernicus-solar-arrays",
-  "name": "Copernicus Solar Arrays",
+  "name": "코페르니쿠스 태양광 배열 (Copernicus Solar Arrays)",
   "cost": 8,
   "type": "자동",
   "tags": [
@@ -8018,7 +8018,7 @@
  },
  {
   "id": "copernicus-tower",
-  "name": "Copernicus Tower",
+  "name": "코페르니쿠스 타워 (Copernicus Tower)",
   "cost": 36,
   "type": "액션",
   "tags": [
@@ -8033,7 +8033,7 @@
  },
  {
   "id": "core-mine",
-  "name": "Core Mine",
+  "name": "중심핵 광산 (Core Mine)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -8047,7 +8047,7 @@
  },
  {
   "id": "cosmic-radiation",
-  "name": "Cosmic Radiation",
+  "name": "우주 방사선 (Cosmic Radiation)",
   "cost": 3,
   "type": "이벤트",
   "tags": [
@@ -8061,7 +8061,7 @@
  },
  {
   "id": "darkside-incubation-plant",
-  "name": "Darkside Incubation Plant",
+  "name": "달 뒷면 배양 시설 (Darkside Incubation Plant)",
   "cost": 11,
   "type": "액션",
   "tags": [
@@ -8076,7 +8076,7 @@
  },
  {
   "id": "darkside-meteor-bombardment",
-  "name": "Darkside Meteor Bombardment",
+  "name": "달 뒷면 운석 폭격 (Darkside Meteor Bombardment)",
   "cost": 20,
   "type": "이벤트",
   "tags": [
@@ -8090,7 +8090,7 @@
  },
  {
   "id": "darkside-mining-syndicate",
-  "name": "Darkside Mining Syndicate",
+  "name": "달 뒷면 광업 조합 (Darkside Mining Syndicate)",
   "cost": 18,
   "type": "자동",
   "tags": [
@@ -8105,7 +8105,7 @@
  },
  {
   "id": "darkside-observatory",
-  "name": "Darkside Observatory",
+  "name": "달 뒷면 천문대 (Darkside Observatory)",
   "cost": 12,
   "type": "액션",
   "tags": [
@@ -8119,7 +8119,7 @@
  },
  {
   "id": "darkside-smugglers-union",
-  "name": "Darkside Smugglers' Union",
+  "name": "달 뒷면 밀수업자 조합 (Darkside Smugglers' Union)",
   "cost": 17,
   "type": "액션",
   "tags": [
@@ -8133,7 +8133,7 @@
  },
  {
   "id": "deep-lunar-mining",
-  "name": "Deep Lunar Mining",
+  "name": "심층 월면 채굴 (Deep Lunar Mining)",
   "cost": 18,
   "type": "자동",
   "tags": [
@@ -8147,7 +8147,7 @@
  },
  {
   "id": "earth-embassy",
-  "name": "Earth Embassy",
+  "name": "지구 대사관 (Earth Embassy)",
   "cost": 16,
   "type": "액션",
   "tags": [
@@ -8162,7 +8162,7 @@
  },
  {
   "id": "first-lunar-settlement",
-  "name": "First Lunar Settlement",
+  "name": "최초의 월면 정착지 (First Lunar Settlement)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -8177,7 +8177,7 @@
  },
  {
   "id": "geodesic-tents",
-  "name": "Geodesic Tents",
+  "name": "측지 돔 천막 (Geodesic Tents)",
   "cost": 13,
   "type": "자동",
   "tags": [
@@ -8193,7 +8193,7 @@
  },
  {
   "id": "grand-luna-academy",
-  "name": "Grand Luna Academy",
+  "name": "그랜드 루나 아카데미 (Grand Luna Academy)",
   "cost": 13,
   "type": "자동",
   "tags": [
@@ -8207,7 +8207,7 @@
  },
  {
   "id": "he3-fusion-plant",
-  "name": "HE3 Fusion Plant",
+  "name": "헬륨3 핵융합 발전소 (HE3 Fusion Plant)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -8223,7 +8223,7 @@
  },
  {
   "id": "he3-lobbyists",
-  "name": "HE3 Lobbyists",
+  "name": "헬륨3 로비스트 (HE3 Lobbyists)",
   "cost": 7,
   "type": "자동",
   "tags": [
@@ -8237,7 +8237,7 @@
  },
  {
   "id": "he3-production-quotas",
-  "name": "HE3 Production Quotas",
+  "name": "헬륨3 생산 할당 (HE3 Production Quotas)",
   "cost": 10,
   "type": "이벤트",
   "tags": [
@@ -8251,7 +8251,7 @@
  },
  {
   "id": "he3-refinery",
-  "name": "HE3 Refinery",
+  "name": "헬륨3 정제소 (HE3 Refinery)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -8265,7 +8265,7 @@
  },
  {
   "id": "habitat-14",
-  "name": "Habitat 14",
+  "name": "거주구 14 (Habitat 14)",
   "cost": 5,
   "type": "자동",
   "tags": [
@@ -8280,7 +8280,7 @@
  },
  {
   "id": "heavy-duty-rovers",
-  "name": "Heavy Duty Rovers",
+  "name": "대형 로버 (Heavy Duty Rovers)",
   "cost": 12,
   "type": "자동",
   "tags": [],
@@ -8292,7 +8292,7 @@
  },
  {
   "id": "heliostat-mirror-array",
-  "name": "Heliostat Mirror Array",
+  "name": "태양추적 거울 배열 (Heliostat Mirror Array)",
   "cost": 10,
   "type": "자동",
   "tags": [
@@ -8306,7 +8306,7 @@
  },
  {
   "id": "hostile-takeover",
-  "name": "Hostile Takeover",
+  "name": "적대적 인수 (Hostile Takeover)",
   "cost": 26,
   "type": "이벤트",
   "tags": [
@@ -8321,7 +8321,7 @@
  },
  {
   "id": "hypersensitive-silicon-chip-factory",
-  "name": "Hypersensitive Silicon Chip Factory",
+  "name": "초고감도 실리콘 칩 공장 (Hypersensitive Silicon Chip Factory)",
   "cost": 11,
   "type": "자동",
   "tags": [
@@ -8335,7 +8335,7 @@
  },
  {
   "id": "improved-moon-concrete",
-  "name": "Improved Moon Concrete",
+  "name": "개량 월면 콘크리트 (Improved Moon Concrete)",
   "cost": 12,
   "type": "액션",
   "tags": [
@@ -8349,7 +8349,7 @@
  },
  {
   "id": "iron-extraction-center",
-  "name": "Iron Extraction Center",
+  "name": "철 추출 시설 (Iron Extraction Center)",
   "cost": 10,
   "type": "자동",
   "tags": [
@@ -8363,7 +8363,7 @@
  },
  {
   "id": "l-t-f-headquarters",
-  "name": "L.T.F. Headquarters",
+  "name": "L.T.F. 본부 (L.T.F. Headquarters)",
   "cost": 31,
   "type": "자동",
   "tags": [
@@ -8377,7 +8377,7 @@
  },
  {
   "id": "l-t-f-privileges",
-  "name": "L.T.F. Privileges",
+  "name": "L.T.F. 특권 (L.T.F. Privileges)",
   "cost": 21,
   "type": "액션",
   "tags": [
@@ -8391,7 +8391,7 @@
  },
  {
   "id": "luna-archives",
-  "name": "Luna Archives",
+  "name": "루나 기록보관소 (Luna Archives)",
   "cost": 13,
   "type": "액션",
   "tags": [
@@ -8406,7 +8406,7 @@
  },
  {
   "id": "luna-conference",
-  "name": "Luna Conference",
+  "name": "루나 회의 (Luna Conference)",
   "cost": 5,
   "type": "이벤트",
   "tags": [
@@ -8421,7 +8421,7 @@
  },
  {
   "id": "luna-ecumenopolis",
-  "name": "Luna Ecumenopolis",
+  "name": "루나 대도시권 (Luna Ecumenopolis)",
   "cost": 35,
   "type": "자동",
   "tags": [
@@ -8437,7 +8437,7 @@
  },
  {
   "id": "luna-mining-hub",
-  "name": "Luna Mining Hub",
+  "name": "루나 채굴 거점 (Luna Mining Hub)",
   "cost": 23,
   "type": "자동",
   "tags": [
@@ -8451,7 +8451,7 @@
  },
  {
   "id": "luna-political-institute",
-  "name": "Luna Political Institute",
+  "name": "루나 정치 연구소 (Luna Political Institute)",
   "cost": 6,
   "type": "액션",
   "tags": [
@@ -8466,7 +8466,7 @@
  },
  {
   "id": "luna-project-office",
-  "name": "Luna Project Office",
+  "name": "루나 사업소 (Luna Project Office)",
   "cost": 4,
   "type": "자동",
   "tags": [
@@ -8480,7 +8480,7 @@
  },
  {
   "id": "luna-resort",
-  "name": "Luna Resort",
+  "name": "루나 리조트 (Luna Resort)",
   "cost": 11,
   "type": "자동",
   "tags": [
@@ -8494,7 +8494,7 @@
  },
  {
   "id": "luna-senate",
-  "name": "Luna Senate",
+  "name": "루나 원로원 (Luna Senate)",
   "cost": 32,
   "type": "자동",
   "tags": [
@@ -8509,7 +8509,7 @@
  },
  {
   "id": "luna-staging-station",
-  "name": "Luna Staging Station",
+  "name": "루나 중계 기지 (Luna Staging Station)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -8524,7 +8524,7 @@
  },
  {
   "id": "luna-trade-station",
-  "name": "Luna Trade Station",
+  "name": "루나 무역 기지 (Luna Trade Station)",
   "cost": 10,
   "type": "액션",
   "tags": [
@@ -8540,7 +8540,7 @@
  },
  {
   "id": "luna-train-station",
-  "name": "Luna Train Station",
+  "name": "루나 기차역 (Luna Train Station)",
   "cost": 24,
   "type": "자동",
   "tags": [
@@ -8554,7 +8554,7 @@
  },
  {
   "id": "lunar-dust-processing-plant",
-  "name": "Lunar Dust Processing Plant",
+  "name": "월면 먼지 처리 시설 (Lunar Dust Processing Plant)",
   "cost": 6,
   "type": "액션",
   "tags": [
@@ -8568,7 +8568,7 @@
  },
  {
   "id": "lunar-industry-complex",
-  "name": "Lunar Industry Complex",
+  "name": "월면 산업 단지 (Lunar Industry Complex)",
   "cost": 28,
   "type": "자동",
   "tags": [
@@ -8583,7 +8583,7 @@
  },
  {
   "id": "lunar-mine-urbanization",
-  "name": "Lunar Mine Urbanization",
+  "name": "월면 광산 도시화 (Lunar Mine Urbanization)",
   "cost": 8,
   "type": "이벤트",
   "tags": [
@@ -8598,7 +8598,7 @@
  },
  {
   "id": "lunar-observation-post",
-  "name": "Lunar Observation Post",
+  "name": "월면 관측소 (Lunar Observation Post)",
   "cost": 7,
   "type": "액션",
   "tags": [
@@ -8613,7 +8613,7 @@
  },
  {
   "id": "lunar-planning-office",
-  "name": "Lunar Planning Office",
+  "name": "월면 계획국 (Lunar Planning Office)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -8628,7 +8628,7 @@
  },
  {
   "id": "lunar-security-stations",
-  "name": "Lunar Security Stations",
+  "name": "월면 보안 초소 (Lunar Security Stations)",
   "cost": 9,
   "type": "액션",
   "tags": [
@@ -8642,7 +8642,7 @@
  },
  {
   "id": "lunar-steel",
-  "name": "Lunar Steel",
+  "name": "월면 강철 (Lunar Steel)",
   "cost": 5,
   "type": "액션",
   "tags": [
@@ -8656,7 +8656,7 @@
  },
  {
   "id": "lunar-trade-fleet",
-  "name": "Lunar Trade Fleet",
+  "name": "월면 무역 선단 (Lunar Trade Fleet)",
   "cost": 8,
   "type": "자동",
   "tags": [
@@ -8671,7 +8671,7 @@
  },
  {
   "id": "mare-imbrium-mine",
-  "name": "Mare Imbrium Mine",
+  "name": "비의 바다 광산 (Mare Imbrium Mine)",
   "cost": 19,
   "type": "자동",
   "tags": [
@@ -8686,7 +8686,7 @@
  },
  {
   "id": "mare-nectaris-mine",
-  "name": "Mare Nectaris Mine",
+  "name": "감로의 바다 광산 (Mare Nectaris Mine)",
   "cost": 14,
   "type": "자동",
   "tags": [
@@ -8701,7 +8701,7 @@
  },
  {
   "id": "mare-nubium-mine",
-  "name": "Mare Nubium Mine",
+  "name": "구름의 바다 광산 (Mare Nubium Mine)",
   "cost": 17,
   "type": "자동",
   "tags": [
@@ -8716,7 +8716,7 @@
  },
  {
   "id": "mare-serenitatis-mine",
-  "name": "Mare Serenitatis Mine",
+  "name": "맑음의 바다 광산 (Mare Serenitatis Mine)",
   "cost": 21,
   "type": "자동",
   "tags": [
@@ -8731,7 +8731,7 @@
  },
  {
   "id": "martian-embassy",
-  "name": "Martian Embassy",
+  "name": "화성 대사관 (Martian Embassy)",
   "cost": 11,
   "type": "자동",
   "tags": [
@@ -8746,7 +8746,7 @@
  },
  {
   "id": "microsingularity-plant",
-  "name": "Microsingularity Plant",
+  "name": "미세 특이점 발전소 (Microsingularity Plant)",
   "cost": 10,
   "type": "자동",
   "tags": [
@@ -8760,7 +8760,7 @@
  },
  {
   "id": "mining-complex",
-  "name": "Mining Complex",
+  "name": "채굴 단지 (Mining Complex)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -8774,7 +8774,7 @@
  },
  {
   "id": "mining-robots-manuf-center",
-  "name": "Mining Robots Manuf. Center",
+  "name": "채굴 로봇 제조 시설 (Mining Robots Manuf. Center)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -8789,7 +8789,7 @@
  },
  {
   "id": "momentum-virium-habitat",
-  "name": "Momentum Virium Habitat",
+  "name": "모멘텀 비리움 거주구 (Momentum Virium Habitat)",
   "cost": 23,
   "type": "자동",
   "tags": [
@@ -8804,7 +8804,7 @@
  },
  {
   "id": "moon-tether",
-  "name": "Moon Tether",
+  "name": "달 궤도 연결선 (Moon Tether)",
   "cost": 18,
   "type": "액션",
   "tags": [
@@ -8819,7 +8819,7 @@
  },
  {
   "id": "mooncrate-block-factory",
-  "name": "Mooncrate Block Factory",
+  "name": "문크레이트 블록 공장 (Mooncrate Block Factory)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -8833,7 +8833,7 @@
  },
  {
   "id": "mooncrate-convoys-to-mars",
-  "name": "Mooncrate Convoys To Mars",
+  "name": "화성행 문크레이트 수송대 (Mooncrate Convoys To Mars)",
   "cost": 13,
   "type": "이벤트",
   "tags": [],
@@ -8845,7 +8845,7 @@
  },
  {
   "id": "new-colony-planning-initiatives",
-  "name": "New Colony Planning Initiatives",
+  "name": "신규 개척지 계획안 (New Colony Planning Initiatives)",
   "cost": 6,
   "type": "자동",
   "tags": [
@@ -8859,7 +8859,7 @@
  },
  {
   "id": "off-world-city-living",
-  "name": "Off-World City Living",
+  "name": "우주 도시 생활 (Off-World City Living)",
   "cost": 35,
   "type": "자동",
   "tags": [
@@ -8874,7 +8874,7 @@
  },
  {
   "id": "orbital-power-grid",
-  "name": "Orbital Power Grid",
+  "name": "궤도 전력망 (Orbital Power Grid)",
   "cost": 19,
   "type": "자동",
   "tags": [
@@ -8889,7 +8889,7 @@
  },
  {
   "id": "preliminary-darkside",
-  "name": "Preliminary Darkside",
+  "name": "달 뒷면 예비 조사 (Preliminary Darkside)",
   "cost": 13,
   "type": "이벤트",
   "tags": [
@@ -8903,7 +8903,7 @@
  },
  {
   "id": "pride-of-the-earth-arkship",
-  "name": "Pride of the Earth Arkship",
+  "name": "지구의 자랑 방주선 (Pride of the Earth Arkship)",
   "cost": 22,
   "type": "액션",
   "tags": [
@@ -8919,7 +8919,7 @@
  },
  {
   "id": "processor-factory",
-  "name": "Processor Factory",
+  "name": "프로세서 공장 (Processor Factory)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -8934,7 +8934,7 @@
  },
  {
   "id": "revolting-colonists",
-  "name": "Revolting Colonists",
+  "name": "반란 이주민 (Revolting Colonists)",
   "cost": 3,
   "type": "이벤트",
   "tags": [
@@ -8948,7 +8948,7 @@
  },
  {
   "id": "road-piracy",
-  "name": "Road Piracy",
+  "name": "도로 약탈 (Road Piracy)",
   "cost": 10,
   "type": "이벤트",
   "tags": [
@@ -8962,7 +8962,7 @@
  },
  {
   "id": "rover-drivers-union",
-  "name": "Rover Drivers Union",
+  "name": "로버 운전자 조합 (Rover Drivers Union)",
   "cost": 16,
   "type": "자동",
   "tags": [
@@ -8976,7 +8976,7 @@
  },
  {
   "id": "rust-eating-bacteria",
-  "name": "Rust Eating Bacteria",
+  "name": "녹 분해 세균 (Rust Eating Bacteria)",
   "cost": 7,
   "type": "액션",
   "tags": [
@@ -8990,7 +8990,7 @@
  },
  {
   "id": "sinus-irdium-road-network",
-  "name": "Sinus Irdium Road Network",
+  "name": "무지개 만 도로망 (Sinus Irdium Road Network)",
   "cost": 15,
   "type": "자동",
   "tags": [
@@ -9004,7 +9004,7 @@
  },
  {
   "id": "small-duty-rovers",
-  "name": "Small Duty Rovers",
+  "name": "소형 로버 (Small Duty Rovers)",
   "cost": 9,
   "type": "자동",
   "tags": [
@@ -9019,7 +9019,7 @@
  },
  {
   "id": "solar-panel-foundry",
-  "name": "Solar Panel Foundry",
+  "name": "태양광 패널 주조소 (Solar Panel Foundry)",
   "cost": 11,
   "type": "액션",
   "tags": [
@@ -9035,7 +9035,7 @@
  },
  {
   "id": "sphere-habitats",
-  "name": "Sphere Habitats",
+  "name": "구형 거주구 (Sphere Habitats)",
   "cost": 14,
   "type": "자동",
   "tags": [
@@ -9050,7 +9050,7 @@
  },
  {
   "id": "staging-station-behemoth",
-  "name": "Staging Station \"Behemoth\"",
+  "name": "중계 기지 \"베히모스\" (Staging Station \"Behemoth\")",
   "cost": 24,
   "type": "자동",
   "tags": [
@@ -9064,7 +9064,7 @@
  },
  {
   "id": "steel-market-monopolists",
-  "name": "Steel Market Monopolists",
+  "name": "강철 시장 독점가 (Steel Market Monopolists)",
   "cost": 15,
   "type": "액션",
   "tags": [],
@@ -9076,7 +9076,7 @@
  },
  {
   "id": "subterranean-habitats",
-  "name": "Subterranean Habitats",
+  "name": "지하 거주구 (Subterranean Habitats)",
   "cost": 12,
   "type": "액션",
   "tags": [
@@ -9090,7 +9090,7 @@
  },
  {
   "id": "syndicate-pirate-raids",
-  "name": "Syndicate Pirate Raids",
+  "name": "조직 해적단 습격 (Syndicate Pirate Raids)",
   "cost": 8,
   "type": "이벤트",
   "tags": [
@@ -9104,7 +9104,7 @@
  },
  {
   "id": "the-womb",
-  "name": "The Womb",
+  "name": "자궁 (The Womb)",
   "cost": 16,
   "type": "자동",
   "tags": [
@@ -9119,7 +9119,7 @@
  },
  {
   "id": "thorium-rush",
-  "name": "Thorium Rush",
+  "name": "토륨 러시 (Thorium Rush)",
   "cost": 39,
   "type": "이벤트",
   "tags": [
@@ -9134,7 +9134,7 @@
  },
  {
   "id": "titanium-extraction-center",
-  "name": "Titanium Extraction Center",
+  "name": "티타늄 추출 시설 (Titanium Extraction Center)",
   "cost": 14,
   "type": "자동",
   "tags": [
@@ -9148,7 +9148,7 @@
  },
  {
   "id": "titanium-market-monopolists",
-  "name": "Titanium Market Monopolists",
+  "name": "티타늄 시장 독점가 (Titanium Market Monopolists)",
   "cost": 21,
   "type": "액션",
   "tags": [],
@@ -9160,7 +9160,7 @@
  },
  {
   "id": "tycho-road-network",
-  "name": "Tycho Road Network",
+  "name": "티코 도로망 (Tycho Road Network)",
   "cost": 15,
   "type": "자동",
   "tags": [
@@ -9174,7 +9174,7 @@
  },
  {
   "id": "underground-detonators",
-  "name": "Underground Detonators",
+  "name": "지하 폭파 장치 (Underground Detonators)",
   "cost": 9,
   "type": "이벤트",
   "tags": [],
@@ -9186,7 +9186,7 @@
  },
  {
   "id": "undermoon-drug-lords-network",
-  "name": "Undermoon Drug Lords Network",
+  "name": "달 지하 마약왕 조직 (Undermoon Drug Lords Network)",
   "cost": 2,
   "type": "자동",
   "tags": [
@@ -9200,7 +9200,7 @@
  },
  {
   "id": "water-treatment-complex",
-  "name": "Water Treatment Complex",
+  "name": "정수 처리 단지 (Water Treatment Complex)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -9214,7 +9214,7 @@
  },
  {
   "id": "we-grow-as-one",
-  "name": "We Grow As One",
+  "name": "우리는 하나로 자란다 (We Grow As One)",
   "cost": 8,
   "type": "이벤트",
   "tags": [
@@ -10457,7 +10457,7 @@
  },
  {
   "id": "acidizing",
-  "name": "Acidizing",
+  "name": "산 처리 (Acidizing)",
   "cost": 10,
   "type": "자동",
   "tags": [
@@ -10472,7 +10472,7 @@
  },
  {
   "id": "anti-trust-crackdown",
-  "name": "Anti-trust Crackdown",
+  "name": "반독점 단속 (Anti-trust Crackdown)",
   "cost": 18,
   "type": "이벤트",
   "tags": [
@@ -10486,7 +10486,7 @@
  },
  {
   "id": "artesian-aquifer",
-  "name": "Artesian Aquifer",
+  "name": "자분 대수층 (Artesian Aquifer)",
   "cost": 16,
   "type": "자동",
   "tags": [
@@ -10500,7 +10500,7 @@
  },
  {
   "id": "battery-factory",
-  "name": "Battery Factory",
+  "name": "배터리 공장 (Battery Factory)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -10515,7 +10515,7 @@
  },
  {
   "id": "battery-shipment",
-  "name": "Battery Shipment",
+  "name": "배터리 수송 (Battery Shipment)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -10529,7 +10529,7 @@
  },
  {
   "id": "behemoth-excavator",
-  "name": "Behemoth Excavator",
+  "name": "초대형 굴착기 (Behemoth Excavator)",
   "cost": 13,
   "type": "자동",
   "tags": [
@@ -10543,7 +10543,7 @@
  },
  {
   "id": "biobatteries",
-  "name": "Biobatteries",
+  "name": "생체 배터리 (Biobatteries)",
   "cost": 7,
   "type": "자동",
   "tags": [
@@ -10558,7 +10558,7 @@
  },
  {
   "id": "canyon-survey",
-  "name": "Canyon Survey",
+  "name": "협곡 조사 (Canyon Survey)",
   "cost": 4,
   "type": "이벤트",
   "tags": [
@@ -10572,7 +10572,7 @@
  },
  {
   "id": "casino",
-  "name": "Casino",
+  "name": "카지노 (Casino)",
   "cost": 15,
   "type": "자동",
   "tags": [
@@ -10587,7 +10587,7 @@
  },
  {
   "id": "cave-city",
-  "name": "Cave City",
+  "name": "동굴 도시 (Cave City)",
   "cost": 16,
   "type": "자동",
   "tags": [
@@ -10602,7 +10602,7 @@
  },
  {
   "id": "central-reservoir",
-  "name": "Central Reservoir",
+  "name": "중앙 저수지 (Central Reservoir)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -10616,7 +10616,7 @@
  },
  {
   "id": "chemical-factory",
-  "name": "Chemical Factory",
+  "name": "화학 공장 (Chemical Factory)",
   "cost": 18,
   "type": "액션",
   "tags": [
@@ -10631,7 +10631,7 @@
  },
  {
   "id": "class-action-lawsuit",
-  "name": "Class-action Lawsuit",
+  "name": "집단 소송 (Class-action Lawsuit)",
   "cost": 25,
   "type": "이벤트",
   "tags": [
@@ -10645,7 +10645,7 @@
  },
  {
   "id": "cloud-vortex-outpost",
-  "name": "Cloud Vortex Outpost",
+  "name": "구름 소용돌이 전진기지 (Cloud Vortex Outpost)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -10659,7 +10659,7 @@
  },
  {
   "id": "corporate-blackmail",
-  "name": "Corporate Blackmail",
+  "name": "기업 협박 (Corporate Blackmail)",
   "cost": 5,
   "type": "이벤트",
   "tags": [
@@ -10673,7 +10673,7 @@
  },
  {
   "id": "corporate-theft",
-  "name": "Corporate Theft",
+  "name": "기업 절도 (Corporate Theft)",
   "cost": 10,
   "type": "액션",
   "tags": [
@@ -10687,7 +10687,7 @@
  },
  {
   "id": "crater-survey",
-  "name": "Crater Survey",
+  "name": "분화구 조사 (Crater Survey)",
   "cost": 5,
   "type": "이벤트",
   "tags": [
@@ -10701,7 +10701,7 @@
  },
  {
   "id": "cut-throat-budgeting",
-  "name": "Cut-throat Budgeting",
+  "name": "살인적 예산 절감 (Cut-throat Budgeting)",
   "cost": 2,
   "type": "자동",
   "tags": [
@@ -10715,7 +10715,7 @@
  },
  {
   "id": "deep-foundations",
-  "name": "Deep Foundations",
+  "name": "심층 기초 공사 (Deep Foundations)",
   "cost": 4,
   "type": "액션",
   "tags": [
@@ -10730,7 +10730,7 @@
  },
  {
   "id": "deepmining",
-  "name": "Deepmining",
+  "name": "심층 채굴 (Deepmining)",
   "cost": 11,
   "type": "자동",
   "tags": [
@@ -10744,7 +10744,7 @@
  },
  {
   "id": "deepnuking",
-  "name": "Deepnuking",
+  "name": "심층 핵폭파 (Deepnuking)",
   "cost": 6,
   "type": "이벤트",
   "tags": [],
@@ -10756,7 +10756,7 @@
  },
  {
   "id": "deepwater-dome",
-  "name": "Deepwater Dome",
+  "name": "심해 돔 (Deepwater Dome)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -10771,7 +10771,7 @@
  },
  {
   "id": "detective-tv-series",
-  "name": "Detective TV Series",
+  "name": "형사 드라마 (Detective TV Series)",
   "cost": 5,
   "type": "액션",
   "tags": [
@@ -10785,7 +10785,7 @@
  },
  {
   "id": "earthquake-machine",
-  "name": "Earthquake Machine",
+  "name": "지진 발생기 (Earthquake Machine)",
   "cost": 10,
   "type": "액션",
   "tags": [
@@ -10799,7 +10799,7 @@
  },
  {
   "id": "election-sponsorship",
-  "name": "Election Sponsorship",
+  "name": "선거 후원 (Election Sponsorship)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -10813,7 +10813,7 @@
  },
  {
   "id": "excavator-leasing",
-  "name": "Excavator Leasing",
+  "name": "굴착기 임대 (Excavator Leasing)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -10827,7 +10827,7 @@
  },
  {
   "id": "expedition-vehicles",
-  "name": "Expedition Vehicles",
+  "name": "탐사 차량 (Expedition Vehicles)",
   "cost": 10,
   "type": "액션",
   "tags": [
@@ -10841,7 +10841,7 @@
  },
  {
   "id": "exploitation-of-venus",
-  "name": "Exploitation Of Venus",
+  "name": "금성 착취 (Exploitation Of Venus)",
   "cost": 6,
   "type": "액션",
   "tags": [
@@ -10856,7 +10856,7 @@
  },
  {
   "id": "export-convoy",
-  "name": "Export Convoy",
+  "name": "수출 수송대 (Export Convoy)",
   "cost": 6,
   "type": "이벤트",
   "tags": [
@@ -10870,7 +10870,7 @@
  },
  {
   "id": "fabricated-scandal",
-  "name": "Fabricated Scandal",
+  "name": "조작된 스캔들 (Fabricated Scandal)",
   "cost": 14,
   "type": "이벤트",
   "tags": [
@@ -10884,7 +10884,7 @@
  },
  {
   "id": "family-connections",
-  "name": "Family Connections",
+  "name": "집안 인맥 (Family Connections)",
   "cost": 12,
   "type": "이벤트",
   "tags": [
@@ -10898,7 +10898,7 @@
  },
  {
   "id": "forest-tunnels",
-  "name": "Forest Tunnels",
+  "name": "숲 터널 (Forest Tunnels)",
   "cost": 7,
   "type": "자동",
   "tags": [
@@ -10912,7 +10912,7 @@
  },
  {
   "id": "free-trade-port",
-  "name": "Free Trade Port",
+  "name": "자유 무역항 (Free Trade Port)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -10927,7 +10927,7 @@
  },
  {
   "id": "friends-in-high-places",
-  "name": "Friends in High Places",
+  "name": "고위층 인맥 (Friends in High Places)",
   "cost": 10,
   "type": "액션",
   "tags": [
@@ -10942,7 +10942,7 @@
  },
  {
   "id": "gaia-city",
-  "name": "Gaia City",
+  "name": "가이아 시티 (Gaia City)",
   "cost": 20,
   "type": "자동",
   "tags": [
@@ -10958,7 +10958,7 @@
  },
  {
   "id": "ganymede-trading-company",
-  "name": "Ganymede Trading Company",
+  "name": "가니메데 무역회사 (Ganymede Trading Company)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -10973,7 +10973,7 @@
  },
  {
   "id": "gas-trust",
-  "name": "Gas Trust",
+  "name": "가스 트러스트 (Gas Trust)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -10987,7 +10987,7 @@
  },
  {
   "id": "geological-expertise",
-  "name": "Geological Expertise",
+  "name": "지질 전문성 (Geological Expertise)",
   "cost": null,
   "type": "프렐류드",
   "tags": [],
@@ -10999,7 +10999,7 @@
  },
  {
   "id": "geologist-team",
-  "name": "Geologist Team",
+  "name": "지질학자 팀 (Geologist Team)",
   "cost": 6,
   "type": "액션",
   "tags": [
@@ -11013,7 +11013,7 @@
  },
  {
   "id": "geoscan-satellite",
-  "name": "Geoscan Satellite",
+  "name": "지질 탐사 위성 (Geoscan Satellite)",
   "cost": 8,
   "type": "자동",
   "tags": [
@@ -11028,7 +11028,7 @@
  },
  {
   "id": "geothermal-network",
-  "name": "Geothermal Network",
+  "name": "지열 네트워크 (Geothermal Network)",
   "cost": 14,
   "type": "자동",
   "tags": [
@@ -11042,7 +11042,7 @@
  },
  {
   "id": "global-audit",
-  "name": "Global Audit",
+  "name": "전 지구 감사 (Global Audit)",
   "cost": 2,
   "type": "이벤트",
   "tags": [
@@ -11056,7 +11056,7 @@
  },
  {
   "id": "grey-market-exploitation",
-  "name": "Grey Market Exploitation",
+  "name": "회색시장 활용 (Grey Market Exploitation)",
   "cost": 4,
   "type": "액션",
   "tags": [
@@ -11070,7 +11070,7 @@
  },
  {
   "id": "guerilla-ecologists",
-  "name": "Guerilla Ecologists",
+  "name": "게릴라 생태주의자 (Guerilla Ecologists)",
   "cost": 9,
   "type": "자동",
   "tags": [
@@ -11084,7 +11084,7 @@
  },
  {
   "id": "hyperspace-drive-prototype",
-  "name": "Hyperspace Drive Prototype",
+  "name": "초공간 추진기 시제품 (Hyperspace Drive Prototype)",
   "cost": 11,
   "type": "자동",
   "tags": [
@@ -11099,7 +11099,7 @@
  },
  {
   "id": "imported-heavy-machinery",
-  "name": "Imported Heavy Machinery",
+  "name": "중장비 수입 (Imported Heavy Machinery)",
   "cost": 9,
   "type": "자동",
   "tags": [
@@ -11114,7 +11114,7 @@
  },
  {
   "id": "induced-tremor",
-  "name": "Induced Tremor",
+  "name": "유발 지진 (Induced Tremor)",
   "cost": 5,
   "type": "이벤트",
   "tags": [],
@@ -11126,7 +11126,7 @@
  },
  {
   "id": "infrastructure-overload",
-  "name": "Infrastructure Overload",
+  "name": "기반시설 과부하 (Infrastructure Overload)",
   "cost": 7,
   "type": "자동",
   "tags": [
@@ -11141,7 +11141,7 @@
  },
  {
   "id": "inherited-fortune",
-  "name": "Inherited Fortune",
+  "name": "상속받은 재산 (Inherited Fortune)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -11155,7 +11155,7 @@
  },
  {
   "id": "investigative-journalism",
-  "name": "Investigative Journalism",
+  "name": "탐사 보도 (Investigative Journalism)",
   "cost": 3,
   "type": "액션",
   "tags": [
@@ -11169,7 +11169,7 @@
  },
  {
   "id": "investor-plaza",
-  "name": "Investor Plaza",
+  "name": "투자자 광장 (Investor Plaza)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -11184,7 +11184,7 @@
  },
  {
   "id": "labor-trafficking",
-  "name": "Labor Trafficking",
+  "name": "인력 밀매 (Labor Trafficking)",
   "cost": 6,
   "type": "액션",
   "tags": [
@@ -11199,7 +11199,7 @@
  },
  {
   "id": "landfill",
-  "name": "Landfill",
+  "name": "매립지 (Landfill)",
   "cost": 2,
   "type": "자동",
   "tags": [
@@ -11213,7 +11213,7 @@
  },
  {
   "id": "lobbying-network",
-  "name": "Lobbying Network",
+  "name": "로비 네트워크 (Lobbying Network)",
   "cost": 5,
   "type": "자동",
   "tags": [
@@ -11227,7 +11227,7 @@
  },
  {
   "id": "man-made-volcano",
-  "name": "Man-made Volcano",
+  "name": "인공 화산 (Man-made Volcano)",
   "cost": 26,
   "type": "자동",
   "tags": [
@@ -11241,7 +11241,7 @@
  },
  {
   "id": "martian-express",
-  "name": "Martian Express",
+  "name": "화성 특급 (Martian Express)",
   "cost": 5,
   "type": "액션",
   "tags": [],
@@ -11253,7 +11253,7 @@
  },
  {
   "id": "media-frenzy",
-  "name": "Media Frenzy",
+  "name": "언론 광풍 (Media Frenzy)",
   "cost": 6,
   "type": "이벤트",
   "tags": [
@@ -11267,7 +11267,7 @@
  },
  {
   "id": "mercenary-squad",
-  "name": "Mercenary Squad",
+  "name": "용병 부대 (Mercenary Squad)",
   "cost": 1,
   "type": "이벤트",
   "tags": [
@@ -11281,7 +11281,7 @@
  },
  {
   "id": "micro-geodesics",
-  "name": "Micro-Geodesics",
+  "name": "미세 측지 구조 (Micro-Geodesics)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -11296,7 +11296,7 @@
  },
  {
   "id": "microgravimetry",
-  "name": "Microgravimetry",
+  "name": "미세 중력 측정 (Microgravimetry)",
   "cost": 5,
   "type": "액션",
   "tags": [
@@ -11311,7 +11311,7 @@
  },
  {
   "id": "microprobing-technology",
-  "name": "Microprobing Technology",
+  "name": "초소형 탐침 기술 (Microprobing Technology)",
   "cost": 8,
   "type": "자동",
   "tags": [
@@ -11325,7 +11325,7 @@
  },
  {
   "id": "mining-market-insider",
-  "name": "Mining Market Insider",
+  "name": "광업 시장 내부자 (Mining Market Insider)",
   "cost": 5,
   "type": "액션",
   "tags": [
@@ -11339,7 +11339,7 @@
  },
  {
   "id": "monopoly",
-  "name": "Monopoly",
+  "name": "독점 (Monopoly)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -11353,7 +11353,7 @@
  },
  {
   "id": "nanofoundry",
-  "name": "Nanofoundry",
+  "name": "나노 주조소 (Nanofoundry)",
   "cost": 18,
   "type": "자동",
   "tags": [
@@ -11368,7 +11368,7 @@
  },
  {
   "id": "narrative-spin",
-  "name": "Narrative Spin",
+  "name": "여론 조작 (Narrative Spin)",
   "cost": 5,
   "type": "이벤트",
   "tags": [
@@ -11382,7 +11382,7 @@
  },
  {
   "id": "neutrinograph",
-  "name": "Neutrinograph",
+  "name": "중성미자 탐사기 (Neutrinograph)",
   "cost": 14,
   "type": "자동",
   "tags": [
@@ -11396,7 +11396,7 @@
  },
  {
   "id": "nightclubs",
-  "name": "Nightclubs",
+  "name": "나이트클럽 (Nightclubs)",
   "cost": 10,
   "type": "자동",
   "tags": [
@@ -11411,7 +11411,7 @@
  },
  {
   "id": "off-world-tax-haven",
-  "name": "Off-World Tax Haven",
+  "name": "외계 조세 회피처 (Off-World Tax Haven)",
   "cost": 8,
   "type": "자동",
   "tags": [
@@ -11426,7 +11426,7 @@
  },
  {
   "id": "old-world-mafia",
-  "name": "Old World Mafia",
+  "name": "구세계 마피아 (Old World Mafia)",
   "cost": 11,
   "type": "자동",
   "tags": [
@@ -11441,7 +11441,7 @@
  },
  {
   "id": "orbital-laser-drill",
-  "name": "Orbital Laser Drill",
+  "name": "궤도 레이저 시추기 (Orbital Laser Drill)",
   "cost": 15,
   "type": "자동",
   "tags": [
@@ -11456,7 +11456,7 @@
  },
  {
   "id": "patent-manipulation",
-  "name": "Patent Manipulation",
+  "name": "특허 조작 (Patent Manipulation)",
   "cost": 7,
   "type": "이벤트",
   "tags": [
@@ -11470,7 +11470,7 @@
  },
  {
   "id": "personal-spacecruiser",
-  "name": "Personal Spacecruiser",
+  "name": "개인 우주순양함 (Personal Spacecruiser)",
   "cost": 12,
   "type": "액션",
   "tags": [
@@ -11485,7 +11485,7 @@
  },
  {
   "id": "planetary-rights-buyout",
-  "name": "Planetary Rights Buyout",
+  "name": "행성 권리 매수 (Planetary Rights Buyout)",
   "cost": 28,
   "type": "이벤트",
   "tags": [
@@ -11500,7 +11500,7 @@
  },
  {
   "id": "plant-tax",
-  "name": "Plant Tax",
+  "name": "식물세 (Plant Tax)",
   "cost": 7,
   "type": "이벤트",
   "tags": [],
@@ -11512,7 +11512,7 @@
  },
  {
   "id": "price-wars",
-  "name": "Price Wars",
+  "name": "가격 전쟁 (Price Wars)",
   "cost": 1,
   "type": "이벤트",
   "tags": [],
@@ -11524,7 +11524,7 @@
  },
  {
   "id": "private-investigator",
-  "name": "Private Investigator",
+  "name": "사설 탐정 (Private Investigator)",
   "cost": 4,
   "type": "이벤트",
   "tags": [],
@@ -11536,7 +11536,7 @@
  },
  {
   "id": "private-military-contractor",
-  "name": "Private Military Contractor",
+  "name": "민간 군사기업 (Private Military Contractor)",
   "cost": 14,
   "type": "액션",
   "tags": [
@@ -11551,7 +11551,7 @@
  },
  {
   "id": "private-resorts",
-  "name": "Private Resorts",
+  "name": "개인 리조트 (Private Resorts)",
   "cost": 9,
   "type": "자동",
   "tags": [
@@ -11565,7 +11565,7 @@
  },
  {
   "id": "prospecting",
-  "name": "Prospecting",
+  "name": "시굴 (Prospecting)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -11579,7 +11579,7 @@
  },
  {
   "id": "public-spaceline",
-  "name": "Public Spaceline",
+  "name": "공영 우주항로 (Public Spaceline)",
   "cost": 18,
   "type": "자동",
   "tags": [
@@ -11600,7 +11600,7 @@
  },
  {
   "id": "racketeering",
-  "name": "Racketeering",
+  "name": "조직 갈취 (Racketeering)",
   "cost": 5,
   "type": "자동",
   "tags": [
@@ -11614,7 +11614,7 @@
  },
  {
   "id": "reckless-detonation",
-  "name": "Reckless Detonation",
+  "name": "무모한 폭파 (Reckless Detonation)",
   "cost": 1,
   "type": "이벤트",
   "tags": [
@@ -11628,7 +11628,7 @@
  },
  {
   "id": "research-development-hub",
-  "name": "Research & Development Hub",
+  "name": "연구개발 거점 (Research & Development Hub)",
   "cost": 14,
   "type": "액션",
   "tags": [
@@ -11643,7 +11643,7 @@
  },
  {
   "id": "robot-moles",
-  "name": "Robot Moles",
+  "name": "두더지 로봇 (Robot Moles)",
   "cost": 8,
   "type": "자동",
   "tags": [
@@ -11657,7 +11657,7 @@
  },
  {
   "id": "scapegoat",
-  "name": "Scapegoat",
+  "name": "희생양 (Scapegoat)",
   "cost": 5,
   "type": "이벤트",
   "tags": [
@@ -11671,7 +11671,7 @@
  },
  {
   "id": "search-for-life-underground",
-  "name": "Search for Life Underground",
+  "name": "지하 생명체 탐사 (Search for Life Underground)",
   "cost": 6,
   "type": "액션",
   "tags": [
@@ -11685,7 +11685,7 @@
  },
  {
   "id": "secret-research",
-  "name": "Secret Research",
+  "name": "비밀 연구 (Secret Research)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -11699,7 +11699,7 @@
  },
  {
   "id": "server-sabotage",
-  "name": "Server Sabotage",
+  "name": "서버 파괴 공작 (Server Sabotage)",
   "cost": 9,
   "type": "이벤트",
   "tags": [
@@ -11713,7 +11713,7 @@
  },
  {
   "id": "soil-export",
-  "name": "Soil Export",
+  "name": "토양 수출 (Soil Export)",
   "cost": 3,
   "type": "자동",
   "tags": [
@@ -11728,7 +11728,7 @@
  },
  {
   "id": "space-privateers",
-  "name": "Space Privateers",
+  "name": "우주 사략선 (Space Privateers)",
   "cost": 10,
   "type": "액션",
   "tags": [
@@ -11743,7 +11743,7 @@
  },
  {
   "id": "space-wargames",
-  "name": "Space Wargames",
+  "name": "우주 군사훈련 (Space Wargames)",
   "cost": 25,
   "type": "액션",
   "tags": [
@@ -11758,7 +11758,7 @@
  },
  {
   "id": "staged-protests",
-  "name": "Staged Protests",
+  "name": "조작된 시위 (Staged Protests)",
   "cost": 6,
   "type": "이벤트",
   "tags": [
@@ -11772,7 +11772,7 @@
  },
  {
   "id": "star-vegas",
-  "name": "Star Vegas",
+  "name": "스타 베이거스 (Star Vegas)",
   "cost": 32,
   "type": "자동",
   "tags": [
@@ -11788,7 +11788,7 @@
  },
  {
   "id": "stem-field-subsidies",
-  "name": "Stem Field Subsidies",
+  "name": "이공계 보조금 (Stem Field Subsidies)",
   "cost": 10,
   "type": "액션",
   "tags": [
@@ -11802,7 +11802,7 @@
  },
  {
   "id": "sting-operation",
-  "name": "Sting Operation",
+  "name": "함정 수사 (Sting Operation)",
   "cost": 14,
   "type": "이벤트",
   "tags": [
@@ -11816,7 +11816,7 @@
  },
  {
   "id": "subnautic-pirates",
-  "name": "Subnautic Pirates",
+  "name": "해저 해적 (Subnautic Pirates)",
   "cost": 1,
   "type": "이벤트",
   "tags": [
@@ -11830,7 +11830,7 @@
  },
  {
   "id": "subterranean-sea",
-  "name": "Subterranean Sea",
+  "name": "지하 바다 (Subterranean Sea)",
   "cost": 10,
   "type": "자동",
   "tags": [
@@ -11844,7 +11844,7 @@
  },
  {
   "id": "thiolava-vents",
-  "name": "Thiolava Vents",
+  "name": "티올라바 분출구 (Thiolava Vents)",
   "cost": 13,
   "type": "액션",
   "tags": [
@@ -11858,7 +11858,7 @@
  },
  {
   "id": "titan-manufacturing-colony",
-  "name": "Titan Manufacturing Colony",
+  "name": "타이탄 제조 개척지 (Titan Manufacturing Colony)",
   "cost": 18,
   "type": "액션",
   "tags": [
@@ -11874,7 +11874,7 @@
  },
  {
   "id": "tunnel-boring-machine",
-  "name": "Tunnel Boring Machine",
+  "name": "터널 굴착기 (Tunnel Boring Machine)",
   "cost": 10,
   "type": "액션",
   "tags": [
@@ -11888,7 +11888,7 @@
  },
  {
   "id": "tunneling-loophole",
-  "name": "Tunneling Loophole",
+  "name": "굴착 허점 (Tunneling Loophole)",
   "cost": 8,
   "type": "이벤트",
   "tags": [],
@@ -11900,7 +11900,7 @@
  },
  {
   "id": "tunneling-operation",
-  "name": "Tunneling Operation",
+  "name": "굴착 작업 (Tunneling Operation)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -11914,7 +11914,7 @@
  },
  {
   "id": "tunneling-subcontractor",
-  "name": "Tunneling Subcontractor",
+  "name": "굴착 하청업체 (Tunneling Subcontractor)",
   "cost": 9,
   "type": "자동",
   "tags": [
@@ -11928,7 +11928,7 @@
  },
  {
   "id": "underground-amusement-park",
-  "name": "Underground Amusement Park",
+  "name": "지하 놀이공원 (Underground Amusement Park)",
   "cost": 5,
   "type": "자동",
   "tags": [
@@ -11942,7 +11942,7 @@
  },
  {
   "id": "underground-habitat",
-  "name": "Underground Habitat",
+  "name": "지하 거주구 (Underground Habitat)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -11958,7 +11958,7 @@
  },
  {
   "id": "underground-railway",
-  "name": "Underground Railway",
+  "name": "지하 철도 (Underground Railway)",
   "cost": 18,
   "type": "자동",
   "tags": [
@@ -11972,7 +11972,7 @@
  },
  {
   "id": "underground-research-center",
-  "name": "Underground Research Center",
+  "name": "지하 연구소 (Underground Research Center)",
   "cost": 12,
   "type": "자동",
   "tags": [
@@ -11987,7 +11987,7 @@
  },
  {
   "id": "underground-settlement",
-  "name": "Underground Settlement",
+  "name": "지하 정착지 (Underground Settlement)",
   "cost": null,
   "type": "프렐류드",
   "tags": [
@@ -12002,7 +12002,7 @@
  },
  {
   "id": "underground-shelters",
-  "name": "Underground Shelters",
+  "name": "지하 대피소 (Underground Shelters)",
   "cost": 14,
   "type": "액션",
   "tags": [
@@ -12016,7 +12016,7 @@
  },
  {
   "id": "underground-smuggling-ring",
-  "name": "Underground Smuggling Ring",
+  "name": "지하 밀수 조직 (Underground Smuggling Ring)",
   "cost": 7,
   "type": "자동",
   "tags": [
@@ -12030,7 +12030,7 @@
  },
  {
   "id": "voltaic-metallurgy",
-  "name": "Voltaic Metallurgy",
+  "name": "전기 야금 (Voltaic Metallurgy)",
   "cost": 8,
   "type": "액션",
   "tags": [
@@ -12045,7 +12045,7 @@
  },
  {
   "id": "volunteer-mining-initiative",
-  "name": "Volunteer Mining Initiative",
+  "name": "자원봉사 채굴 사업 (Volunteer Mining Initiative)",
   "cost": 12,
   "type": "이벤트",
   "tags": [],
@@ -12057,7 +12057,7 @@
  },
  {
   "id": "whales",
-  "name": "Whales",
+  "name": "고래 (Whales)",
   "cost": 10,
   "type": "액션",
   "tags": [

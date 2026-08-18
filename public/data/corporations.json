@@ -166,7 +166,7 @@
  },
  {
   "id": "palladin-shipping",
-  "name": "Palladin Shipping",
+  "name": "팔라딘 해운 (Palladin Shipping)",
   "startingResources": "",
   "effect": "",
   "expansion": "프렐류드",
@@ -190,7 +190,7 @@
  },
  {
   "id": "sagitta-frontier-services",
-  "name": "Sagitta Frontier Services",
+  "name": "사기타 프런티어 서비스 (Sagitta Frontier Services)",
   "startingResources": "",
   "effect": "",
   "expansion": "프렐류드",
@@ -198,7 +198,7 @@
  },
  {
   "id": "spire",
-  "name": "Spire",
+  "name": "스파이어 (Spire)",
   "startingResources": "",
   "effect": "",
   "expansion": "프렐류드",
@@ -222,7 +222,7 @@
  },
  {
   "id": "ecotec",
-  "name": "EcoTec",
+  "name": "에코텍 (EcoTec)",
   "startingResources": "",
   "effect": "",
   "expansion": "프렐류드 2",
@@ -230,7 +230,7 @@
  },
  {
   "id": "nirgal-enterprises",
-  "name": "Nirgal Enterprises",
+  "name": "니르갈 엔터프라이즈 (Nirgal Enterprises)",
   "startingResources": "",
   "effect": "",
   "expansion": "프렐류드 2",
@@ -374,7 +374,7 @@
  },
  {
   "id": "kuiper-cooperative",
-  "name": "Kuiper Cooperative",
+  "name": "카이퍼 협동조합 (Kuiper Cooperative)",
   "startingResources": "",
   "effect": "",
   "expansion": "프로모",
@@ -406,7 +406,7 @@
  },
  {
   "id": "poldertech-dutch",
-  "name": "PolderTECH Dutch",
+  "name": "폴더테크 더치 (PolderTECH Dutch)",
   "startingResources": "",
   "effect": "",
   "expansion": "프로모",
@@ -430,7 +430,7 @@
  },
  {
   "id": "tycho-magnetics",
-  "name": "Tycho Magnetics",
+  "name": "티코 마그네틱스 (Tycho Magnetics)",
   "startingResources": "",
   "effect": "",
   "expansion": "프로모",
@@ -438,7 +438,7 @@
  },
  {
   "id": "crescent-research-association",
-  "name": "Crescent Research Association",
+  "name": "크레센트 연구협회 (Crescent Research Association)",
   "startingResources": "",
   "effect": "",
   "expansion": "더 문",
@@ -446,7 +446,7 @@
  },
  {
   "id": "intragen-sanctuary-headquarters",
-  "name": "Intragen Sanctuary Headquarters",
+  "name": "인트라젠 보호구역 본부 (Intragen Sanctuary Headquarters)",
   "startingResources": "",
   "effect": "",
   "expansion": "더 문",
@@ -454,7 +454,7 @@
  },
  {
   "id": "luna-first-incorporated",
-  "name": "Luna First Incorporated",
+  "name": "루나 퍼스트 (Luna First Incorporated)",
   "startingResources": "",
   "effect": "",
   "expansion": "더 문",
@@ -462,7 +462,7 @@
  },
  {
   "id": "luna-hyperloop-corporation",
-  "name": "Luna Hyperloop Corporation",
+  "name": "루나 하이퍼루프 (Luna Hyperloop Corporation)",
   "startingResources": "",
   "effect": "",
   "expansion": "더 문",
@@ -470,7 +470,7 @@
  },
  {
   "id": "luna-trade-federation",
-  "name": "Luna Trade Federation",
+  "name": "루나 무역연맹 (Luna Trade Federation)",
   "startingResources": "",
   "effect": "",
   "expansion": "더 문",
@@ -478,7 +478,7 @@
  },
  {
   "id": "nanotech-industries",
-  "name": "Nanotech Industries",
+  "name": "나노테크 인더스트리 (Nanotech Industries)",
   "startingResources": "",
   "effect": "",
   "expansion": "더 문",
@@ -486,7 +486,7 @@
  },
  {
   "id": "tempest-consultancy",
-  "name": "Tempest Consultancy",
+  "name": "템페스트 컨설팅 (Tempest Consultancy)",
   "startingResources": "",
   "effect": "",
   "expansion": "더 문",
@@ -494,7 +494,7 @@
  },
  {
   "id": "the-archaic-foundation-institute",
-  "name": "The Archaic Foundation Institute",
+  "name": "아케이익 재단 연구소 (The Archaic Foundation Institute)",
   "startingResources": "",
   "effect": "",
   "expansion": "더 문",
@@ -502,7 +502,7 @@
  },
  {
   "id": "the-darkside-of-the-moon-syndicate",
-  "name": "The Darkside of The Moon Syndicate",
+  "name": "달 뒷면 신디케이트 (The Darkside of The Moon Syndicate)",
   "startingResources": "",
   "effect": "",
   "expansion": "더 문",
@@ -510,7 +510,7 @@
  },
  {
   "id": "the-grand-luna-capital-group",
-  "name": "The Grand Luna Capital Group",
+  "name": "그랜드 루나 캐피털 그룹 (The Grand Luna Capital Group)",
   "startingResources": "",
   "effect": "",
   "expansion": "더 문",
@@ -518,7 +518,7 @@
  },
  {
   "id": "adhai-high-orbit-constructions",
-  "name": "Adhai High Orbit Constructions",
+  "name": "아다이 고궤도 건설 (Adhai High Orbit Constructions)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -526,7 +526,7 @@
  },
  {
   "id": "ambient",
-  "name": "Ambient",
+  "name": "앰비언트 (Ambient)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -534,7 +534,7 @@
  },
  {
   "id": "aurorai",
-  "name": "Aurorai",
+  "name": "아우로라이 (Aurorai)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -542,7 +542,7 @@
  },
  {
   "id": "bio-sol",
-  "name": "Bio-Sol",
+  "name": "바이오솔 (Bio-Sol)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -550,7 +550,7 @@
  },
  {
   "id": "chimera",
-  "name": "Chimera",
+  "name": "키메라 (Chimera)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -558,7 +558,7 @@
  },
  {
   "id": "collegium-copernicus",
-  "name": "Collegium Copernicus",
+  "name": "콜레기움 코페르니쿠스 (Collegium Copernicus)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -574,7 +574,7 @@
  },
  {
   "id": "habitat-marte",
-  "name": "Habitat Marte",
+  "name": "아비타트 마르치 (Habitat Marte)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -582,7 +582,7 @@
  },
  {
   "id": "mars-direct",
-  "name": "Mars Direct",
+  "name": "마스 다이렉트 (Mars Direct)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -590,7 +590,7 @@
  },
  {
   "id": "mars-frontier-alliance",
-  "name": "Mars Frontier Alliance",
+  "name": "화성 개척 동맹 (Mars Frontier Alliance)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -598,7 +598,7 @@
  },
  {
   "id": "mars-maths",
-  "name": "Mars Maths",
+  "name": "마스 매스 (Mars Maths)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -606,7 +606,7 @@
  },
  {
   "id": "martian-insurance-group",
-  "name": "Martian Insurance Group",
+  "name": "화성 보험 그룹 (Martian Insurance Group)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -614,7 +614,7 @@
  },
  {
   "id": "mind-set-mars",
-  "name": "Mind Set Mars",
+  "name": "마인드 셋 마스 (Mind Set Mars)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -622,7 +622,7 @@
  },
  {
   "id": "odyssey",
-  "name": "Odyssey",
+  "name": "오디세이 (Odyssey)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -630,7 +630,7 @@
  },
  {
   "id": "polaris",
-  "name": "Polaris",
+  "name": "폴라리스 (Polaris)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -638,7 +638,7 @@
  },
  {
   "id": "ringcom",
-  "name": "Ringcom",
+  "name": "링컴 (Ringcom)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -646,7 +646,7 @@
  },
  {
   "id": "robin-haulings",
-  "name": "Robin Haulings",
+  "name": "로빈 운송 (Robin Haulings)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -654,7 +654,7 @@
  },
  {
   "id": "solbank",
-  "name": "SolBank",
+  "name": "솔뱅크 (SolBank)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -662,7 +662,7 @@
  },
  {
   "id": "soylent-seedling-systems",
-  "name": "Soylent Seedling Systems",
+  "name": "소일렌트 시들링 시스템 (Soylent Seedling Systems)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -670,7 +670,7 @@
  },
  {
   "id": "steelaris",
-  "name": "Steelaris",
+  "name": "스틸라리스 (Steelaris)",
   "startingResources": "",
   "effect": "",
   "expansion": "패스파인더",
@@ -678,7 +678,7 @@
  },
  {
   "id": "aeron-genomics",
-  "name": "Aeron Genomics",
+  "name": "에어론 지노믹스 (Aeron Genomics)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
@@ -686,7 +686,7 @@
  },
  {
   "id": "anubis-securities",
-  "name": "Anubis Securities",
+  "name": "아누비스 시큐리티 (Anubis Securities)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
@@ -694,7 +694,7 @@
  },
  {
   "id": "arborist-collective",
-  "name": "Arborist Collective",
+  "name": "수목관리 협동조합 (Arborist Collective)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
@@ -702,7 +702,7 @@
  },
  {
   "id": "demetron-labs",
-  "name": "Demetron Labs",
+  "name": "데메트론 연구소 (Demetron Labs)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
@@ -710,7 +710,7 @@
  },
  {
   "id": "hadesphere",
-  "name": "Hadesphere",
+  "name": "하데스피어 (Hadesphere)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
@@ -718,7 +718,7 @@
  },
  {
   "id": "hecate-speditions",
-  "name": "Hecate Speditions",
+  "name": "헤카테 운송 (Hecate Speditions)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
@@ -726,7 +726,7 @@
  },
  {
   "id": "henkei-genetics",
-  "name": "Henkei Genetics",
+  "name": "헨케이 제네틱스 (Henkei Genetics)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
@@ -734,7 +734,7 @@
  },
  {
   "id": "jenson-boyle-co",
-  "name": "Jenson-Boyle & Co",
+  "name": "젠슨-보일 상사 (Jenson-Boyle & Co)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
@@ -742,7 +742,7 @@
  },
  {
   "id": "keplertec",
-  "name": "Keplertec",
+  "name": "케플러텍 (Keplertec)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
@@ -750,7 +750,7 @@
  },
  {
   "id": "kingdom-of-tauraro",
-  "name": "Kingdom of Tauraro",
+  "name": "타우라로 왕국 (Kingdom of Tauraro)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
@@ -758,7 +758,7 @@
  },
  {
   "id": "voltagon",
-  "name": "Voltagon",
+  "name": "볼타곤 (Voltagon)",
   "startingResources": "",
   "effect": "",
   "expansion": "언더월드",
